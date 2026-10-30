@@ -1,0 +1,14 @@
+generator client {
+  provider = "prisma-client"
+  output   = "../src/generated/prisma"
+}
+
+datasource db {
+  provider = "postgresql"
+}
+
+// Domain models (users, trust_connections, skill_tags, requirements, matches,
+// notifications, consent_records, device_push_tokens, match_outbox, conversations,
+// messages) are added module-by-module in their own tickets, not here. This schema
+// starts empty on purpose — ticket #2 only proves the database connection and the
+// pgvector extension work end to end.

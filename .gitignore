@@ -1,0 +1,10 @@
+# OS
+.DS_Store
+
+# editors
+.vscode/
+.idea/
+
+# root-level env files, if any end up here by mistake
+.env
+.env.local
