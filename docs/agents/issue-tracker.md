@@ -2,12 +2,10 @@
 
 **Tracker:** GitHub Issues, in this repo (`MHK-TECH-INC/SearchInCircle`), via the `gh` CLI.
 
-**Default branch:** `main` (repo is currently empty on GitHub — no commits/branches pushed yet, so
-GitHub hasn't set a default branch. `main` is the convention to push as the first branch).
+**Default branch:** `main`.
 
-**Branch protection on `main`:** not yet configured — can't be set until the branch exists (first
-push). Flag for the user to configure protection (required review, block force-push/deletion) in
-GitHub repo settings once the initial push lands.
+**Branch protection on `main`:** enabled — 1 required approving review, force-push and branch
+deletion both blocked, enforced even for admins. Matches the org-wide `MHK-Skills` baseline.
 
 ## Conventions for agent skills reading this file
 
