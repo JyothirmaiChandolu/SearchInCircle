@@ -41,7 +41,3 @@ cd frontend
 npm install
 npx expo start
 ```
-
-## CI
-
-GitHub Actions (`.github/workflows/ci.yml`) builds and tests both apps on every push and PR.
