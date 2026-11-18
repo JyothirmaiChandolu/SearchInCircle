@@ -1,0 +1,21 @@
+{
+  "expo": {
+    "name": "fcm-otp-spike",
+    "slug": "fcm-otp-spike",
+    "version": "1.0.0",
+    "orientation": "portrait",
+    "userInterfaceStyle": "automatic",
+    "android": {
+      "package": "com.searchincircle.fcmotpspike",
+      "googleServicesFile": "./google-services.json"
+    },
+    "ios": {
+      "bundleIdentifier": "com.searchincircle.fcmotpspike",
+      "googleServicesFile": "./GoogleService-Info.plist"
+    },
+    "plugins": [
+      "@react-native-firebase/app",
+      "@react-native-firebase/messaging"
+    ]
+  }
+}

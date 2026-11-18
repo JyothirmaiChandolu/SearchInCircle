@@ -1,0 +1,2310 @@
+{
+  "R01": {
+    "T2497": {
+      "grade": 3,
+      "reason": "7+ years React Native, TypeScript, Redux, and banking/wallet app experience.",
+      "vouches": 2
+    },
+    "T2501": {
+      "grade": 3,
+      "reason": "4 years React Native with TypeScript, Redux, card payments, and KYC.",
+      "vouches": 1
+    },
+    "T2493": {
+      "grade": 3,
+      "reason": "7 years React Native with TypeScript, Redux, card payments, and KYC.",
+      "vouches": 1
+    },
+    "T2500": {
+      "grade": 2,
+      "reason": "9 years React Native with Redux and fintech flows; TypeScript not stated.",
+      "vouches": 1
+    },
+    "T3100": {
+      "grade": 2,
+      "reason": "12 years React Native with TypeScript, Redux, and payment apps; KYC not stated.",
+      "vouches": 1
+    },
+    "T2498": {
+      "grade": 1,
+      "reason": "Fintech payments and KYC experience, but React Native is not stated.",
+      "vouches": 1
+    },
+    "T2495": {
+      "grade": 1,
+      "reason": "7 years React Native and fintech flows; TypeScript is not stated.",
+      "vouches": 1
+    },
+    "T3101": {
+      "grade": 1,
+      "reason": "React Native and TypeScript, but only 1 year and healthcare focus.",
+      "vouches": 1
+    },
+    "T2496": {
+      "grade": 1,
+      "reason": "10+ years React Native and payment apps; TypeScript is not stated.",
+      "vouches": 1
+    },
+    "T2502": {
+      "grade": 1,
+      "reason": "Banking/wallet and React Native experience, but only 2 years.",
+      "vouches": 1
+    },
+    "T3102": {
+      "grade": 1,
+      "reason": "React Native and Redux experience, but only 1 year and healthcare focus.",
+      "vouches": 1
+    },
+    "S0782": {
+      "grade": 1,
+      "reason": "5 years React Native with TypeScript and Redux; fintech experience not stated.",
+      "vouches": 1
+    },
+    "T2503": {
+      "grade": 1,
+      "reason": "8 years mobile development and Redux, but healthcare focus and React Native not explicit.",
+      "vouches": 1
+    },
+    "T2499": {
+      "grade": 1,
+      "reason": "TypeScript and mobile development, but React Native, Redux, and experience are unstated.",
+      "vouches": 1
+    },
+    "T2494": {
+      "grade": 1,
+      "reason": "6 years hybrid app development with payment apps; React Native, TypeScript, and Redux not stated.",
+      "vouches": 1
+    }
+  },
+  "R02": {
+    "S0548": {
+      "grade": 3,
+      "reason": "Singles partner in Austin; plays most weekends.",
+      "vouches": 1
+    },
+    "T2519": {
+      "grade": 3,
+      "reason": "Intermediate singles partner in Austin.",
+      "vouches": 1
+    },
+    "T2516": {
+      "grade": 3,
+      "reason": "Intermediate singles player; weekend matches in Austin.",
+      "vouches": 2
+    },
+    "T2514": {
+      "grade": 3,
+      "reason": "Intermediate singles player in Austin; plays most weekends.",
+      "vouches": 1
+    },
+    "T2515": {
+      "grade": 3,
+      "reason": "Intermediate singles partner in Austin.",
+      "vouches": 1
+    },
+    "T2522": {
+      "grade": 1,
+      "reason": "Austin weekend tennis, but competitive NTRP 4.5 rather than intermediate.",
+      "vouches": 1
+    },
+    "T2520": {
+      "grade": 1,
+      "reason": "Austin weekend tennis, but level is not stated as intermediate.",
+      "vouches": 1
+    },
+    "T3110": {
+      "grade": 1,
+      "reason": "Austin singles partner, but beginners still learning to rally.",
+      "vouches": 1
+    },
+    "T3103": {
+      "grade": 1,
+      "reason": "Singles tennis, but Houston location and advanced level.",
+      "vouches": 1
+    },
+    "T2512": {
+      "grade": 1,
+      "reason": "Intermediate Austin player, but singles or weekend availability not stated.",
+      "vouches": 1
+    },
+    "T2513": {
+      "grade": 1,
+      "reason": "Austin-area hitting partner, but level and singles availability are unclear.",
+      "vouches": 1
+    },
+    "T3109": {
+      "grade": 1,
+      "reason": "Intermediate weekend tennis, but singles and Austin location are not stated.",
+      "vouches": 1
+    },
+    "T3104": {
+      "grade": 1,
+      "reason": "Intermediate singles player, but Austin location is not stated.",
+      "vouches": 1
+    },
+    "T3108": {
+      "grade": 1,
+      "reason": "Weekend tennis, but singles, intermediate level, and Austin are not stated.",
+      "vouches": 1
+    }
+  },
+  "R03": {
+    "T2536": {
+      "grade": 3,
+      "reason": "Matches experience, Hyderabad, SQL, Airflow, Spark, cron migration, and data modelling.",
+      "vouches": 1
+    },
+    "T2534": {
+      "grade": 3,
+      "reason": "Meets experience and location; SQL, Spark, warehouse modelling, Airflow, and ETL pipelines.",
+      "vouches": 1
+    },
+    "T2539": {
+      "grade": 3,
+      "reason": "Meets experience and location; SQL, cron migration, modelling, ETL, and Airflow pipelines.",
+      "vouches": 1
+    },
+    "T2535": {
+      "grade": 3,
+      "reason": "Meets minimum experience and location; covers SQL, Spark, Airflow, modelling, and cron migration.",
+      "vouches": 1
+    },
+    "T2538": {
+      "grade": 3,
+      "reason": "Meets experience and location; has Spark, modelling, ETL, Airflow pipelines, and migrations.",
+      "vouches": 1
+    },
+    "T2540": {
+      "grade": 2,
+      "reason": "Right location and relevant skills, but 4 years is 1 year below minimum.",
+      "vouches": 1
+    },
+    "T3132": {
+      "grade": 1,
+      "reason": "Right location and cron migration; lacks stated Spark and warehouse remodelling experience.",
+      "vouches": 1
+    },
+    "T3127": {
+      "grade": 1,
+      "reason": "Strong pipeline, Airflow, and Spark fit, but located in Bengaluru.",
+      "vouches": 1
+    },
+    "T3114": {
+      "grade": 1,
+      "reason": "Strong ETL, Spark, Airflow, and warehouse fit, but located in Bengaluru.",
+      "vouches": 1
+    },
+    "T0121": {
+      "grade": 1,
+      "reason": "Hyderabad with SQL, Airflow, ETL, and Spark; warehouse remodelling not stated.",
+      "vouches": 1
+    },
+    "T3117": {
+      "grade": 1,
+      "reason": "Strong technical fit, but located in Vijayawada.",
+      "vouches": 1
+    },
+    "T3115": {
+      "grade": 1,
+      "reason": "Strong SQL, Spark, modelling, and Airflow, but 1 year and Pune miss requirements.",
+      "vouches": 1
+    },
+    "T3119": {
+      "grade": 1,
+      "reason": "Relevant Airflow, modelling, and cron migration; stated 4 years is below minimum.",
+      "vouches": 1
+    },
+    "T0436": {
+      "grade": 1,
+      "reason": "Right location and cron migration, but 2 years is 3 years below minimum.",
+      "vouches": 1
+    },
+    "T3131": {
+      "grade": 1,
+      "reason": "Relevant SQL, Airflow, ETL, and cron migration; Spark and warehouse remodelling unstated.",
+      "vouches": 1
+    }
+  },
+  "R04": {
+    "S0717": {
+      "grade": 3,
+      "reason": "Chartered accountant with four years; specializes in NRI returns and foreign income.",
+      "vouches": 2
+    },
+    "T2554": {
+      "grade": 3,
+      "reason": "Three years of experience with NRI taxation, tax filing, and income tax returns.",
+      "vouches": 1
+    },
+    "T2558": {
+      "grade": 3,
+      "reason": "Chartered accountant with six years; known for NRI returns and foreign income.",
+      "vouches": 1
+    },
+    "T2559": {
+      "grade": 3,
+      "reason": "Six years handling NRI taxation, tax filing, and income tax returns.",
+      "vouches": 1
+    },
+    "T2551": {
+      "grade": 2,
+      "reason": "NRI tax accountant with seven years; chartered accountant qualification not stated.",
+      "vouches": 1
+    },
+    "T2556": {
+      "grade": 2,
+      "reason": "NRI taxation and returns with four years; chartered accountant qualification not stated.",
+      "vouches": 1
+    },
+    "T2553": {
+      "grade": 2,
+      "reason": "Chartered accountant with seven years and abroad-focused returns; NRI expertise not explicit.",
+      "vouches": 1
+    },
+    "T3138": {
+      "grade": 2,
+      "reason": "NRI taxation and returns; experience and chartered accountant qualification are unstated.",
+      "vouches": 1
+    },
+    "T2560": {
+      "grade": 1,
+      "reason": "Related tax work, but only one year; two years below minimum.",
+      "vouches": 1
+    },
+    "T0914": {
+      "grade": 1,
+      "reason": "Tax filing and returns, but NRI expertise is not stated.",
+      "vouches": 1
+    },
+    "T3135": {
+      "grade": 1,
+      "reason": "Chartered accountant doing returns, but one year; NRI expertise not stated.",
+      "vouches": 1
+    },
+    "T3137": {
+      "grade": 1,
+      "reason": "NRI taxation experience, but only one year; two years below minimum.",
+      "vouches": 1
+    },
+    "S0224": {
+      "grade": 1,
+      "reason": "Chartered accountant with five years, but shop compliance is unrelated to family NRI returns.",
+      "vouches": 1
+    },
+    "T0200": {
+      "grade": 1,
+      "reason": "Tax filing and income tax returns, but NRI expertise and chartered accountant status are unstated.",
+      "vouches": 1
+    },
+    "T0895": {
+      "grade": 1,
+      "reason": "Tax filing and income tax returns, but NRI expertise and chartered accountant status are unstated.",
+      "vouches": 1
+    }
+  },
+  "R05": {
+    "T3143": {
+      "grade": 3,
+      "reason": "ICU night shifts, IV therapy, nine years, Houston; BLS/ACLS not stated.",
+      "vouches": 1
+    },
+    "T2570": {
+      "grade": 3,
+      "reason": "ICU nursing, IV therapy, eight years, Houston; BLS/ACLS not stated.",
+      "vouches": 1
+    },
+    "T2572": {
+      "grade": 3,
+      "reason": "ICU focus, IV therapy, four years, Houston; BLS/ACLS not stated.",
+      "vouches": 2
+    },
+    "T2568": {
+      "grade": 3,
+      "reason": "ICU night shifts, eight years, Houston; BLS/ACLS not stated.",
+      "vouches": 1
+    },
+    "T2571": {
+      "grade": 3,
+      "reason": "ICU nursing, IV therapy, four years, Houston; BLS/ACLS not stated.",
+      "vouches": 1
+    },
+    "T3140": {
+      "grade": 2,
+      "reason": "ICU night shifts, IV therapy, Houston; one year below minimum; BLS/ACLS not stated.",
+      "vouches": 1
+    },
+    "T1680": {
+      "grade": 2,
+      "reason": "ICU nursing, IV therapy, Houston; one year below minimum; BLS/ACLS not stated.",
+      "vouches": 1
+    },
+    "T3145": {
+      "grade": 2,
+      "reason": "ICU night shifts, IV therapy, six years; location not stated; BLS/ACLS not stated.",
+      "vouches": 1
+    },
+    "T2575": {
+      "grade": 1,
+      "reason": "ICU experience and Houston, but IV therapy and night shifts not stated.",
+      "vouches": 1
+    },
+    "T2577": {
+      "grade": 1,
+      "reason": "Critical care and IV therapy, but one year below minimum; ICU and night shifts unclear.",
+      "vouches": 1
+    },
+    "T2576": {
+      "grade": 1,
+      "reason": "Critical care focus and Houston, but ICU nursing and IV therapy not stated.",
+      "vouches": 1
+    },
+    "S0786": {
+      "grade": 1,
+      "reason": "ICU experience and Houston, but IV therapy and night shifts not stated.",
+      "vouches": 1
+    },
+    "T2578": {
+      "grade": 1,
+      "reason": "ICU night shifts, but Pune location and IV therapy not stated.",
+      "vouches": 1
+    }
+  },
+  "R06": {
+    "S0721": {
+      "grade": 3,
+      "reason": "Licensed Houston electrician with 6 years; does both requested installations.",
+      "vouches": 2
+    },
+    "T2597": {
+      "grade": 2,
+      "reason": "Houston electrician doing both installations, but has 4 years; needs 5.",
+      "vouches": 1
+    },
+    "T2593": {
+      "grade": 1,
+      "reason": "Does both electrical installations, but licensed status is not stated.",
+      "vouches": 1
+    },
+    "T2590": {
+      "grade": 1,
+      "reason": "Does both installations, but licensed status is not stated.",
+      "vouches": 1
+    },
+    "T2591": {
+      "grade": 1,
+      "reason": "Does both installations, but licensed status is not stated.",
+      "vouches": 1
+    },
+    "T2588": {
+      "grade": 1,
+      "reason": "Does both installations, but licensed status is not stated.",
+      "vouches": 1
+    },
+    "T2596": {
+      "grade": 1,
+      "reason": "Licensed Houston electrician with 7 years; requested installations not explicitly confirmed.",
+      "vouches": 1
+    },
+    "T1619": {
+      "grade": 1,
+      "reason": "Licensed Houston electrician, but EV chargers and panel upgrades aren't stated.",
+      "vouches": 1
+    },
+    "T2595": {
+      "grade": 1,
+      "reason": "Licensed Houston electrician with 7 years; breaker boxes and car chargers, not explicit requested scope.",
+      "vouches": 1
+    },
+    "T2598": {
+      "grade": 1,
+      "reason": "Does breaker boxes and car chargers, but is in Manchester, not Houston.",
+      "vouches": 1
+    },
+    "T2589": {
+      "grade": 1,
+      "reason": "Houston electrician doing breaker boxes and car chargers, but license isn't stated.",
+      "vouches": 1
+    },
+    "T0624": {
+      "grade": 1,
+      "reason": "Related electrical work, but has 2 years and is in Seattle.",
+      "vouches": 1
+    },
+    "T2594": {
+      "grade": 1,
+      "reason": "Related electrical work; experience and location are unstated, and requested work isn't confirmed.",
+      "vouches": 1
+    }
+  },
+  "R07": {
+    "T2609": {
+      "grade": 3,
+      "reason": "Patient-app UI, UX research, and Figma; exceeds experience minimum.",
+      "vouches": 1
+    },
+    "T2611": {
+      "grade": 2,
+      "reason": "Patient-app UI/UX and Figma fit; UX research not stated.",
+      "vouches": 2
+    },
+    "T2607": {
+      "grade": 2,
+      "reason": "Patient-app UI and prototyping fit; UX research and Figma not stated.",
+      "vouches": 1
+    },
+    "T2615": {
+      "grade": 2,
+      "reason": "Patient-app product design and prototyping fit; Figma and UX research not stated.",
+      "vouches": 1
+    },
+    "T2616": {
+      "grade": 2,
+      "reason": "Healthcare UX, research, and Figma fit; 2 years, 1 below minimum.",
+      "vouches": 1
+    },
+    "T2614": {
+      "grade": 2,
+      "reason": "Healthcare UI, Figma, and prototyping fit; UX research not stated.",
+      "vouches": 1
+    },
+    "T2612": {
+      "grade": 2,
+      "reason": "Healthcare product UI and Figma fit; UX research and prototyping not stated.",
+      "vouches": 1
+    },
+    "T2610": {
+      "grade": 2,
+      "reason": "Healthcare UX research fits; UI design, Figma, and prototyping not stated.",
+      "vouches": 1
+    },
+    "T2613": {
+      "grade": 1,
+      "reason": "UI, Figma, and prototyping are related; healthcare and experience unstated.",
+      "vouches": 1
+    },
+    "T2617": {
+      "grade": 1,
+      "reason": "Product design and Figma, but enterprise admin focus, not patient apps.",
+      "vouches": 1
+    },
+    "S0371": {
+      "grade": 1,
+      "reason": "UX research is relevant, but B2B dashboards are a different focus.",
+      "vouches": 1
+    },
+    "T2608": {
+      "grade": 1,
+      "reason": "Patient-app wireframes and user flows are related; UI, Figma, research unstated.",
+      "vouches": 1
+    }
+  },
+  "R08": {
+    "T2629": {
+      "grade": 3,
+      "reason": "Class 11 competitive math, calculus and algebra; 3 years\u2019 experience.",
+      "vouches": 2
+    },
+    "T2632": {
+      "grade": 3,
+      "reason": "JEE and Class 11 math, calculus and algebra; 3 years\u2019 experience.",
+      "vouches": 1
+    },
+    "T2628": {
+      "grade": 3,
+      "reason": "JEE entrance math, calculus and algebra; 5 years\u2019 experience.",
+      "vouches": 1
+    },
+    "T2630": {
+      "grade": 3,
+      "reason": "Class 11\u201312 competitive math and algebra; 8 years\u2019 experience.",
+      "vouches": 1
+    },
+    "T2627": {
+      "grade": 3,
+      "reason": "JEE math, calculus and algebra; over 3 years\u2019 experience.",
+      "vouches": 1
+    },
+    "T2634": {
+      "grade": 2,
+      "reason": "JEE math and requested subjects; experience is 1 year, below 2.",
+      "vouches": 1
+    },
+    "T2102": {
+      "grade": 1,
+      "reason": "School mathematics, but calculus and coaching experience are not established.",
+      "vouches": 2
+    },
+    "T2625": {
+      "grade": 1,
+      "reason": "Class 11\u201312 competitive math and calculus; algebra and JEE focus unspecified.",
+      "vouches": 1
+    },
+    "S0572": {
+      "grade": 1,
+      "reason": "Algebra tutor, but mostly SAT/ACT rather than JEE preparation.",
+      "vouches": 2
+    },
+    "T2635": {
+      "grade": 1,
+      "reason": "Calculus and algebra teaching, but focus is AP/SAT rather than JEE.",
+      "vouches": 1
+    },
+    "T2113": {
+      "grade": 1,
+      "reason": "Algebra and school math, but AP focus and calculus/JEE not established.",
+      "vouches": 1
+    },
+    "T2049": {
+      "grade": 1,
+      "reason": "Math tutor with calculus, but JEE and algebra focus are not established.",
+      "vouches": 1
+    },
+    "T2631": {
+      "grade": 1,
+      "reason": "Math and algebra tutoring, but calculus and JEE experience are unspecified.",
+      "vouches": 1
+    },
+    "T2626": {
+      "grade": 1,
+      "reason": "JEE coaching experience, but calculus and algebra strengths are unspecified.",
+      "vouches": 1
+    },
+    "T2633": {
+      "grade": 1,
+      "reason": "JEE coaching with sufficient experience, but calculus and algebra strengths are unspecified.",
+      "vouches": 1
+    }
+  },
+  "R09": {
+    "T3151": {
+      "grade": 3,
+      "reason": "12 years; Bengaluru; AWS, Kubernetes, Terraform, and CI/CD.",
+      "vouches": 1
+    },
+    "T2646": {
+      "grade": 3,
+      "reason": "8 years; Bengaluru; AWS, Kubernetes, Terraform, and CI/CD.",
+      "vouches": 2
+    },
+    "T3155": {
+      "grade": 3,
+      "reason": "14 years; Bengaluru; AWS platform, Kubernetes, Terraform, and CI/CD.",
+      "vouches": 1
+    },
+    "T2645": {
+      "grade": 3,
+      "reason": "8 years; Bengaluru; Kubernetes on AWS with Terraform-managed CI/CD.",
+      "vouches": 1
+    },
+    "S0787": {
+      "grade": 3,
+      "reason": "11 years; Bengaluru; AWS, Kubernetes, Terraform, and CI/CD.",
+      "vouches": 1
+    },
+    "T2644": {
+      "grade": 2,
+      "reason": "Meets experience and location; Kubernetes platform experience not stated.",
+      "vouches": 1
+    },
+    "T2642": {
+      "grade": 2,
+      "reason": "Meets experience and location; Kubernetes experience not stated.",
+      "vouches": 1
+    },
+    "T2647": {
+      "grade": 2,
+      "reason": "Meets experience and location; Terraform experience not stated.",
+      "vouches": 1
+    },
+    "T3152": {
+      "grade": 2,
+      "reason": "Meets experience; Toronto, not Bengaluru.",
+      "vouches": 1
+    },
+    "T3154": {
+      "grade": 2,
+      "reason": "Meets experience; Hyderabad, not Bengaluru.",
+      "vouches": 1
+    },
+    "T2652": {
+      "grade": 2,
+      "reason": "Meets experience; San Jose, not Bengaluru.",
+      "vouches": 1
+    },
+    "T3149": {
+      "grade": 2,
+      "reason": "Meets experience and location; Terraform experience not stated.",
+      "vouches": 1
+    },
+    "T2649": {
+      "grade": 2,
+      "reason": "Meets experience and location; Kubernetes experience not stated.",
+      "vouches": 1
+    },
+    "T3153": {
+      "grade": 1,
+      "reason": "5 years, one below minimum; Hyderabad, not Bengaluru.",
+      "vouches": 1
+    },
+    "S0020": {
+      "grade": 1,
+      "reason": "3 years, three below minimum; Hyderabad, not Bengaluru.",
+      "vouches": 1
+    }
+  },
+  "R10": {
+    "S0729": {
+      "grade": 3,
+      "reason": "Two- and three-day Indian weddings, full editing, 4 years, Bengaluru.",
+      "vouches": 2
+    },
+    "T2661": {
+      "grade": 3,
+      "reason": "Indian wedding muhurtham and reception coverage, 6 years, Bengaluru.",
+      "vouches": 1
+    },
+    "T2668": {
+      "grade": 3,
+      "reason": "Two- and three-day Indian weddings, full editing, 7 years, Bengaluru.",
+      "vouches": 1
+    },
+    "T2664": {
+      "grade": 3,
+      "reason": "Muhurtham and reception, wedding photography, editing, 3 years, Bengaluru.",
+      "vouches": 1
+    },
+    "T2663": {
+      "grade": 3,
+      "reason": "Indian wedding muhurtham and reception coverage, 6 years, Bengaluru.",
+      "vouches": 1
+    },
+    "T2669": {
+      "grade": 3,
+      "reason": "Two- and three-day Indian weddings, 5 years, Bengaluru.",
+      "vouches": 1
+    },
+    "T2666": {
+      "grade": 3,
+      "reason": "Two- and three-day Indian weddings, 5 years, Bengaluru.",
+      "vouches": 1
+    },
+    "T2670": {
+      "grade": 2,
+      "reason": "Relevant wedding coverage and editing in Bengaluru; 1 year, below 2.",
+      "vouches": 1
+    },
+    "T1050": {
+      "grade": 2,
+      "reason": "Wedding muhurtham and reception, 15 years; location not confirmed Bengaluru.",
+      "vouches": 1
+    },
+    "T2672": {
+      "grade": 1,
+      "reason": "Corporate and conference photography is adjacent, not wedding coverage.",
+      "vouches": 1
+    },
+    "T2662": {
+      "grade": 1,
+      "reason": "Muhurtham and reception coverage, but photo editing rather than photography specified.",
+      "vouches": 1
+    },
+    "T2671": {
+      "grade": 1,
+      "reason": "Two-day wedding experience and editing, but located in Seattle.",
+      "vouches": 1
+    },
+    "T2667": {
+      "grade": 1,
+      "reason": "Related event photography and editing; experience and location unspecified.",
+      "vouches": 1
+    },
+    "T2363": {
+      "grade": 1,
+      "reason": "Relevant wedding moments and editing, but located in Pune.",
+      "vouches": 1
+    },
+    "T1258": {
+      "grade": 1,
+      "reason": "Wedding photography is relevant, but located in Chennai and experience is corporate-focused.",
+      "vouches": 1
+    }
+  },
+  "R11": {
+    "S0731": {
+      "grade": 3,
+      "reason": "PyTorch, NLP, and production deployment; 8 years meets the minimum.",
+      "vouches": 2
+    },
+    "T2117": {
+      "grade": 3,
+      "reason": "PyTorch, NLP, and deployment; 5 years meets the minimum.",
+      "vouches": 1
+    },
+    "T2682": {
+      "grade": 2,
+      "reason": "Matches PyTorch, NLP, and deployment, but has 2 years; 2-year gap.",
+      "vouches": 1
+    },
+    "T2680": {
+      "grade": 2,
+      "reason": "NLP and deployment match, but PyTorch is not stated.",
+      "vouches": 1
+    },
+    "T2683": {
+      "grade": 2,
+      "reason": "PyTorch and deployment match, but NLP experience is not stated.",
+      "vouches": 1
+    },
+    "T2681": {
+      "grade": 1,
+      "reason": "Text and model serving are relevant, but PyTorch and NLP are unstated.",
+      "vouches": 1
+    }
+  },
+  "R12": {
+    "T2139": {
+      "grade": 1,
+      "reason": "Teaches guitar, not harp.",
+      "vouches": 1
+    },
+    "T2126": {
+      "grade": 1,
+      "reason": "Teaches guitar, not harp.",
+      "vouches": 1
+    }
+  },
+  "R13": {},
+  "R14": {
+    "S0734": {
+      "grade": 3,
+      "reason": "Coin collecting and grading expertise; video consultation works remotely.",
+      "vouches": 3
+    },
+    "T2702": {
+      "grade": 3,
+      "reason": "Coin appraisal, collecting, and grading expertise; remote video is suitable.",
+      "vouches": 1
+    },
+    "T2700": {
+      "grade": 3,
+      "reason": "Coin grading, collecting, and appraisal experience; remote video is suitable.",
+      "vouches": 1
+    },
+    "T2695": {
+      "grade": 3,
+      "reason": "Experienced coin appraiser and grader; location is no barrier for video.",
+      "vouches": 1
+    },
+    "T1411": {
+      "grade": 3,
+      "reason": "Numismatics and coin appraisal expertise; remote video is suitable.",
+      "vouches": 1
+    },
+    "T2698": {
+      "grade": 3,
+      "reason": "Experienced numismatist with coin collecting and grading expertise.",
+      "vouches": 1
+    },
+    "T2703": {
+      "grade": 3,
+      "reason": "Coin grading and appraisal expertise; remote video is suitable.",
+      "vouches": 1
+    },
+    "T1381": {
+      "grade": 3,
+      "reason": "Coin grading, collecting, and appraisal expertise; remote video is suitable.",
+      "vouches": 1
+    },
+    "T2697": {
+      "grade": 3,
+      "reason": "Coin grading and appraisal expertise; remote video is suitable.",
+      "vouches": 1
+    },
+    "T2701": {
+      "grade": 1,
+      "reason": "Coin collecting is relevant, but grading and appraisal experience are unstated.",
+      "vouches": 1
+    },
+    "T2696": {
+      "grade": 1,
+      "reason": "Rare currency and mint errors are related, but coin grading and appraisal are unstated.",
+      "vouches": 1
+    }
+  },
+  "R15": {
+    "T2715": {
+      "grade": 3,
+      "reason": "Sports rehabilitation and post-operative rehab; 5 years, Toronto.",
+      "vouches": 3
+    },
+    "T2711": {
+      "grade": 3,
+      "reason": "Sports rehabilitation after ACL surgery; 8 years, Toronto.",
+      "vouches": 1
+    },
+    "T2716": {
+      "grade": 3,
+      "reason": "Sports rehabilitation after ACL surgery; 7+ years, Toronto.",
+      "vouches": 1
+    },
+    "T2714": {
+      "grade": 3,
+      "reason": "Sports rehabilitation and post-operative rehab; 9 years, Toronto.",
+      "vouches": 1
+    },
+    "T2718": {
+      "grade": 3,
+      "reason": "Sports rehabilitation and post-operative rehab; 5 years, Toronto.",
+      "vouches": 1
+    },
+    "T2720": {
+      "grade": 2,
+      "reason": "Relevant post-operative sports rehab, but only 1 year; needs 3+.",
+      "vouches": 1
+    },
+    "T2719": {
+      "grade": 2,
+      "reason": "Sports rehab for knee and ligament injuries; post-operative experience unspecified.",
+      "vouches": 1
+    },
+    "T2712": {
+      "grade": 2,
+      "reason": "Post-operative injury recovery; sports rehabilitation experience unspecified.",
+      "vouches": 1
+    },
+    "T2721": {
+      "grade": 1,
+      "reason": "Relevant sports physio, but Hyderabad rather than Toronto.",
+      "vouches": 1
+    },
+    "T2713": {
+      "grade": 1,
+      "reason": "Related knee injury physiotherapy, but sports and post-operative rehab unspecified.",
+      "vouches": 1
+    }
+  },
+  "R16": {
+    "S0738": {
+      "grade": 3,
+      "reason": "Telugu for kids; weekend batches and online platforms.",
+      "vouches": 2
+    },
+    "T2735": {
+      "grade": 3,
+      "reason": "Teaches Telugu for kids; known for weekend batches.",
+      "vouches": 1
+    },
+    "T2733": {
+      "grade": 3,
+      "reason": "Telugu for kids; strong weekend batches.",
+      "vouches": 1
+    },
+    "T2730": {
+      "grade": 3,
+      "reason": "Teaches Telugu for kids; focuses on weekend batches.",
+      "vouches": 1
+    },
+    "T2732": {
+      "grade": 3,
+      "reason": "Telugu for kids and beginners; mostly weekend batches.",
+      "vouches": 1
+    },
+    "T2738": {
+      "grade": 3,
+      "reason": "Conversational Telugu for children aged 5 to 12.",
+      "vouches": 1
+    },
+    "T2737": {
+      "grade": 3,
+      "reason": "Conversational Telugu for children aged 5 to 12.",
+      "vouches": 1
+    },
+    "T2731": {
+      "grade": 1,
+      "reason": "Related mother-tongue lessons, but Telugu teaching is not explicit.",
+      "vouches": 1
+    },
+    "T2739": {
+      "grade": 1,
+      "reason": "Telugu teaching targets working professionals, not children.",
+      "vouches": 1
+    },
+    "T2736": {
+      "grade": 1,
+      "reason": "Conversational Telugu is relevant, but kids and weekends are unspecified.",
+      "vouches": 1
+    }
+  },
+  "R17": {
+    "S0057": {
+      "grade": 3,
+      "reason": "QA with end-to-end scripting; meets experience, remote is fine.",
+      "vouches": 1
+    },
+    "T0201": {
+      "grade": 3,
+      "reason": "Bug hunting and end-to-end scripting; meets experience, remote is fine.",
+      "vouches": 1
+    },
+    "T3159": {
+      "grade": 3,
+      "reason": "Bug hunting and end-to-end scripting; meets experience, remote is fine.",
+      "vouches": 1
+    },
+    "T0062": {
+      "grade": 3,
+      "reason": "QA and bug finding; meets experience, remote is fine.",
+      "vouches": 1
+    },
+    "T2748": {
+      "grade": 3,
+      "reason": "Bug hunting and end-to-end scripting; meets experience, remote is fine.",
+      "vouches": 1
+    },
+    "T3160": {
+      "grade": 3,
+      "reason": "Bug hunting and Cypress; experience is unstated, so no penalty.",
+      "vouches": 1
+    },
+    "T0276": {
+      "grade": 1,
+      "reason": "Related QA automation, but focuses on phone apps and lacks stated experience.",
+      "vouches": 1
+    },
+    "T0499": {
+      "grade": 1,
+      "reason": "Related QA, but focuses on API contract tests rather than web-app QA.",
+      "vouches": 1
+    },
+    "T3158": {
+      "grade": 1,
+      "reason": "Related manual QA, but no specific bug hunting or end-to-end scripting.",
+      "vouches": 1
+    },
+    "T2747": {
+      "grade": 1,
+      "reason": "Related QA automation, but focuses on Selenium regression rather than bug hunting.",
+      "vouches": 1
+    },
+    "S0143": {
+      "grade": 1,
+      "reason": "Related manual QA, but no specific bug hunting or end-to-end scripting.",
+      "vouches": 1
+    },
+    "T0314": {
+      "grade": 1,
+      "reason": "Related testing, but focuses on performance and has only 1 year.",
+      "vouches": 1
+    }
+  },
+  "R18": {
+    "T1786": {
+      "grade": 3,
+      "reason": "Has a pickup, offers moving help, and is in Austin.",
+      "vouches": 3
+    },
+    "T2768": {
+      "grade": 3,
+      "reason": "Pickup and furniture-moving help available across Austin.",
+      "vouches": 2
+    },
+    "T2764": {
+      "grade": 3,
+      "reason": "Has a pickup and moves sofas and beds in Austin.",
+      "vouches": 1
+    },
+    "T2766": {
+      "grade": 3,
+      "reason": "Weekend pickup and furniture-moving help in Austin.",
+      "vouches": 1
+    },
+    "T2772": {
+      "grade": 3,
+      "reason": "Offers pickup and apartment-moving help across Austin.",
+      "vouches": 1
+    },
+    "T2771": {
+      "grade": 3,
+      "reason": "Weekend pickup and moving help in Austin.",
+      "vouches": 1
+    },
+    "T2769": {
+      "grade": 3,
+      "reason": "Has a pickup and helps move sofas and beds in Austin.",
+      "vouches": 1
+    },
+    "T2767": {
+      "grade": 3,
+      "reason": "Pickup and apartment-moving help in Austin.",
+      "vouches": 1
+    },
+    "T2774": {
+      "grade": 3,
+      "reason": "Has a pickup and offers moving help in Austin.",
+      "vouches": 1
+    },
+    "S0569": {
+      "grade": 3,
+      "reason": "Has a pickup and offers moving help in Austin.",
+      "vouches": 1
+    },
+    "T2770": {
+      "grade": 3,
+      "reason": "Offers moving help and a pickup; location is unspecified.",
+      "vouches": 1
+    },
+    "T2773": {
+      "grade": 1,
+      "reason": "Right kind of help, but based in Pune instead of Austin.",
+      "vouches": 1
+    },
+    "T2765": {
+      "grade": 1,
+      "reason": "Can haul furniture in Austin, but offers a flatbed, not a pickup.",
+      "vouches": 1
+    },
+    "T1736": {
+      "grade": 1,
+      "reason": "Can haul furniture in Austin, but offers a flatbed, not a pickup.",
+      "vouches": 1
+    }
+  },
+  "R19": {
+    "T2786": {
+      "grade": 3,
+      "reason": "Emergency burst-pipe plumbing, 12 years, based in Austin.",
+      "vouches": 2
+    },
+    "T2787": {
+      "grade": 3,
+      "reason": "Burst-pipe plumbing, 8 years, based in Austin.",
+      "vouches": 1
+    },
+    "T2782": {
+      "grade": 3,
+      "reason": "Emergency burst-pipe plumbing, 9 years, Austin area.",
+      "vouches": 1
+    },
+    "T2785": {
+      "grade": 3,
+      "reason": "Emergency burst-pipe plumbing and pipe repair, based in Austin.",
+      "vouches": 1
+    },
+    "T2790": {
+      "grade": 3,
+      "reason": "Emergency burst-pipe plumbing, based in Austin.",
+      "vouches": 1
+    },
+    "T2784": {
+      "grade": 3,
+      "reason": "Emergency leak and flooding plumber, 9 years, Austin area.",
+      "vouches": 1
+    },
+    "T2783": {
+      "grade": 3,
+      "reason": "Leak fixing and burst pipes, 11 years, based in Austin.",
+      "vouches": 1
+    },
+    "S0555": {
+      "grade": 3,
+      "reason": "Emergency leak and flooding plumber, 12 years, in Austin.",
+      "vouches": 1
+    },
+    "T2789": {
+      "grade": 3,
+      "reason": "Emergency leak and flooding plumber, 4 years, based in Austin.",
+      "vouches": 1
+    },
+    "T1788": {
+      "grade": 1,
+      "reason": "Austin plumber, but experience is focused on bathroom plumbing.",
+      "vouches": 1
+    },
+    "T1879": {
+      "grade": 1,
+      "reason": "Emergency burst-pipe plumbing, but based in San Jose.",
+      "vouches": 1
+    },
+    "T1878": {
+      "grade": 1,
+      "reason": "Austin plumber with pipe repair, but focus is water heater installation.",
+      "vouches": 1
+    },
+    "T2791": {
+      "grade": 1,
+      "reason": "Burst-pipe plumber, but based in Manchester.",
+      "vouches": 1
+    },
+    "T1755": {
+      "grade": 1,
+      "reason": "Emergency leak and flooding plumber, but based in San Jose.",
+      "vouches": 1
+    },
+    "T1818": {
+      "grade": 1,
+      "reason": "Austin plumber, but experience is focused on bathroom plumbing.",
+      "vouches": 1
+    }
+  },
+  "R20": {
+    "T3173": {
+      "grade": 3,
+      "reason": "Python backend, Django/FastAPI, and REST APIs; meets two-year minimum.",
+      "vouches": 1
+    },
+    "T0112": {
+      "grade": 3,
+      "reason": "Python backend with Django/FastAPI, REST APIs, PostgreSQL; exceeds minimum.",
+      "vouches": 1
+    },
+    "T3219": {
+      "grade": 3,
+      "reason": "Python backend with Django/FastAPI and PostgreSQL; exceeds minimum.",
+      "vouches": 1
+    },
+    "T3167": {
+      "grade": 3,
+      "reason": "Python backend with Django/FastAPI and PostgreSQL; experience unspecified.",
+      "vouches": 1
+    },
+    "T3217": {
+      "grade": 3,
+      "reason": "Python backend with Django/FastAPI, REST APIs, and PostgreSQL; experience unspecified.",
+      "vouches": 1
+    },
+    "S0792": {
+      "grade": 3,
+      "reason": "Python backend with Django/FastAPI and REST APIs; exceeds minimum.",
+      "vouches": 1
+    },
+    "T3190": {
+      "grade": 3,
+      "reason": "Python backend with FastAPI, REST APIs, and PostgreSQL; exceeds minimum.",
+      "vouches": 1
+    },
+    "T3223": {
+      "grade": 3,
+      "reason": "Python backend with Django/FastAPI and PostgreSQL; experience unspecified.",
+      "vouches": 1
+    },
+    "T0170": {
+      "grade": 3,
+      "reason": "Python backend with Django/FastAPI, REST APIs, and PostgreSQL; experience unspecified.",
+      "vouches": 1
+    },
+    "T0278": {
+      "grade": 3,
+      "reason": "Python backend with Django, REST APIs, and PostgreSQL; exceeds minimum.",
+      "vouches": 1
+    },
+    "T3212": {
+      "grade": 3,
+      "reason": "Python backend with FastAPI, REST APIs, and PostgreSQL; meets minimum.",
+      "vouches": 1
+    },
+    "T2801": {
+      "grade": 3,
+      "reason": "Python backend with Django/FastAPI and REST APIs; exceeds minimum.",
+      "vouches": 1
+    },
+    "T3195": {
+      "grade": 3,
+      "reason": "Python backend with Django/FastAPI and REST APIs; experience unspecified.",
+      "vouches": 1
+    },
+    "T2810": {
+      "grade": 2,
+      "reason": "Python backend with requested stack, but 1 year is below the 2-year minimum.",
+      "vouches": 1
+    },
+    "T3204": {
+      "grade": 2,
+      "reason": "Python backend with requested frameworks, but 1 year is below the 2-year minimum.",
+      "vouches": 1
+    }
+  },
+  "R21": {
+    "T2823": {
+      "grade": 3,
+      "reason": "Carnatic vocal for children, weekend batches, and located in Hyderabad.",
+      "vouches": 2
+    },
+    "T2827": {
+      "grade": 3,
+      "reason": "Carnatic vocal for children, weekend batches, and located in Hyderabad.",
+      "vouches": 1
+    },
+    "T2822": {
+      "grade": 3,
+      "reason": "Carnatic basics and children's weekend batches; located in Hyderabad.",
+      "vouches": 1
+    },
+    "T2824": {
+      "grade": 3,
+      "reason": "Teaches young beginners Carnatic vocal from basics; located in Hyderabad.",
+      "vouches": 1
+    },
+    "T2826": {
+      "grade": 3,
+      "reason": "Carnatic vocal for young beginners; located in Hyderabad.",
+      "vouches": 1
+    },
+    "T2821": {
+      "grade": 3,
+      "reason": "Carnatic vocal for children, weekend batches, and located in Hyderabad.",
+      "vouches": 1
+    },
+    "T2819": {
+      "grade": 3,
+      "reason": "Carnatic vocal for young beginners; located in Hyderabad.",
+      "vouches": 1
+    },
+    "T0613": {
+      "grade": 2,
+      "reason": "Children's beginner classical singing in Hyderabad, but not specified as Carnatic.",
+      "vouches": 1
+    },
+    "T2828": {
+      "grade": 1,
+      "reason": "Relevant children's Carnatic classes, but located in Vancouver.",
+      "vouches": 1
+    },
+    "T0171": {
+      "grade": 1,
+      "reason": "Carnatic vocal teacher, but located in Austin and focused on advanced styles.",
+      "vouches": 1
+    },
+    "S0244": {
+      "grade": 1,
+      "reason": "Carnatic music teacher in Hyderabad, but focused on advanced concert students.",
+      "vouches": 1
+    },
+    "T0457": {
+      "grade": 1,
+      "reason": "Carnatic vocal for young beginners, but located in Pune.",
+      "vouches": 1
+    },
+    "T2829": {
+      "grade": 1,
+      "reason": "Carnatic singing teacher in Hyderabad, but focused on advanced styles.",
+      "vouches": 1
+    }
+  },
+  "R22": {
+    "S0750": {
+      "grade": 3,
+      "reason": "Paediatric allergy specialist for childhood allergies; based in Houston.",
+      "vouches": 2
+    },
+    "T2840": {
+      "grade": 3,
+      "reason": "Paediatrician focused on eczema and food allergies; based in Houston.",
+      "vouches": 1
+    },
+    "T2837": {
+      "grade": 3,
+      "reason": "Paediatrician experienced with childhood allergies; based in Houston.",
+      "vouches": 1
+    },
+    "T2844": {
+      "grade": 3,
+      "reason": "Paediatrician focused on eczema and food allergies; based in Houston.",
+      "vouches": 1
+    },
+    "T2845": {
+      "grade": 3,
+      "reason": "Paediatrician specializing in childhood allergies; based in Houston.",
+      "vouches": 1
+    },
+    "T2839": {
+      "grade": 3,
+      "reason": "Children\u2019s doctor strong in eczema and food allergies; based in Houston.",
+      "vouches": 1
+    },
+    "T1638": {
+      "grade": 3,
+      "reason": "Children\u2019s doctor with childhood allergy experience; based in Houston.",
+      "vouches": 1
+    },
+    "T2842": {
+      "grade": 3,
+      "reason": "Paediatrician experienced with childhood allergies; based in Houston.",
+      "vouches": 1
+    },
+    "T2838": {
+      "grade": 3,
+      "reason": "Children\u2019s doctor experienced with childhood allergies; based in Houston.",
+      "vouches": 1
+    },
+    "T2846": {
+      "grade": 1,
+      "reason": "Relevant childhood allergy experience, but based in Hyderabad, not Houston.",
+      "vouches": 1
+    },
+    "T1623": {
+      "grade": 1,
+      "reason": "Paediatrician focuses on premature and newborn babies, not childhood allergies.",
+      "vouches": 1
+    },
+    "T1565": {
+      "grade": 1,
+      "reason": "Child specialist focuses on newborn care, not childhood allergies.",
+      "vouches": 1
+    },
+    "T2847": {
+      "grade": 1,
+      "reason": "Paediatrician focuses on premature and newborn babies, not childhood allergies.",
+      "vouches": 1
+    },
+    "T1723": {
+      "grade": 1,
+      "reason": "Child specialist focuses on premature and newborn babies, not childhood allergies.",
+      "vouches": 1
+    },
+    "T1640": {
+      "grade": 1,
+      "reason": "Related paediatric and child health experience, but based in Chennai.",
+      "vouches": 2
+    }
+  },
+  "R23": {
+    "T3258": {
+      "grade": 3,
+      "reason": "Core banking Spring Boot microservices, 13 years, Bengaluru.",
+      "vouches": 1
+    },
+    "T3270": {
+      "grade": 3,
+      "reason": "Core banking Spring Boot microservices, Bengaluru; experience unstated.",
+      "vouches": 1
+    },
+    "T2857": {
+      "grade": 3,
+      "reason": "Core banking Spring Boot microservices and Hibernate, 6 years, Bengaluru.",
+      "vouches": 1
+    },
+    "T3243": {
+      "grade": 3,
+      "reason": "Core banking Java Spring Boot microservices, 6 years, Bengaluru.",
+      "vouches": 1
+    },
+    "T2860": {
+      "grade": 3,
+      "reason": "Spring Boot, Hibernate, banking microservices, 8 years, Bengaluru.",
+      "vouches": 1
+    },
+    "T3260": {
+      "grade": 3,
+      "reason": "Core banking Hibernate Spring Boot microservices, 7 years, Bengaluru.",
+      "vouches": 1
+    },
+    "T2855": {
+      "grade": 3,
+      "reason": "Core banking Java Spring Boot microservices, 6 years, Bengaluru.",
+      "vouches": 1
+    },
+    "T2863": {
+      "grade": 3,
+      "reason": "Core banking Java Spring Boot, 11 years, Bengaluru.",
+      "vouches": 1
+    },
+    "T3240": {
+      "grade": 2,
+      "reason": "Core banking Spring Boot fit; 4 years, below 5-year minimum.",
+      "vouches": 1
+    },
+    "T3236": {
+      "grade": 2,
+      "reason": "Strong technical fit; Hyderabad rather than Bengaluru.",
+      "vouches": 1
+    },
+    "T3241": {
+      "grade": 2,
+      "reason": "Java, Hibernate, Spring Boot, banking; Chennai rather than Bengaluru.",
+      "vouches": 1
+    },
+    "T3239": {
+      "grade": 1,
+      "reason": "Relevant banking Java work, but 2 years and Chennai.",
+      "vouches": 1
+    },
+    "T3081": {
+      "grade": 1,
+      "reason": "Relevant Spring Boot banking work, but 4 years and Houston.",
+      "vouches": 1
+    },
+    "T3252": {
+      "grade": 1,
+      "reason": "Java microservices and Bengaluru; trading focus, Hibernate unstated.",
+      "vouches": 1
+    },
+    "T3256": {
+      "grade": 1,
+      "reason": "Java microservices Hibernate, but core banking experience unstated.",
+      "vouches": 1
+    }
+  },
+  "R24": {
+    "T2875": {
+      "grade": 3,
+      "reason": "React, Next.js, and data-heavy dashboards; meets experience minimum.",
+      "vouches": 1
+    },
+    "T3288": {
+      "grade": 3,
+      "reason": "React, Next.js, and analytics charts; meets experience minimum.",
+      "vouches": 1
+    },
+    "T2883": {
+      "grade": 3,
+      "reason": "React, Next.js, and data-heavy dashboards; meets experience minimum.",
+      "vouches": 1
+    },
+    "T3284": {
+      "grade": 3,
+      "reason": "React, Next.js, and analytics dashboards; meets experience minimum.",
+      "vouches": 1
+    },
+    "T2877": {
+      "grade": 3,
+      "reason": "React, Next.js, and analytics dashboards; meets experience minimum.",
+      "vouches": 1
+    },
+    "T2882": {
+      "grade": 3,
+      "reason": "React, Next.js, and data-heavy dashboards; meets 3-year minimum.",
+      "vouches": 1
+    },
+    "T3276": {
+      "grade": 2,
+      "reason": "Next.js and analytics charts fit; experience years are unspecified.",
+      "vouches": 1
+    },
+    "T3280": {
+      "grade": 2,
+      "reason": "React and analytics charts fit; Next.js is not stated.",
+      "vouches": 1
+    },
+    "T2884": {
+      "grade": 2,
+      "reason": "Next.js and analytics charts fit; 2 years, one below minimum.",
+      "vouches": 1
+    },
+    "T2878": {
+      "grade": 2,
+      "reason": "React and analytics charts fit; Next.js is not stated.",
+      "vouches": 1
+    },
+    "T3277": {
+      "grade": 2,
+      "reason": "React and Next.js fit; accessible components, not dashboard work.",
+      "vouches": 1
+    },
+    "T3271": {
+      "grade": 2,
+      "reason": "React and Next.js fit; analytics dashboard experience is not stated.",
+      "vouches": 1
+    },
+    "T3287": {
+      "grade": 1,
+      "reason": "Analytics charts experience, but React and Next.js are not stated.",
+      "vouches": 3
+    },
+    "T2880": {
+      "grade": 1,
+      "reason": "Next.js and data-heavy tables fit, but React is not stated.",
+      "vouches": 1
+    },
+    "S0196": {
+      "grade": 1,
+      "reason": "React experience, but analytics dashboards and Next.js are not stated.",
+      "vouches": 1
+    }
+  },
+  "R25": {
+    "T2893": {
+      "grade": 3,
+      "reason": "Babysitting, school pick-ups, and homework help; based in London.",
+      "vouches": 1
+    },
+    "T2894": {
+      "grade": 3,
+      "reason": "School pick-ups and homework help; based in London.",
+      "vouches": 1
+    },
+    "T2895": {
+      "grade": 1,
+      "reason": "Relevant childcare experience, but based in Chennai.",
+      "vouches": 1
+    },
+    "T2896": {
+      "grade": 1,
+      "reason": "Mostly newborn care; lacks stated school-age after-school experience.",
+      "vouches": 1
+    },
+    "S0756": {
+      "grade": 1,
+      "reason": "Experienced with ages 5\u201310, but no stated pick-up or homework help.",
+      "vouches": 1
+    },
+    "T2125": {
+      "grade": 1,
+      "reason": "After-school care and babysitting; no stated pick-up or homework experience.",
+      "vouches": 1
+    }
+  },
+  "R26": {
+    "T2907": {
+      "grade": 3,
+      "reason": "Python LLM chatbot experience exceeds three years.",
+      "vouches": 2
+    },
+    "T2911": {
+      "grade": 3,
+      "reason": "Python, FastAPI, retrieval, and embeddings; nine years.",
+      "vouches": 1
+    },
+    "T1475": {
+      "grade": 3,
+      "reason": "Python, FastAPI, LLM integration, retrieval, and embeddings; three years.",
+      "vouches": 1
+    },
+    "T2908": {
+      "grade": 3,
+      "reason": "Python, FastAPI, and LLM chatbot work; three years.",
+      "vouches": 1
+    },
+    "T2903": {
+      "grade": 3,
+      "reason": "Python LLM retrieval and embedding work; seven years.",
+      "vouches": 1
+    },
+    "T2906": {
+      "grade": 3,
+      "reason": "Python LLM retrieval and embedding focus; eight years.",
+      "vouches": 1
+    },
+    "T2910": {
+      "grade": 3,
+      "reason": "Python, FastAPI, retrieval, and embeddings; five years.",
+      "vouches": 1
+    },
+    "T2905": {
+      "grade": 3,
+      "reason": "Python, FastAPI, retrieval, and embeddings; seven years.",
+      "vouches": 1
+    },
+    "S0429": {
+      "grade": 2,
+      "reason": "Relevant chatbot and FastAPI work, but two years (one below minimum).",
+      "vouches": 1
+    },
+    "T2912": {
+      "grade": 2,
+      "reason": "Relevant FastAPI retrieval work, but two years (one below minimum).",
+      "vouches": 1
+    },
+    "T3218": {
+      "grade": 2,
+      "reason": "Relevant Python and FastAPI work, but one year (two below minimum).",
+      "vouches": 1
+    },
+    "T2904": {
+      "grade": 1,
+      "reason": "LLM chatbot experience, but Flask rather than requested FastAPI and embeddings.",
+      "vouches": 1
+    },
+    "T2693": {
+      "grade": 1,
+      "reason": "Meets Python, FastAPI, and experience needs, but no stated LLM or retrieval work.",
+      "vouches": 1
+    },
+    "T1297": {
+      "grade": 1,
+      "reason": "Relevant Python retrieval work, but no stated FastAPI or LLM experience.",
+      "vouches": 1
+    },
+    "T1862": {
+      "grade": 1,
+      "reason": "Python and FastAPI work, but no stated LLM, retrieval, or embeddings experience.",
+      "vouches": 1
+    }
+  },
+  "R27": {
+    "S0760": {
+      "grade": 3,
+      "reason": "Handles H-1B petitions and has the required five years of experience.",
+      "vouches": 2
+    },
+    "T2924": {
+      "grade": 3,
+      "reason": "Handles H-1B and employer-sponsored cases; nine years\u2019 experience.",
+      "vouches": 1
+    },
+    "T2922": {
+      "grade": 3,
+      "reason": "Immigration attorney focused mostly on employer-sponsored cases; nine years\u2019 experience.",
+      "vouches": 1
+    },
+    "T2927": {
+      "grade": 3,
+      "reason": "Immigration attorney known for employer-sponsored cases; ten years\u2019 experience.",
+      "vouches": 1
+    },
+    "T2929": {
+      "grade": 3,
+      "reason": "Immigration lawyer handling H-1B and employer-sponsored cases; seven years\u2019 experience.",
+      "vouches": 1
+    },
+    "T2930": {
+      "grade": 3,
+      "reason": "Immigration lawyer known for H-1B petitions; over eight years\u2019 experience.",
+      "vouches": 1
+    },
+    "T2925": {
+      "grade": 3,
+      "reason": "Handles employer-sponsored cases; ten years\u2019 experience.",
+      "vouches": 1
+    },
+    "T2931": {
+      "grade": 2,
+      "reason": "Employer-sponsored case experience, but has 3 years\u20142 below the 5-year minimum.",
+      "vouches": 1
+    },
+    "T2923": {
+      "grade": 1,
+      "reason": "Employer-sponsored focus, but expertise is paperwork and interview preparation, not legal representation.",
+      "vouches": 1
+    },
+    "T1438": {
+      "grade": 1,
+      "reason": "Immigration attorney, but employer-sponsored and H-1B experience is not stated.",
+      "vouches": 1
+    },
+    "T2932": {
+      "grade": 1,
+      "reason": "Immigration attorney, but focus is Canadian provincial nominee programs.",
+      "vouches": 1
+    },
+    "S0551": {
+      "grade": 1,
+      "reason": "Immigration lawyer, but employer-sponsored and H-1B experience is not stated.",
+      "vouches": 1
+    },
+    "T1530": {
+      "grade": 1,
+      "reason": "Immigration attorney focused on work permits; only 3 years, 2 below minimum.",
+      "vouches": 1
+    },
+    "T1350": {
+      "grade": 1,
+      "reason": "Visa consultant focused on work permits; employer-sponsored and H-1B experience is not stated.",
+      "vouches": 1
+    },
+    "T2928": {
+      "grade": 1,
+      "reason": "Immigration skills listed, but lawyer status, relevant experience, and H-1B focus are unstated.",
+      "vouches": 1
+    }
+  },
+  "R28": {
+    "S0762": {
+      "grade": 3,
+      "reason": "Geyser installation and pipe repair; based in Hyderabad.",
+      "vouches": 2
+    },
+    "T2941": {
+      "grade": 3,
+      "reason": "Specializes in geyser installation and plumbing; based in Hyderabad.",
+      "vouches": 1
+    },
+    "S0801": {
+      "grade": 3,
+      "reason": "Works on geysers and bathroom plumbing in Hyderabad.",
+      "vouches": 1
+    },
+    "T2939": {
+      "grade": 3,
+      "reason": "Geyser installation and pipe repair; serves Hyderabad.",
+      "vouches": 1
+    },
+    "T2947": {
+      "grade": 3,
+      "reason": "Geyser installation and plumbing; based in Hyderabad.",
+      "vouches": 1
+    },
+    "T2944": {
+      "grade": 3,
+      "reason": "Geyser installation and pipe repair; based in Hyderabad.",
+      "vouches": 1
+    },
+    "T3312": {
+      "grade": 3,
+      "reason": "Water heater fitting and pipe repair; based in Hyderabad.",
+      "vouches": 1
+    },
+    "T2942": {
+      "grade": 3,
+      "reason": "Geyser installation and pipe repair; based in Hyderabad.",
+      "vouches": 1
+    },
+    "T2940": {
+      "grade": 3,
+      "reason": "Leak fixing and geyser work; based in Hyderabad.",
+      "vouches": 1
+    },
+    "T3305": {
+      "grade": 3,
+      "reason": "Leak repairs and water heater work; based in Hyderabad.",
+      "vouches": 1
+    },
+    "T2946": {
+      "grade": 3,
+      "reason": "Geyser installation and pipe repair; based in Hyderabad.",
+      "vouches": 1
+    },
+    "T0593": {
+      "grade": 3,
+      "reason": "Geyser installation and pipe repair; location not stated.",
+      "vouches": 1
+    },
+    "T3309": {
+      "grade": 3,
+      "reason": "Water heater installation and pipe repair; location not stated.",
+      "vouches": 1
+    },
+    "T3296": {
+      "grade": 3,
+      "reason": "Plumber experienced with water heater fitting in Hyderabad.",
+      "vouches": 1
+    },
+    "T3294": {
+      "grade": 1,
+      "reason": "Relevant geyser work, but based in Toronto.",
+      "vouches": 1
+    }
+  },
+  "R29": {
+    "T2962": {
+      "grade": 3,
+      "reason": "Andhra catering and party orders in Hyderabad; experienced home cook.",
+      "vouches": 2
+    },
+    "T2961": {
+      "grade": 3,
+      "reason": "12 years catering Andhra cuisine in Hyderabad.",
+      "vouches": 1
+    },
+    "T2958": {
+      "grade": 3,
+      "reason": "Hyderabad caterer skilled in Andhra meals and biryani.",
+      "vouches": 1
+    },
+    "T2963": {
+      "grade": 3,
+      "reason": "Andhra cuisine and party orders across Hyderabad.",
+      "vouches": 1
+    },
+    "T0592": {
+      "grade": 3,
+      "reason": "Hyderabad caterer specializing in Andhra and Telangana food.",
+      "vouches": 1
+    },
+    "T2966": {
+      "grade": 3,
+      "reason": "Andhra cuisine and party orders in Hyderabad.",
+      "vouches": 1
+    },
+    "T0663": {
+      "grade": 3,
+      "reason": "Andhra catering; location is unspecified, not a stated mismatch.",
+      "vouches": 1
+    },
+    "T3324": {
+      "grade": 1,
+      "reason": "Telugu meals and biryani, but catering and Andhra cuisine are unstated.",
+      "vouches": 1
+    },
+    "T3327": {
+      "grade": 1,
+      "reason": "Gathering meals and Telugu food, but catering and Hyderabad location are unstated.",
+      "vouches": 1
+    },
+    "T2959": {
+      "grade": 1,
+      "reason": "Gathering meals and Andhra food, but catering experience is unstated.",
+      "vouches": 1
+    },
+    "T0720": {
+      "grade": 1,
+      "reason": "Gathering meals, but Andhra cuisine and catering experience are unstated.",
+      "vouches": 1
+    },
+    "T0618": {
+      "grade": 1,
+      "reason": "Andhra catering, but located in Chennai.",
+      "vouches": 1
+    },
+    "T0817": {
+      "grade": 1,
+      "reason": "Andhra catering, but located in Chennai.",
+      "vouches": 1
+    },
+    "T2960": {
+      "grade": 1,
+      "reason": "Andhra food in Hyderabad, but catering experience is unstated.",
+      "vouches": 1
+    },
+    "S0257": {
+      "grade": 1,
+      "reason": "Gathering meals in Hyderabad, but Andhra cuisine and catering are unstated.",
+      "vouches": 1
+    }
+  },
+  "R30": {
+    "S0766": {
+      "grade": 3,
+      "reason": "House painting with wall putty; meets experience and Hyderabad requirements.",
+      "vouches": 2
+    },
+    "T2983": {
+      "grade": 3,
+      "reason": "Interior and house painting with putty; 6 years, based in Hyderabad.",
+      "vouches": 1
+    },
+    "T2976": {
+      "grade": 3,
+      "reason": "Interior painting and putty; 7 years, based in Hyderabad.",
+      "vouches": 1
+    },
+    "T0022": {
+      "grade": 3,
+      "reason": "House painting with putty; 4 years, based in Hyderabad.",
+      "vouches": 1
+    },
+    "T2984": {
+      "grade": 3,
+      "reason": "Interior painting and putty; 5 years, based in Hyderabad.",
+      "vouches": 1
+    },
+    "T0836": {
+      "grade": 3,
+      "reason": "House painting with putty; experience and location are unspecified.",
+      "vouches": 1
+    },
+    "T2979": {
+      "grade": 3,
+      "reason": "Interior painting; over 5 years, based in Hyderabad.",
+      "vouches": 1
+    },
+    "T0700": {
+      "grade": 2,
+      "reason": "Relevant interior painting and putty; 2 years, below 3-year minimum.",
+      "vouches": 1
+    },
+    "T2985": {
+      "grade": 2,
+      "reason": "Relevant interior painting and putty; 1 year, below 3-year minimum.",
+      "vouches": 1
+    },
+    "T2981": {
+      "grade": 2,
+      "reason": "Interior painting in Hyderabad; putty work is not stated.",
+      "vouches": 1
+    },
+    "T0896": {
+      "grade": 1,
+      "reason": "Related house painting, but lacks stated putty work and has 2 years.",
+      "vouches": 1
+    },
+    "T2978": {
+      "grade": 1,
+      "reason": "Mostly exterior painting; not clearly interior work, despite 7 years in Hyderabad.",
+      "vouches": 1
+    },
+    "T2986": {
+      "grade": 1,
+      "reason": "Interior painting and putty, but based in Dallas rather than Hyderabad.",
+      "vouches": 1
+    },
+    "T0721": {
+      "grade": 1,
+      "reason": "House painting and putty, but 2 years is below the 3-year minimum.",
+      "vouches": 1
+    },
+    "T0709": {
+      "grade": 1,
+      "reason": "Related house painting, but interior painting, putty work, and location are unstated.",
+      "vouches": 1
+    }
+  },
+  "R31": {
+    "S0768": {
+      "grade": 3,
+      "reason": "Teaches expecting mothers; 7 years\u2019 experience meets the minimum.",
+      "vouches": 2
+    },
+    "T3000": {
+      "grade": 3,
+      "reason": "Prenatal yoga instructor with 2 years\u2019 experience.",
+      "vouches": 1
+    },
+    "T2995": {
+      "grade": 3,
+      "reason": "Prenatal yoga instructor with 4 years\u2019 experience.",
+      "vouches": 1
+    },
+    "T2997": {
+      "grade": 3,
+      "reason": "Focuses on pregnancy sessions; 4 years\u2019 experience.",
+      "vouches": 1
+    },
+    "T0636": {
+      "grade": 3,
+      "reason": "Specializes in pregnancy sessions; 10 years\u2019 experience.",
+      "vouches": 1
+    },
+    "T3002": {
+      "grade": 3,
+      "reason": "Prenatal yoga instructor with around 2 years\u2019 experience.",
+      "vouches": 1
+    },
+    "T0920": {
+      "grade": 3,
+      "reason": "Strong in pregnancy sessions; 10 years\u2019 experience.",
+      "vouches": 1
+    },
+    "T0859": {
+      "grade": 3,
+      "reason": "Prenatal yoga and pregnancy sessions; experience is unspecified.",
+      "vouches": 1
+    },
+    "T3003": {
+      "grade": 3,
+      "reason": "Pregnancy sessions; 4 years\u2019 experience meets the minimum.",
+      "vouches": 1
+    },
+    "T2998": {
+      "grade": 3,
+      "reason": "Mostly teaches pregnancy sessions; 5 years\u2019 experience.",
+      "vouches": 1
+    },
+    "T3004": {
+      "grade": 2,
+      "reason": "Pregnancy sessions, but 1 year is below the 2-year minimum.",
+      "vouches": 1
+    },
+    "T2996": {
+      "grade": 1,
+      "reason": "Mentions expecting mothers, but not prenatal yoga instruction.",
+      "vouches": 1
+    }
+  },
+  "R32": {
+    "S0770": {
+      "grade": 3,
+      "reason": "German-car mechanic with BMW diagnostics; works in Dallas.",
+      "vouches": 3
+    },
+    "T3013": {
+      "grade": 3,
+      "reason": "Experienced European luxury-car mechanic with diagnostics in Dallas.",
+      "vouches": 1
+    },
+    "T2427": {
+      "grade": 2,
+      "reason": "Auto mechanic with diagnostics in Dallas, but no German-car experience stated.",
+      "vouches": 2
+    },
+    "T3014": {
+      "grade": 2,
+      "reason": "Honest BMW mechanic in Dallas, but check-engine diagnostics not stated.",
+      "vouches": 1
+    },
+    "T3015": {
+      "grade": 1,
+      "reason": "German-car mechanic, but located in Chennai, not Dallas.",
+      "vouches": 1
+    },
+    "T3016": {
+      "grade": 1,
+      "reason": "Dallas mechanic, but specializes in EVs rather than German cars.",
+      "vouches": 1
+    }
+  },
+  "R33": {
+    "T3027": {
+      "grade": 3,
+      "reason": "Pune realtor specializing in rentals for relocating families.",
+      "vouches": 2
+    },
+    "T3026": {
+      "grade": 3,
+      "reason": "Pune property consultant specializing in rentals for relocating families.",
+      "vouches": 1
+    },
+    "T3031": {
+      "grade": 3,
+      "reason": "Pune realtor experienced with family relocation rentals.",
+      "vouches": 1
+    },
+    "T3023": {
+      "grade": 3,
+      "reason": "Pune realtor specializing in rentals for relocating families.",
+      "vouches": 1
+    },
+    "T3025": {
+      "grade": 3,
+      "reason": "Pune-area realtor strong in rentals for relocating families.",
+      "vouches": 1
+    },
+    "T3030": {
+      "grade": 3,
+      "reason": "Pune-area rental specialist with family relocation experience.",
+      "vouches": 1
+    },
+    "T3028": {
+      "grade": 3,
+      "reason": "Works across Pune and handles rentals for relocating families.",
+      "vouches": 1
+    },
+    "T2394": {
+      "grade": 3,
+      "reason": "Works across Pune and helps families relocating with rentals.",
+      "vouches": 1
+    },
+    "T3024": {
+      "grade": 3,
+      "reason": "Pune-based and experienced in rentals for relocating families.",
+      "vouches": 1
+    },
+    "T3032": {
+      "grade": 2,
+      "reason": "Family rental specialist, but based in San Jose, not Pune.",
+      "vouches": 1
+    },
+    "T2317": {
+      "grade": 2,
+      "reason": "Pune real estate agent with rental listings, but no family relocation focus.",
+      "vouches": 1
+    },
+    "T2288": {
+      "grade": 1,
+      "reason": "Focuses on plots and investment property, not rental consulting.",
+      "vouches": 1
+    },
+    "T3033": {
+      "grade": 1,
+      "reason": "Focuses on plots and investment property, not family rentals.",
+      "vouches": 1
+    }
+  },
+  "R34": {
+    "T3045": {
+      "grade": 3,
+      "reason": "Batting, bowling, junior experience, and Pune; exceeds two years.",
+      "vouches": 2
+    },
+    "T3049": {
+      "grade": 3,
+      "reason": "Coaches junior batters and bowlers in Pune; five years' experience.",
+      "vouches": 1
+    },
+    "T3046": {
+      "grade": 3,
+      "reason": "Junior batting and bowling coaching in Pune; eight years' experience.",
+      "vouches": 1
+    },
+    "T3041": {
+      "grade": 3,
+      "reason": "Coaches junior batters and bowlers in Pune; seven years' experience.",
+      "vouches": 1
+    },
+    "T3044": {
+      "grade": 3,
+      "reason": "Junior cricket coaching including bowling in Pune; meets two-year minimum.",
+      "vouches": 1
+    },
+    "T3050": {
+      "grade": 2,
+      "reason": "Junior coaching in Pune, but has 1 year; 1 year below minimum.",
+      "vouches": 1
+    },
+    "T3043": {
+      "grade": 1,
+      "reason": "Junior coaching in Pune, but batting and bowling sessions aren't specified.",
+      "vouches": 1
+    },
+    "S0655": {
+      "grade": 1,
+      "reason": "Pune batting specialist, but junior coaching and bowling aren't specified.",
+      "vouches": 2
+    },
+    "T3051": {
+      "grade": 1,
+      "reason": "Junior batting and bowling coaching, but based in Houston, not Pune.",
+      "vouches": 1
+    },
+    "T2274": {
+      "grade": 1,
+      "reason": "Batting and bowling in Pune, but junior coaching isn't specified.",
+      "vouches": 1
+    },
+    "T3052": {
+      "grade": 1,
+      "reason": "Pune batting specialist, but junior coaching and bowling aren't specified.",
+      "vouches": 1
+    },
+    "T2260": {
+      "grade": 1,
+      "reason": "Bowling and school-team coaching, but based in Hyderabad, not Pune.",
+      "vouches": 1
+    },
+    "T3048": {
+      "grade": 1,
+      "reason": "Pune junior batting coach, but bowling sessions aren't specified.",
+      "vouches": 1
+    },
+    "T3042": {
+      "grade": 1,
+      "reason": "Pune junior net practice, but batting and bowling coaching aren't specified.",
+      "vouches": 1
+    },
+    "T3047": {
+      "grade": 1,
+      "reason": "Related cricket coaching in bowling, but junior experience and Pune aren't stated.",
+      "vouches": 1
+    }
+  },
+  "R35": {
+    "S0776": {
+      "grade": 3,
+      "reason": "Offers braces and clear aligners; located in Vijayawada.",
+      "vouches": 2
+    },
+    "T3061": {
+      "grade": 3,
+      "reason": "Strong in braces and clear aligners; located in Vijayawada.",
+      "vouches": 1
+    },
+    "T3060": {
+      "grade": 3,
+      "reason": "Orthodontics, braces, and clear aligners; located in Vijayawada.",
+      "vouches": 1
+    },
+    "T3062": {
+      "grade": 2,
+      "reason": "Teeth straightening for teens; based in Seattle, not Vijayawada.",
+      "vouches": 1
+    },
+    "T3063": {
+      "grade": 1,
+      "reason": "Dentist in Vijayawada, but focuses on implants and crowns, not braces.",
+      "vouches": 1
+    }
+  },
+  "R36": {
+    "T3078": {
+      "grade": 3,
+      "reason": "Service Cloud routing, Apex, and LWCs; exceeds three years.",
+      "vouches": 1
+    },
+    "T3077": {
+      "grade": 3,
+      "reason": "Service Cloud, Apex, and LWCs; exceeds three years.",
+      "vouches": 1
+    },
+    "T3074": {
+      "grade": 1,
+      "reason": "Service Cloud and LWCs, but Apex triggers aren\u2019t stated; described as an admin.",
+      "vouches": 2
+    },
+    "T3070": {
+      "grade": 1,
+      "reason": "Strong Service Cloud routing, but Apex triggers and LWCs aren\u2019t stated.",
+      "vouches": 1
+    },
+    "T3080": {
+      "grade": 1,
+      "reason": "Apex and LWCs, but experience focuses on Sales Cloud and CPQ.",
+      "vouches": 1
+    },
+    "T3072": {
+      "grade": 1,
+      "reason": "Service Cloud routing, but Apex triggers and LWCs aren\u2019t stated.",
+      "vouches": 1
+    },
+    "T1237": {
+      "grade": 1,
+      "reason": "Service Cloud and Apex, but LWCs aren\u2019t stated.",
+      "vouches": 1
+    },
+    "T3071": {
+      "grade": 1,
+      "reason": "Sales Cloud focus; Apex triggers and LWCs aren\u2019t stated.",
+      "vouches": 1
+    },
+    "T1048": {
+      "grade": 1,
+      "reason": "LWCs, but work focuses on integrations; Service Cloud and Apex triggers unstated.",
+      "vouches": 1
+    },
+    "T3073": {
+      "grade": 1,
+      "reason": "Service Cloud experience, but Apex triggers and LWCs aren\u2019t stated.",
+      "vouches": 1
+    },
+    "T3079": {
+      "grade": 1,
+      "reason": "Service Cloud and LWCs, but only 1 year; 2 years short.",
+      "vouches": 1
+    },
+    "T1118": {
+      "grade": 1,
+      "reason": "Service Cloud expertise, but Apex triggers and LWCs aren\u2019t stated.",
+      "vouches": 1
+    },
+    "T1063": {
+      "grade": 1,
+      "reason": "Apex and LWCs, but focuses on CPQ; Service Cloud work unstated.",
+      "vouches": 1
+    },
+    "T3075": {
+      "grade": 1,
+      "reason": "Service Cloud and Apex, but LWCs aren\u2019t stated.",
+      "vouches": 1
+    }
+  },
+  "R37": {
+    "T3089": {
+      "grade": 3,
+      "reason": "Spare room for short-term stays, suitable for interns, in Seattle.",
+      "vouches": 1
+    },
+    "T3092": {
+      "grade": 3,
+      "reason": "Seattle spare room for short-term stays.",
+      "vouches": 1
+    },
+    "S0780": {
+      "grade": 2,
+      "reason": "Seattle guest room, but no stated short-term availability.",
+      "vouches": 1
+    },
+    "T3090": {
+      "grade": 2,
+      "reason": "Furnished Seattle room, but no stated short-term availability.",
+      "vouches": 1
+    },
+    "T3091": {
+      "grade": 1,
+      "reason": "Suitable short-term room for interns, but based in Chennai.",
+      "vouches": 1
+    },
+    "T3093": {
+      "grade": 1,
+      "reason": "Seattle real-estate rentals, but no room or short-term stay specified.",
+      "vouches": 1
+    }
+  }
+}

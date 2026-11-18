@@ -1,0 +1,62 @@
+[
+  {
+    "blocker_id": "U4915",
+    "blocked_id": "U001",
+    "created_at": "2026-10-19"
+  },
+  {
+    "blocker_id": "U002",
+    "blocked_id": "U080",
+    "created_at": "2026-09-19"
+  },
+  {
+    "blocker_id": "U4595",
+    "blocked_id": "U003",
+    "created_at": "2026-09-13"
+  },
+  {
+    "blocker_id": "U004",
+    "blocked_id": "U5520",
+    "created_at": "2026-09-28"
+  },
+  {
+    "blocker_id": "U3109",
+    "blocked_id": "U005",
+    "created_at": "2026-09-28"
+  },
+  {
+    "blocker_id": "U006",
+    "blocked_id": "U5945",
+    "created_at": "2026-09-13"
+  },
+  {
+    "blocker_id": "U3625",
+    "blocked_id": "U007",
+    "created_at": "2026-10-03"
+  },
+  {
+    "blocker_id": "U008",
+    "blocked_id": "U6172",
+    "created_at": "2026-09-20"
+  },
+  {
+    "blocker_id": "U2123",
+    "blocked_id": "U009",
+    "created_at": "2026-10-05"
+  },
+  {
+    "blocker_id": "U010",
+    "blocked_id": "U6774",
+    "created_at": "2026-11-05"
+  },
+  {
+    "blocker_id": "U6511",
+    "blocked_id": "U011",
+    "created_at": "2026-10-30"
+  },
+  {
+    "blocker_id": "U012",
+    "blocked_id": "U6872",
+    "created_at": "2026-10-21"
+  }
+]

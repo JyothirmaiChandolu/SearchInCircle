@@ -1,0 +1,745 @@
+{
+  "R01": {
+    "T0111": {
+      "grade": 3,
+      "reason": "Senior React Native with TypeScript, 9 years, shipped apps",
+      "vouches": 3
+    },
+    "T0115": {
+      "grade": 3,
+      "reason": "Senior React Native with TypeScript, 10 years, shipped apps",
+      "vouches": 1
+    },
+    "T0107": {
+      "grade": 2,
+      "reason": "Lacks React Native, needs 4+ years",
+      "vouches": 1
+    },
+    "T0114": {
+      "grade": 2,
+      "reason": "Lacks React Native, needs 4+ years",
+      "vouches": 1
+    },
+    "T0112": {
+      "grade": 1,
+      "reason": "Lacks Redux, needs 4+ years",
+      "vouches": 1
+    },
+    "T0116": {
+      "grade": 1,
+      "reason": "Lacks React Native, needs 4+ years",
+      "vouches": 1
+    }
+  },
+  "R02": {
+    "T0130": {
+      "grade": 3,
+      "reason": "Meets all criteria including experience and location",
+      "vouches": 1
+    },
+    "T0133": {
+      "grade": 3,
+      "reason": "Meets all criteria including experience and location",
+      "vouches": 1
+    },
+    "T0132": {
+      "grade": 3,
+      "reason": "Meets all criteria including experience and location",
+      "vouches": 1
+    },
+    "T0129": {
+      "grade": 2,
+      "reason": "Plays singles but lacks weekend morning specificity",
+      "vouches": 2
+    },
+    "T0127": {
+      "grade": 1,
+      "reason": "Lacks experience and weekend morning specificity",
+      "vouches": 1
+    },
+    "T0128": {
+      "grade": 1,
+      "reason": "Lacks weekend morning specificity and singles focus",
+      "vouches": 1
+    },
+    "T0125": {
+      "grade": 1,
+      "reason": "Lacks weekend morning specificity and experience",
+      "vouches": 1
+    },
+    "T0126": {
+      "grade": 1,
+      "reason": "Focuses on hitting partner, not singles matches",
+      "vouches": 1
+    },
+    "T0134": {
+      "grade": 1,
+      "reason": "Lives in Manchester, not Austin",
+      "vouches": 1
+    }
+  },
+  "R03": {
+    "T0146": {
+      "grade": 3,
+      "reason": "Meets all requirements: Airflow, Spark, SQL, ETL, Hyderabad, 6+ years",
+      "vouches": 2
+    },
+    "T0150": {
+      "grade": 3,
+      "reason": "Meets all requirements: Airflow, Spark, SQL, ETL, Hyderabad, 9+ years",
+      "vouches": 1
+    },
+    "T0149": {
+      "grade": 3,
+      "reason": "Meets all requirements: Airflow, Spark, SQL, ETL, Hyderabad, 6+ years",
+      "vouches": 1
+    },
+    "T0147": {
+      "grade": 3,
+      "reason": "Meets all requirements: Airflow, Spark, SQL, ETL, Hyderabad, 7+ years",
+      "vouches": 1
+    },
+    "T0010": {
+      "grade": 2,
+      "reason": "Lives in Vijayawada, not Hyderabad",
+      "vouches": 1
+    },
+    "T0145": {
+      "grade": 2,
+      "reason": "Lacks ETL ownership, lives in Hyderabad",
+      "vouches": 1
+    },
+    "T0144": {
+      "grade": 2,
+      "reason": "Lacks Airflow, lives in Hyderabad",
+      "vouches": 1
+    },
+    "T0142": {
+      "grade": 2,
+      "reason": "Lacks SQL, lives in Hyderabad",
+      "vouches": 1
+    },
+    "T0151": {
+      "grade": 1,
+      "reason": "Lacks SQL, 3 years, lives in Hyderabad",
+      "vouches": 1
+    },
+    "S0010": {
+      "grade": 1,
+      "reason": "Lives in Vijayawada, 4 years",
+      "vouches": 1
+    }
+  },
+  "R04": {
+    "S0055": {
+      "grade": 3,
+      "reason": "Handles tax filing and NRI returns with 5+ years experience",
+      "vouches": 2
+    },
+    "T0161": {
+      "grade": 3,
+      "reason": "Handles tax filing and NRI returns with 3+ years experience",
+      "vouches": 1
+    },
+    "T0169": {
+      "grade": 3,
+      "reason": "Handles tax filing and NRI returns with 9+ years experience",
+      "vouches": 1
+    },
+    "T0163": {
+      "grade": 3,
+      "reason": "Handles tax filing and NRI returns with 3+ years experience",
+      "vouches": 1
+    },
+    "T0164": {
+      "grade": 3,
+      "reason": "Handles tax filing and NRI returns with 9+ years experience",
+      "vouches": 1
+    },
+    "T0168": {
+      "grade": 3,
+      "reason": "Handles tax filing and NRI returns with 3+ years experience",
+      "vouches": 1
+    },
+    "T0162": {
+      "grade": 3,
+      "reason": "Handles NRI ITR with 7+ years experience",
+      "vouches": 1
+    },
+    "T0166": {
+      "grade": 1,
+      "reason": "Lacks 3+ years experience for NRI returns",
+      "vouches": 1
+    },
+    "T0170": {
+      "grade": 1,
+      "reason": "Lacks 3+ years experience for NRI returns",
+      "vouches": 1
+    }
+  },
+  "R05": {
+    "S0057": {
+      "grade": 3,
+      "reason": "Meets all requirements: ICU, IV, BLS/ACLS, Houston, 9 years",
+      "vouches": 4
+    },
+    "T0185": {
+      "grade": 3,
+      "reason": "Meets all requirements: ICU, IV, BLS/ACLS, Houston, 3 years",
+      "vouches": 1
+    },
+    "T0178": {
+      "grade": 3,
+      "reason": "Meets all requirements: ICU, IV, BLS/ACLS, Houston, 8 years",
+      "vouches": 1
+    },
+    "T0177": {
+      "grade": 2,
+      "reason": "Lacks BLS/ACLS mention, but meets other criteria",
+      "vouches": 1
+    },
+    "T0179": {
+      "grade": 1,
+      "reason": "Lacks BLS/ACLS, no ICU mention, no Houston",
+      "vouches": 1
+    },
+    "T0184": {
+      "grade": 1,
+      "reason": "Lacks BLS/ACLS, no ICU mention, no Houston",
+      "vouches": 1
+    },
+    "T0180": {
+      "grade": 1,
+      "reason": "Lacks BLS/ACLS, no ICU mention, no Houston",
+      "vouches": 1
+    },
+    "T0182": {
+      "grade": 1,
+      "reason": "Lacks BLS/ACLS, no ICU mention, no Houston",
+      "vouches": 1
+    }
+  },
+  "R06": {
+    "T0200": {
+      "grade": 3,
+      "reason": "Licensed electrician, 7+ years, EV charger and panel work, Houston",
+      "vouches": 3
+    },
+    "T0204": {
+      "grade": 3,
+      "reason": "Licensed electrician, 7+ years, EV charger and panel work, Houston",
+      "vouches": 1
+    },
+    "T0201": {
+      "grade": 3,
+      "reason": "Licensed electrician, 5+ years, EV charger and panel work, Houston",
+      "vouches": 1
+    },
+    "T0196": {
+      "grade": 3,
+      "reason": "Licensed electrician, 10+ years, EV charger and panel work, Houston",
+      "vouches": 1
+    },
+    "T0198": {
+      "grade": 3,
+      "reason": "Licensed electrician, 10+ years, EV charger and panel work, Houston",
+      "vouches": 1
+    },
+    "T0197": {
+      "grade": 3,
+      "reason": "Licensed electrician, 10+ years, panel work, Houston",
+      "vouches": 1
+    },
+    "T0205": {
+      "grade": 1,
+      "reason": "Less than 5 years, missing EV charger experience",
+      "vouches": 1
+    },
+    "T0203": {
+      "grade": 1,
+      "reason": "Missing EV charger experience, less than 6 years",
+      "vouches": 1
+    },
+    "T0199": {
+      "grade": 1,
+      "reason": "Missing EV charger experience, less than 7 years",
+      "vouches": 1
+    }
+  },
+  "R07": {
+    "T0221": {
+      "grade": 3,
+      "reason": "Matches all requirements including remote and 3+ years",
+      "vouches": 1
+    },
+    "T0222": {
+      "grade": 3,
+      "reason": "Matches all requirements including remote and 3+ years",
+      "vouches": 1
+    },
+    "T0218": {
+      "grade": 1,
+      "reason": "Missing remote, has less than 3 years experience",
+      "vouches": 2
+    },
+    "T0219": {
+      "grade": 1,
+      "reason": "Missing remote, has exactly 3 years experience",
+      "vouches": 1
+    },
+    "T0094": {
+      "grade": 1,
+      "reason": "Missing remote, has more than 3 years experience",
+      "vouches": 1
+    },
+    "T0216": {
+      "grade": 1,
+      "reason": "Missing remote, has less than 3 years experience",
+      "vouches": 1
+    },
+    "T0214": {
+      "grade": 1,
+      "reason": "Missing remote, has exactly 3 years experience",
+      "vouches": 1
+    },
+    "S0016": {
+      "grade": 1,
+      "reason": "Missing remote, has less than 3 years experience",
+      "vouches": 1
+    },
+    "T0217": {
+      "grade": 1,
+      "reason": "Missing remote, has more than 3 years experience",
+      "vouches": 1
+    },
+    "T0215": {
+      "grade": 1,
+      "reason": "Missing UI design, Figma prototyping, and remote",
+      "vouches": 1
+    },
+    "S0022": {
+      "grade": 1,
+      "reason": "Missing UI design, Figma prototyping, and remote",
+      "vouches": 1
+    }
+  },
+  "R08": {
+    "T0235": {
+      "grade": 3,
+      "reason": "Matches JEE math, calculus, algebra, and 6 years of experience.",
+      "vouches": 2
+    },
+    "T0239": {
+      "grade": 3,
+      "reason": "Matches JEE math, calculus, algebra, and 8 years of experience.",
+      "vouches": 1
+    },
+    "T0232": {
+      "grade": 3,
+      "reason": "Matches JEE math and 3 years of experience.",
+      "vouches": 1
+    },
+    "T0234": {
+      "grade": 2,
+      "reason": "Lacks 2 years of experience for JEE math.",
+      "vouches": 1
+    },
+    "T0236": {
+      "grade": 2,
+      "reason": "Lacks 2 years of experience for JEE math.",
+      "vouches": 1
+    },
+    "T0240": {
+      "grade": 1,
+      "reason": "Lacks 2 years of experience for JEE math.",
+      "vouches": 1
+    },
+    "T0231": {
+      "grade": 1,
+      "reason": "Lacks 2 years of experience for JEE math.",
+      "vouches": 1
+    },
+    "T0233": {
+      "grade": 1,
+      "reason": "Lacks 2 years of experience for JEE math.",
+      "vouches": 1
+    },
+    "T0238": {
+      "grade": 1,
+      "reason": "Lacks 2 years of experience for JEE math.",
+      "vouches": 1
+    }
+  },
+  "R09": {
+    "T0251": {
+      "grade": 3,
+      "reason": "Meets all requirements: AWS, Kubernetes, Terraform, CI/CD, Bengaluru, 10+ years",
+      "vouches": 4
+    },
+    "T0249": {
+      "grade": 3,
+      "reason": "Meets all requirements: AWS, Kubernetes, Terraform, CI/CD, Bengaluru, 8+ years",
+      "vouches": 1
+    },
+    "T0247": {
+      "grade": 3,
+      "reason": "Meets all requirements: AWS, Kubernetes, Terraform, CI/CD, Bengaluru, 8+ years",
+      "vouches": 1
+    },
+    "T0250": {
+      "grade": 3,
+      "reason": "Meets all requirements: AWS, Kubernetes, Terraform, CI/CD, Bengaluru, 12+ years",
+      "vouches": 1
+    },
+    "T0248": {
+      "grade": 3,
+      "reason": "Meets all requirements: AWS, Kubernetes, Terra, CI/CD, Bengaluru, 11+ years",
+      "vouches": 1
+    },
+    "T0254": {
+      "grade": 2,
+      "reason": "Lacks AWS experience, needs 6+ years",
+      "vouches": 1
+    },
+    "T0255": {
+      "grade": 2,
+      "reason": "Lacks AWS experience, needs 6+ years",
+      "vouches": 1
+    },
+    "T0256": {
+      "grade": 1,
+      "reason": "Lacks Terraform, needs 6+ years",
+      "vouches": 1
+    },
+    "T0252": {
+      "grade": 1,
+      "reason": "Lacks AWS, needs 6+ years",
+      "vouches": 1
+    },
+    "T0253": {
+      "grade": 1,
+      "reason": "Lacks Kubernetes, needs 6+ years",
+      "vouches": 1
+    }
+  },
+  "R10": {
+    "T0269": {
+      "grade": 3,
+      "reason": "Meets all requirements",
+      "vouches": 1
+    },
+    "T0270": {
+      "grade": 1,
+      "reason": "Lives in Bengaluru, not Hyderabad",
+      "vouches": 3
+    },
+    "T0266": {
+      "grade": 1,
+      "reason": "Lives in Bengaluru, not Hyderabad",
+      "vouches": 1
+    },
+    "T0274": {
+      "grade": 1,
+      "reason": "Lives in Bengaluru, not Hyderabad",
+      "vouches": 1
+    },
+    "T0273": {
+      "grade": 1,
+      "reason": "Lives in Bengaluru, not Hyderabad",
+      "vouches": 1
+    },
+    "T0268": {
+      "grade": 1,
+      "reason": "Lives in Bengaluru, not Hyderabad",
+      "vouches": 1
+    },
+    "T0271": {
+      "grade": 1,
+      "reason": "Lives in Bengaluru, not Hyderabad",
+      "vouches": 1
+    },
+    "T0008": {
+      "grade": 1,
+      "reason": "Lives in San Jose, not Hyderabad",
+      "vouches": 1
+    },
+    "T0276": {
+      "grade": 1,
+      "reason": "Lives in San Jose, not Hyderabad",
+      "vouches": 1
+    },
+    "T0267": {
+      "grade": 1,
+      "reason": "Lives in Bengaluru, not Hyderabad",
+      "vouches": 1
+    }
+  },
+  "R11": {
+    "S0069": {
+      "grade": 3,
+      "reason": "Meets all requirements: PyTorch, NLP, deployment, 10+ years",
+      "vouches": 2
+    },
+    "T0290": {
+      "grade": 3,
+      "reason": "Meets all requirements: PyTorch, NLP, deployment, 8+ years",
+      "vouches": 1
+    },
+    "T0286": {
+      "grade": 3,
+      "reason": "Meets all requirements: PyTorch, NLP, deployment, 10+ years",
+      "vouches": 1
+    },
+    "T0285": {
+      "grade": 3,
+      "reason": "Meets all requirements: PyTorch, NLP, deployment, 4+ years",
+      "vouches": 1
+    },
+    "T0288": {
+      "grade": 1,
+      "reason": "Missing 1+ year of experience in PyTorch and NLP",
+      "vouches": 1
+    },
+    "T0291": {
+      "grade": 1,
+      "reason": "Missing 1+ year of experience in PyTorch and NLP",
+      "vouches": 1
+    },
+    "T0283": {
+      "grade": 1,
+      "reason": "Missing PyTorch experience, only MLflow",
+      "vouches": 1
+    },
+    "T0012": {
+      "grade": 1,
+      "reason": "Missing PyTorch experience, only model deployment",
+      "vouches": 1
+    },
+    "T0284": {
+      "grade": 1,
+      "reason": "Missing PyTorch, NLP, and deployment experience",
+      "vouches": 1
+    },
+    "T0289": {
+      "grade": 1,
+      "reason": "Missing NLP and deployment experience",
+      "vouches": 1
+    }
+  },
+  "R12": {
+    "T0011": {
+      "grade": 1,
+      "reason": "Teaches harp but lacks London location and 3+ years teaching",
+      "vouches": 1
+    }
+  },
+  "R13": {},
+  "R14": {
+    "T0308": {
+      "grade": 3,
+      "reason": "Has experience, does grading and appraisal, video possible",
+      "vouches": 2
+    },
+    "T0312": {
+      "grade": 3,
+      "reason": "Has experience, does grading and appraisal, video possible",
+      "vouches": 1
+    },
+    "T0310": {
+      "grade": 3,
+      "reason": "Does grading and appraisal, video possible",
+      "vouches": 1
+    },
+    "T0305": {
+      "grade": 3,
+      "reason": "Does grading and appraisal, video possible",
+      "vouches": 1
+    },
+    "T0311": {
+      "grade": 2,
+      "reason": "Less experience than requested, does grading and appraisal, video possible",
+      "vouches": 1
+    },
+    "T0307": {
+      "grade": 1,
+      "reason": "Less experience, does grading and appraisal, video possible",
+      "vouches": 1
+    },
+    "T0309": {
+      "grade": 1,
+      "reason": "Less experience, does grading and appraisal, video possible",
+      "vouches": 1
+    },
+    "T0306": {
+      "grade": 1,
+      "reason": "Less experience, does grading and appraisal, video possible",
+      "vouches": 1
+    },
+    "T0304": {
+      "grade": 1,
+      "reason": "Less experience, does grading and appraisal, video possible",
+      "vouches": 1
+    }
+  },
+  "R15": {
+    "T0327": {
+      "grade": 3,
+      "reason": "Meets all criteria: 6 years, sports rehab, in Toronto",
+      "vouches": 1
+    },
+    "T0320": {
+      "grade": 3,
+      "reason": "Meets all criteria: 9 years, sports rehab, in Toronto",
+      "vouches": 1
+    },
+    "T0322": {
+      "grade": 3,
+      "reason": "Meets all criteria: 9 years, sports rehab, in Toronto",
+      "vouches": 1
+    },
+    "T0328": {
+      "grade": 3,
+      "reason": "Meets all criteria: 8 years, sports rehab, in Toronto",
+      "vouches": 1
+    },
+    "T0324": {
+      "grade": 2,
+      "reason": "Lacks sports rehab focus, has 5 years experience",
+      "vouches": 2
+    },
+    "T0323": {
+      "grade": 2,
+      "reason": "Lacks sports rehab focus, has 6 years experience",
+      "vouches": 1
+    },
+    "T0325": {
+      "grade": 2,
+      "reason": "Lacks sports rehab focus, has 5 years experience",
+      "vouches": 1
+    },
+    "T0321": {
+      "grade": 2,
+      "reason": "Lacks physiotherapy focus, has 4 years experience",
+      "vouches": 1
+    },
+    "T0329": {
+      "grade": 1,
+      "reason": "Lacks sports rehab focus, has 1 year experience",
+      "vouches": 1
+    },
+    "T0326": {
+      "grade": 1,
+      "reason": "Lacks required experience and specific focus",
+      "vouches": 1
+    }
+  },
+  "R16": {
+    "T0342": {
+      "grade": 3,
+      "reason": "Teaches Telugu to kids online, conversational and reading/writing.",
+      "vouches": 2
+    },
+    "T0339": {
+      "grade": 3,
+      "reason": "Runs weekend mother-tongue classes for kids, online.",
+      "vouches": 1
+    },
+    "T0341": {
+      "grade": 3,
+      "reason": "Teaches Telugu to kids online, conversational and reading/writing.",
+      "vouches": 1
+    },
+    "T0338": {
+      "grade": 3,
+      "reason": "Teaches Telugu to kids online, conversational and reading/writing.",
+      "vouches": 1
+    },
+    "T0345": {
+      "grade": 3,
+      "reason": "Teaches Telugu to kids, conversational and reading/writing.",
+      "vouches": 1
+    },
+    "T0346": {
+      "grade": 3,
+      "reason": "Teaches Telugu to kids, conversational and reading/writing.",
+      "vouches": 1
+    },
+    "T0340": {
+      "grade": 3,
+      "reason": "Teaches Telugu to kids, conversational and reading/writing.",
+      "vouches": 1
+    },
+    "T0343": {
+      "grade": 3,
+      "reason": "Teaches Telugu to kids, conversational and reading/writing.",
+      "vouches": 1
+    },
+    "T0102": {
+      "grade": 3,
+      "reason": "Teaches Telugu to kids, conversational and reading/writing.",
+      "vouches": 1
+    },
+    "S0006": {
+      "grade": 3,
+      "reason": "Teaches Telugu to kids, conversational and reading/writing.",
+      "vouches": 1
+    },
+    "T0344": {
+      "grade": 3,
+      "reason": "Teaches Telugu to kids, conversational and reading/writing.",
+      "vouches": 1
+    }
+  },
+  "R17": {
+    "T0357": {
+      "grade": 3,
+      "reason": "Selenium, Test automation, 3 years, remote",
+      "vouches": 2
+    },
+    "T0354": {
+      "grade": 3,
+      "reason": "Cypress, Bug hunting, 2 years, remote",
+      "vouches": 1
+    },
+    "T0356": {
+      "grade": 3,
+      "reason": "Selenium, Test automation, 3 years, remote",
+      "vouches": 1
+    },
+    "T0358": {
+      "grade": 3,
+      "reason": "Test automation, 2 years, remote",
+      "vouches": 1
+    },
+    "S0038": {
+      "grade": 1,
+      "reason": "Test automation, 14 years, but not remote",
+      "vouches": 1
+    },
+    "S0021": {
+      "grade": 1,
+      "reason": "Test automation, 15 years, but not remote",
+      "vouches": 1
+    },
+    "T0027": {
+      "grade": 1,
+      "reason": "Test automation, 13 years, but not remote",
+      "vouches": 1
+    },
+    "T0355": {
+      "grade": 1,
+      "reason": "Test automation, 7 years, but not remote",
+      "vouches": 1
+    },
+    "T0361": {
+      "grade": 1,
+      "reason": "Test automation, 5 years, but not remote",
+      "vouches": 1
+    },
+    "T0362": {
+      "grade": 1,
+      "reason": "Test automation, 1 year, but not remote",
+      "vouches": 1
+    }
+  }
+}

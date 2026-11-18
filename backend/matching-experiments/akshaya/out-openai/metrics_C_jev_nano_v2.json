@@ -1,0 +1,1115 @@
+{
+  "variant": "C_jev_nano_v2",
+  "chat_model": "gpt-5-nano",
+  "accuracy": {
+    "hard_failures": 0,
+    "mean_ndcg": 0.932,
+    "mean_precision_at_k": 0.961,
+    "mean_recall": 0.986,
+    "mean_precision": 0.915,
+    "synonym_recall": "101/101",
+    "lexical_trap_hits": 0,
+    "show_once_ok": "52/52",
+    "empty_cases_ok": "2/2"
+  },
+  "failures": [],
+  "per_requirement_avg": {
+    "llm_calls": 26.39,
+    "tokens_in": 73977.58,
+    "tokens_out": 7182.19,
+    "seconds_one_after_another": 18.17,
+    "seconds_if_parallel": 5.46,
+    "fallbacks": 0
+  },
+  "cost_by_stage": {
+    "parse": {
+      "calls": 36,
+      "tokens_in": 11128,
+      "tokens_out": 4034,
+      "cost": 0.0022
+    },
+    "judge": {
+      "calls": 837,
+      "tokens_in": 2584877,
+      "tokens_out": 241912,
+      "cost": 0.1086
+    },
+    "rerank": {
+      "calls": 77,
+      "tokens_in": 67188,
+      "tokens_out": 12613,
+      "cost": 0.0084
+    }
+  },
+  "write_time_total": {
+    "entries": 4130,
+    "llm_calls": 0,
+    "tokens_in": 0,
+    "tokens_out": 0,
+    "llm_seconds": 0.0,
+    "embed_calls": 1,
+    "embed_seconds": 77.07,
+    "parallel_seconds": 0,
+    "fallbacks": 0,
+    "by_tag": {}
+  },
+  "per_requirement": {
+    "R01": {
+      "pool": 306,
+      "shown": 19,
+      "llm_calls": 18,
+      "tokens_in": 50035,
+      "tokens_out": 4828,
+      "llm_seconds": 11.31,
+      "embed_calls": 1,
+      "embed_seconds": 2.37,
+      "parallel_seconds": 4.88,
+      "fallbacks": 0,
+      "by_tag": {
+        "parse": {
+          "calls": 1,
+          "tokens_in": 317,
+          "tokens_out": 109
+        },
+        "judge": {
+          "calls": 16,
+          "tokens_in": 48595,
+          "tokens_out": 4513
+        },
+        "rerank": {
+          "calls": 1,
+          "tokens_in": 1123,
+          "tokens_out": 206
+        }
+      }
+    },
+    "R02": {
+      "pool": 306,
+      "shown": 25,
+      "llm_calls": 19,
+      "tokens_in": 50207,
+      "tokens_out": 4894,
+      "llm_seconds": 14.97,
+      "embed_calls": 1,
+      "embed_seconds": 2.35,
+      "parallel_seconds": 5.56,
+      "fallbacks": 0,
+      "by_tag": {
+        "parse": {
+          "calls": 1,
+          "tokens_in": 301,
+          "tokens_out": 95
+        },
+        "judge": {
+          "calls": 16,
+          "tokens_in": 48291,
+          "tokens_out": 4513
+        },
+        "rerank": {
+          "calls": 2,
+          "tokens_in": 1615,
+          "tokens_out": 286
+        }
+      }
+    },
+    "R03": {
+      "pool": 1140,
+      "shown": 87,
+      "llm_calls": 63,
+      "tokens_in": 185248,
+      "tokens_out": 17870,
+      "llm_seconds": 36.31,
+      "embed_calls": 1,
+      "embed_seconds": 2.05,
+      "parallel_seconds": 5.48,
+      "fallbacks": 0,
+      "by_tag": {
+        "parse": {
+          "calls": 1,
+          "tokens_in": 328,
+          "tokens_out": 124
+        },
+        "judge": {
+          "calls": 57,
+          "tokens_in": 179990,
+          "tokens_out": 16815
+        },
+        "rerank": {
+          "calls": 5,
+          "tokens_in": 4930,
+          "tokens_out": 931
+        }
+      }
+    },
+    "R04": {
+      "pool": 1140,
+      "shown": 24,
+      "llm_calls": 60,
+      "tokens_in": 180819,
+      "tokens_out": 17202,
+      "llm_seconds": 29.32,
+      "embed_calls": 1,
+      "embed_seconds": 2.27,
+      "parallel_seconds": 5.1,
+      "fallbacks": 0,
+      "by_tag": {
+        "parse": {
+          "calls": 1,
+          "tokens_in": 311,
+          "tokens_out": 110
+        },
+        "judge": {
+          "calls": 57,
+          "tokens_in": 179021,
+          "tokens_out": 16815
+        },
+        "rerank": {
+          "calls": 2,
+          "tokens_in": 1487,
+          "tokens_out": 277
+        }
+      }
+    },
+    "R05": {
+      "pool": 311,
+      "shown": 36,
+      "llm_calls": 19,
+      "tokens_in": 51846,
+      "tokens_out": 5094,
+      "llm_seconds": 14.28,
+      "embed_calls": 1,
+      "embed_seconds": 0.62,
+      "parallel_seconds": 5.08,
+      "fallbacks": 0,
+      "by_tag": {
+        "parse": {
+          "calls": 1,
+          "tokens_in": 312,
+          "tokens_out": 115
+        },
+        "judge": {
+          "calls": 16,
+          "tokens_in": 49457,
+          "tokens_out": 4585
+        },
+        "rerank": {
+          "calls": 2,
+          "tokens_in": 2077,
+          "tokens_out": 394
+        }
+      }
+    },
+    "R06": {
+      "pool": 311,
+      "shown": 16,
+      "llm_calls": 18,
+      "tokens_in": 50700,
+      "tokens_out": 4879,
+      "llm_seconds": 12.34,
+      "embed_calls": 1,
+      "embed_seconds": 0.9,
+      "parallel_seconds": 4.67,
+      "fallbacks": 0,
+      "by_tag": {
+        "parse": {
+          "calls": 1,
+          "tokens_in": 304,
+          "tokens_out": 115
+        },
+        "judge": {
+          "calls": 16,
+          "tokens_in": 49393,
+          "tokens_out": 4585
+        },
+        "rerank": {
+          "calls": 1,
+          "tokens_in": 1003,
+          "tokens_out": 179
+        }
+      }
+    },
+    "R07": {
+      "pool": 158,
+      "shown": 13,
+      "llm_calls": 10,
+      "tokens_in": 25792,
+      "tokens_out": 2590,
+      "llm_seconds": 7.88,
+      "embed_calls": 1,
+      "embed_seconds": 0.68,
+      "parallel_seconds": 4.54,
+      "fallbacks": 0,
+      "by_tag": {
+        "parse": {
+          "calls": 1,
+          "tokens_in": 309,
+          "tokens_out": 108
+        },
+        "judge": {
+          "calls": 8,
+          "tokens_in": 24698,
+          "tokens_out": 2330
+        },
+        "rerank": {
+          "calls": 1,
+          "tokens_in": 785,
+          "tokens_out": 152
+        }
+      }
+    },
+    "R08": {
+      "pool": 158,
+      "shown": 15,
+      "llm_calls": 10,
+      "tokens_in": 26051,
+      "tokens_out": 2634,
+      "llm_seconds": 8.62,
+      "embed_calls": 1,
+      "embed_seconds": 0.97,
+      "parallel_seconds": 4.95,
+      "fallbacks": 0,
+      "by_tag": {
+        "parse": {
+          "calls": 1,
+          "tokens_in": 315,
+          "tokens_out": 116
+        },
+        "judge": {
+          "calls": 8,
+          "tokens_in": 24746,
+          "tokens_out": 2330
+        },
+        "rerank": {
+          "calls": 1,
+          "tokens_in": 990,
+          "tokens_out": 188
+        }
+      }
+    },
+    "R09": {
+      "pool": 321,
+      "shown": 29,
+      "llm_calls": 20,
+      "tokens_in": 52915,
+      "tokens_out": 5178,
+      "llm_seconds": 17.7,
+      "embed_calls": 1,
+      "embed_seconds": 0.39,
+      "parallel_seconds": 7.84,
+      "fallbacks": 0,
+      "by_tag": {
+        "parse": {
+          "calls": 1,
+          "tokens_in": 307,
+          "tokens_out": 118
+        },
+        "judge": {
+          "calls": 17,
+          "tokens_in": 50981,
+          "tokens_out": 4738
+        },
+        "rerank": {
+          "calls": 2,
+          "tokens_in": 1627,
+          "tokens_out": 322
+        }
+      }
+    },
+    "R10": {
+      "pool": 605,
+      "shown": 20,
+      "llm_calls": 34,
+      "tokens_in": 97517,
+      "tokens_out": 9283,
+      "llm_seconds": 22.18,
+      "embed_calls": 1,
+      "embed_seconds": 0.34,
+      "parallel_seconds": 5.72,
+      "fallbacks": 0,
+      "by_tag": {
+        "parse": {
+          "calls": 1,
+          "tokens_in": 316,
+          "tokens_out": 118
+        },
+        "judge": {
+          "calls": 31,
+          "tokens_in": 95761,
+          "tokens_out": 8924
+        },
+        "rerank": {
+          "calls": 2,
+          "tokens_in": 1440,
+          "tokens_out": 241
+        }
+      }
+    },
+    "R11": {
+      "pool": 58,
+      "shown": 6,
+      "llm_calls": 5,
+      "tokens_in": 10059,
+      "tokens_out": 1037,
+      "llm_seconds": 6.5,
+      "embed_calls": 1,
+      "embed_seconds": 0.84,
+      "parallel_seconds": 5.14,
+      "fallbacks": 0,
+      "by_tag": {
+        "parse": {
+          "calls": 1,
+          "tokens_in": 305,
+          "tokens_out": 102
+        },
+        "judge": {
+          "calls": 3,
+          "tokens_in": 9216,
+          "tokens_out": 855
+        },
+        "rerank": {
+          "calls": 1,
+          "tokens_in": 538,
+          "tokens_out": 80
+        }
+      }
+    },
+    "R12": {
+      "pool": 58,
+      "shown": 1,
+      "llm_calls": 5,
+      "tokens_in": 9778,
+      "tokens_out": 1000,
+      "llm_seconds": 4.97,
+      "embed_calls": 1,
+      "embed_seconds": 0.92,
+      "parallel_seconds": 3.62,
+      "fallbacks": 0,
+      "by_tag": {
+        "parse": {
+          "calls": 1,
+          "tokens_in": 298,
+          "tokens_out": 110
+        },
+        "judge": {
+          "calls": 3,
+          "tokens_in": 9192,
+          "tokens_out": 855
+        },
+        "rerank": {
+          "calls": 1,
+          "tokens_in": 288,
+          "tokens_out": 35
+        }
+      }
+    },
+    "R13": {
+      "pool": 0,
+      "shown": 0,
+      "llm_calls": 0,
+      "tokens_in": 0,
+      "tokens_out": 0,
+      "llm_seconds": 0.0,
+      "embed_calls": 0,
+      "embed_seconds": 0.0,
+      "parallel_seconds": 0,
+      "fallbacks": 0,
+      "by_tag": {}
+    },
+    "R14": {
+      "pool": 344,
+      "shown": 11,
+      "llm_calls": 20,
+      "tokens_in": 54807,
+      "tokens_out": 5311,
+      "llm_seconds": 12.03,
+      "embed_calls": 1,
+      "embed_seconds": 0.64,
+      "parallel_seconds": 4.57,
+      "fallbacks": 0,
+      "by_tag": {
+        "parse": {
+          "calls": 1,
+          "tokens_in": 307,
+          "tokens_out": 102
+        },
+        "judge": {
+          "calls": 18,
+          "tokens_in": 53795,
+          "tokens_out": 5075
+        },
+        "rerank": {
+          "calls": 1,
+          "tokens_in": 705,
+          "tokens_out": 134
+        }
+      }
+    },
+    "R15": {
+      "pool": 105,
+      "shown": 13,
+      "llm_calls": 8,
+      "tokens_in": 18235,
+      "tokens_out": 1810,
+      "llm_seconds": 7.34,
+      "embed_calls": 1,
+      "embed_seconds": 0.46,
+      "parallel_seconds": 5.49,
+      "fallbacks": 0,
+      "by_tag": {
+        "parse": {
+          "calls": 1,
+          "tokens_in": 306,
+          "tokens_out": 109
+        },
+        "judge": {
+          "calls": 6,
+          "tokens_in": 17002,
+          "tokens_out": 1549
+        },
+        "rerank": {
+          "calls": 1,
+          "tokens_in": 927,
+          "tokens_out": 152
+        }
+      }
+    },
+    "R16": {
+      "pool": 105,
+      "shown": 10,
+      "llm_calls": 8,
+      "tokens_in": 18012,
+      "tokens_out": 1769,
+      "llm_seconds": 6.37,
+      "embed_calls": 1,
+      "embed_seconds": 1.49,
+      "parallel_seconds": 4.35,
+      "fallbacks": 0,
+      "by_tag": {
+        "parse": {
+          "calls": 1,
+          "tokens_in": 299,
+          "tokens_out": 95
+        },
+        "judge": {
+          "calls": 6,
+          "tokens_in": 16942,
+          "tokens_out": 1549
+        },
+        "rerank": {
+          "calls": 1,
+          "tokens_in": 771,
+          "tokens_out": 125
+        }
+      }
+    },
+    "R17": {
+      "pool": 1140,
+      "shown": 86,
+      "llm_calls": 63,
+      "tokens_in": 183875,
+      "tokens_out": 17841,
+      "llm_seconds": 38.78,
+      "embed_calls": 1,
+      "embed_seconds": 0.39,
+      "parallel_seconds": 6.58,
+      "fallbacks": 0,
+      "by_tag": {
+        "parse": {
+          "calls": 1,
+          "tokens_in": 311,
+          "tokens_out": 104
+        },
+        "judge": {
+          "calls": 57,
+          "tokens_in": 179021,
+          "tokens_out": 16815
+        },
+        "rerank": {
+          "calls": 5,
+          "tokens_in": 4543,
+          "tokens_out": 922
+        }
+      }
+    },
+    "R18": {
+      "pool": 306,
+      "shown": 15,
+      "llm_calls": 18,
+      "tokens_in": 49554,
+      "tokens_out": 4807,
+      "llm_seconds": 11.39,
+      "embed_calls": 1,
+      "embed_seconds": 0.41,
+      "parallel_seconds": 5.15,
+      "fallbacks": 0,
+      "by_tag": {
+        "parse": {
+          "calls": 1,
+          "tokens_in": 304,
+          "tokens_out": 106
+        },
+        "judge": {
+          "calls": 16,
+          "tokens_in": 48339,
+          "tokens_out": 4513
+        },
+        "rerank": {
+          "calls": 1,
+          "tokens_in": 911,
+          "tokens_out": 188
+        }
+      }
+    },
+    "R19": {
+      "pool": 306,
+      "shown": 23,
+      "llm_calls": 19,
+      "tokens_in": 50059,
+      "tokens_out": 4901,
+      "llm_seconds": 13.84,
+      "embed_calls": 1,
+      "embed_seconds": 0.58,
+      "parallel_seconds": 5.16,
+      "fallbacks": 0,
+      "by_tag": {
+        "parse": {
+          "calls": 1,
+          "tokens_in": 298,
+          "tokens_out": 120
+        },
+        "judge": {
+          "calls": 16,
+          "tokens_in": 48259,
+          "tokens_out": 4513
+        },
+        "rerank": {
+          "calls": 2,
+          "tokens_in": 1502,
+          "tokens_out": 268
+        }
+      }
+    },
+    "R20": {
+      "pool": 1140,
+      "shown": 137,
+      "llm_calls": 66,
+      "tokens_in": 187066,
+      "tokens_out": 18424,
+      "llm_seconds": 51.81,
+      "embed_calls": 1,
+      "embed_seconds": 0.42,
+      "parallel_seconds": 6.97,
+      "fallbacks": 0,
+      "by_tag": {
+        "parse": {
+          "calls": 1,
+          "tokens_in": 314,
+          "tokens_out": 105
+        },
+        "judge": {
+          "calls": 57,
+          "tokens_in": 179306,
+          "tokens_out": 16815
+        },
+        "rerank": {
+          "calls": 8,
+          "tokens_in": 7446,
+          "tokens_out": 1504
+        }
+      }
+    },
+    "R21": {
+      "pool": 1140,
+      "shown": 29,
+      "llm_calls": 60,
+      "tokens_in": 181247,
+      "tokens_out": 17282,
+      "llm_seconds": 37.21,
+      "embed_calls": 1,
+      "embed_seconds": 0.75,
+      "parallel_seconds": 6.38,
+      "fallbacks": 0,
+      "by_tag": {
+        "parse": {
+          "calls": 1,
+          "tokens_in": 313,
+          "tokens_out": 145
+        },
+        "judge": {
+          "calls": 57,
+          "tokens_in": 179135,
+          "tokens_out": 16815
+        },
+        "rerank": {
+          "calls": 2,
+          "tokens_in": 1799,
+          "tokens_out": 322
+        }
+      }
+    },
+    "R22": {
+      "pool": 311,
+      "shown": 36,
+      "llm_calls": 19,
+      "tokens_in": 51740,
+      "tokens_out": 5104,
+      "llm_seconds": 17.11,
+      "embed_calls": 1,
+      "embed_seconds": 0.48,
+      "parallel_seconds": 5.35,
+      "fallbacks": 0,
+      "by_tag": {
+        "parse": {
+          "calls": 1,
+          "tokens_in": 306,
+          "tokens_out": 125
+        },
+        "judge": {
+          "calls": 16,
+          "tokens_in": 49409,
+          "tokens_out": 4585
+        },
+        "rerank": {
+          "calls": 2,
+          "tokens_in": 2025,
+          "tokens_out": 394
+        }
+      }
+    },
+    "R23": {
+      "pool": 605,
+      "shown": 91,
+      "llm_calls": 37,
+      "tokens_in": 100869,
+      "tokens_out": 9994,
+      "llm_seconds": 33.28,
+      "embed_calls": 1,
+      "embed_seconds": 0.42,
+      "parallel_seconds": 6.64,
+      "fallbacks": 0,
+      "by_tag": {
+        "parse": {
+          "calls": 1,
+          "tokens_in": 311,
+          "tokens_out": 103
+        },
+        "judge": {
+          "calls": 31,
+          "tokens_in": 95668,
+          "tokens_out": 8924
+        },
+        "rerank": {
+          "calls": 5,
+          "tokens_in": 4890,
+          "tokens_out": 967
+        }
+      }
+    },
+    "R24": {
+      "pool": 605,
+      "shown": 55,
+      "llm_calls": 35,
+      "tokens_in": 98993,
+      "tokens_out": 9636,
+      "llm_seconds": 26.13,
+      "embed_calls": 1,
+      "embed_seconds": 0.9,
+      "parallel_seconds": 5.94,
+      "fallbacks": 0,
+      "by_tag": {
+        "parse": {
+          "calls": 1,
+          "tokens_in": 313,
+          "tokens_out": 112
+        },
+        "judge": {
+          "calls": 31,
+          "tokens_in": 95606,
+          "tokens_out": 8924
+        },
+        "rerank": {
+          "calls": 3,
+          "tokens_in": 3074,
+          "tokens_out": 600
+        }
+      }
+    },
+    "R25": {
+      "pool": 58,
+      "shown": 7,
+      "llm_calls": 5,
+      "tokens_in": 10183,
+      "tokens_out": 1055,
+      "llm_seconds": 7.18,
+      "embed_calls": 1,
+      "embed_seconds": 0.9,
+      "parallel_seconds": 5.83,
+      "fallbacks": 0,
+      "by_tag": {
+        "parse": {
+          "calls": 1,
+          "tokens_in": 318,
+          "tokens_out": 111
+        },
+        "judge": {
+          "calls": 3,
+          "tokens_in": 9255,
+          "tokens_out": 855
+        },
+        "rerank": {
+          "calls": 1,
+          "tokens_in": 610,
+          "tokens_out": 89
+        }
+      }
+    },
+    "R26": {
+      "pool": 344,
+      "shown": 40,
+      "llm_calls": 22,
+      "tokens_in": 56521,
+      "tokens_out": 5629,
+      "llm_seconds": 16.5,
+      "embed_calls": 1,
+      "embed_seconds": 0.59,
+      "parallel_seconds": 5.76,
+      "fallbacks": 0,
+      "by_tag": {
+        "parse": {
+          "calls": 1,
+          "tokens_in": 306,
+          "tokens_out": 107
+        },
+        "judge": {
+          "calls": 18,
+          "tokens_in": 53777,
+          "tokens_out": 5075
+        },
+        "rerank": {
+          "calls": 3,
+          "tokens_in": 2438,
+          "tokens_out": 447
+        }
+      }
+    },
+    "R27": {
+      "pool": 344,
+      "shown": 20,
+      "llm_calls": 21,
+      "tokens_in": 55573,
+      "tokens_out": 5424,
+      "llm_seconds": 12.65,
+      "embed_calls": 1,
+      "embed_seconds": 0.6,
+      "parallel_seconds": 5.29,
+      "fallbacks": 0,
+      "by_tag": {
+        "parse": {
+          "calls": 1,
+          "tokens_in": 315,
+          "tokens_out": 108
+        },
+        "judge": {
+          "calls": 18,
+          "tokens_in": 53903,
+          "tokens_out": 5075
+        },
+        "rerank": {
+          "calls": 2,
+          "tokens_in": 1355,
+          "tokens_out": 241
+        }
+      }
+    },
+    "R28": {
+      "pool": 812,
+      "shown": 56,
+      "llm_calls": 45,
+      "tokens_in": 131082,
+      "tokens_out": 12686,
+      "llm_seconds": 27.46,
+      "embed_calls": 1,
+      "embed_seconds": 0.79,
+      "parallel_seconds": 5.98,
+      "fallbacks": 0,
+      "by_tag": {
+        "parse": {
+          "calls": 1,
+          "tokens_in": 309,
+          "tokens_out": 111
+        },
+        "judge": {
+          "calls": 41,
+          "tokens_in": 127569,
+          "tokens_out": 11975
+        },
+        "rerank": {
+          "calls": 3,
+          "tokens_in": 3204,
+          "tokens_out": 600
+        }
+      }
+    },
+    "R29": {
+      "pool": 812,
+      "shown": 42,
+      "llm_calls": 45,
+      "tokens_in": 131256,
+      "tokens_out": 12566,
+      "llm_seconds": 25.56,
+      "embed_calls": 1,
+      "embed_seconds": 0.52,
+      "parallel_seconds": 5.45,
+      "fallbacks": 0,
+      "by_tag": {
+        "parse": {
+          "calls": 1,
+          "tokens_in": 321,
+          "tokens_out": 126
+        },
+        "judge": {
+          "calls": 41,
+          "tokens_in": 128266,
+          "tokens_out": 11975
+        },
+        "rerank": {
+          "calls": 3,
+          "tokens_in": 2669,
+          "tokens_out": 465
+        }
+      }
+    },
+    "R30": {
+      "pool": 812,
+      "shown": 45,
+      "llm_calls": 45,
+      "tokens_in": 130409,
+      "tokens_out": 12578,
+      "llm_seconds": 30.76,
+      "embed_calls": 1,
+      "embed_seconds": 0.74,
+      "parallel_seconds": 6.91,
+      "fallbacks": 0,
+      "by_tag": {
+        "parse": {
+          "calls": 1,
+          "tokens_in": 309,
+          "tokens_out": 111
+        },
+        "judge": {
+          "calls": 41,
+          "tokens_in": 127569,
+          "tokens_out": 11975
+        },
+        "rerank": {
+          "calls": 3,
+          "tokens_in": 2531,
+          "tokens_out": 492
+        }
+      }
+    },
+    "R31": {
+      "pool": 812,
+      "shown": 27,
+      "llm_calls": 44,
+      "tokens_in": 129617,
+      "tokens_out": 12419,
+      "llm_seconds": 26.57,
+      "embed_calls": 1,
+      "embed_seconds": 0.66,
+      "parallel_seconds": 6.34,
+      "fallbacks": 0,
+      "by_tag": {
+        "parse": {
+          "calls": 1,
+          "tokens_in": 309,
+          "tokens_out": 131
+        },
+        "judge": {
+          "calls": 41,
+          "tokens_in": 127610,
+          "tokens_out": 11975
+        },
+        "rerank": {
+          "calls": 2,
+          "tokens_in": 1698,
+          "tokens_out": 313
+        }
+      }
+    },
+    "R32": {
+      "pool": 46,
+      "shown": 6,
+      "llm_calls": 5,
+      "tokens_in": 8251,
+      "tokens_out": 877,
+      "llm_seconds": 5.62,
+      "embed_calls": 1,
+      "embed_seconds": 1.03,
+      "parallel_seconds": 4.2,
+      "fallbacks": 0,
+      "by_tag": {
+        "parse": {
+          "calls": 1,
+          "tokens_in": 303,
+          "tokens_out": 110
+        },
+        "judge": {
+          "calls": 3,
+          "tokens_in": 7352,
+          "tokens_out": 678
+        },
+        "rerank": {
+          "calls": 1,
+          "tokens_in": 596,
+          "tokens_out": 89
+        }
+      }
+    },
+    "R33": {
+      "pool": 192,
+      "shown": 17,
+      "llm_calls": 12,
+      "tokens_in": 31589,
+      "tokens_out": 3129,
+      "llm_seconds": 11.99,
+      "embed_calls": 1,
+      "embed_seconds": 0.48,
+      "parallel_seconds": 5.57,
+      "fallbacks": 0,
+      "by_tag": {
+        "parse": {
+          "calls": 1,
+          "tokens_in": 309,
+          "tokens_out": 111
+        },
+        "judge": {
+          "calls": 10,
+          "tokens_in": 30240,
+          "tokens_out": 2830
+        },
+        "rerank": {
+          "calls": 1,
+          "tokens_in": 1040,
+          "tokens_out": 188
+        }
+      }
+    },
+    "R34": {
+      "pool": 192,
+      "shown": 18,
+      "llm_calls": 13,
+      "tokens_in": 31958,
+      "tokens_out": 3175,
+      "llm_seconds": 11.19,
+      "embed_calls": 1,
+      "embed_seconds": 0.54,
+      "parallel_seconds": 5.73,
+      "fallbacks": 0,
+      "by_tag": {
+        "parse": {
+          "calls": 1,
+          "tokens_in": 310,
+          "tokens_out": 104
+        },
+        "judge": {
+          "calls": 10,
+          "tokens_in": 30270,
+          "tokens_out": 2830
+        },
+        "rerank": {
+          "calls": 2,
+          "tokens_in": 1378,
+          "tokens_out": 241
+        }
+      }
+    },
+    "R35": {
+      "pool": 50,
+      "shown": 7,
+      "llm_calls": 5,
+      "tokens_in": 8823,
+      "tokens_out": 940,
+      "llm_seconds": 5.6,
+      "embed_calls": 1,
+      "embed_seconds": 0.29,
+      "parallel_seconds": 4.36,
+      "fallbacks": 0,
+      "by_tag": {
+        "parse": {
+          "calls": 1,
+          "tokens_in": 299,
+          "tokens_out": 116
+        },
+        "judge": {
+          "calls": 3,
+          "tokens_in": 7981,
+          "tokens_out": 735
+        },
+        "rerank": {
+          "calls": 1,
+          "tokens_in": 543,
+          "tokens_out": 89
+        }
+      }
+    },
+    "R36": {
+      "pool": 605,
+      "shown": 32,
+      "llm_calls": 34,
+      "tokens_in": 97735,
+      "tokens_out": 9398,
+      "llm_seconds": 19.56,
+      "embed_calls": 1,
+      "embed_seconds": 0.36,
+      "parallel_seconds": 5.58,
+      "fallbacks": 0,
+      "by_tag": {
+        "parse": {
+          "calls": 1,
+          "tokens_in": 312,
+          "tokens_out": 125
+        },
+        "judge": {
+          "calls": 31,
+          "tokens_in": 95575,
+          "tokens_out": 8924
+        },
+        "rerank": {
+          "calls": 2,
+          "tokens_in": 1848,
+          "tokens_out": 349
+        }
+      }
+    },
+    "R37": {
+      "pool": 344,
+      "shown": 13,
+      "llm_calls": 20,
+      "tokens_in": 54772,
+      "tokens_out": 5315,
+      "llm_seconds": 11.81,
+      "embed_calls": 1,
+      "embed_seconds": 0.39,
+      "parallel_seconds": 4.42,
+      "fallbacks": 0,
+      "by_tag": {
+        "parse": {
+          "calls": 1,
+          "tokens_in": 303,
+          "tokens_out": 97
+        },
+        "judge": {
+          "calls": 18,
+          "tokens_in": 53687,
+          "tokens_out": 5075
+        },
+        "rerank": {
+          "calls": 1,
+          "tokens_in": 782,
+          "tokens_out": 143
+        }
+      }
+    }
+  }
+}

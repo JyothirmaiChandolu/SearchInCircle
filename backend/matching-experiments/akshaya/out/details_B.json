@@ -1,0 +1,1745 @@
+{
+  "R01": {
+    "T0111": {
+      "grade": 3,
+      "skill_grade": 3,
+      "reason": "Mobile Developer; 9 years",
+      "vouches": 2
+    },
+    "T0107": {
+      "grade": 3,
+      "skill_grade": 3,
+      "reason": "React Native Developer; 6 years",
+      "vouches": 1
+    },
+    "T0110": {
+      "grade": 3,
+      "skill_grade": 3,
+      "reason": "Mobile Developer; 5 years",
+      "vouches": 1
+    },
+    "T0114": {
+      "grade": 3,
+      "skill_grade": 3,
+      "reason": "Mobile Developer; 6 years",
+      "vouches": 1
+    },
+    "T0363": {
+      "grade": 3,
+      "skill_grade": 3,
+      "reason": "Frontend Developer; 5 years",
+      "vouches": 1
+    },
+    "T0112": {
+      "grade": 2,
+      "skill_grade": 2,
+      "reason": "Mobile Developer; 9 years",
+      "vouches": 1
+    },
+    "T0109": {
+      "grade": 2,
+      "skill_grade": 2,
+      "reason": "React Native Developer; 6 years",
+      "vouches": 1
+    },
+    "T0115": {
+      "grade": 2,
+      "skill_grade": 2,
+      "reason": "Mobile Developer; 10 years",
+      "vouches": 1
+    },
+    "T0113": {
+      "grade": 2,
+      "skill_grade": 2,
+      "reason": "Mobile Developer",
+      "vouches": 1
+    },
+    "T0108": {
+      "grade": 2,
+      "skill_grade": 2,
+      "reason": "Mobile Developer; 10 years",
+      "vouches": 1
+    },
+    "T0116": {
+      "grade": 1,
+      "skill_grade": 2,
+      "reason": "Mobile Developer; 3 years, 4 asked",
+      "vouches": 1
+    },
+    "T0015": {
+      "grade": 1,
+      "skill_grade": 1,
+      "reason": "Frontend Developer",
+      "vouches": 1
+    },
+    "T0035": {
+      "grade": 1,
+      "skill_grade": 1,
+      "reason": "API Developer",
+      "vouches": 1
+    },
+    "T0002": {
+      "grade": 1,
+      "skill_grade": 1,
+      "reason": "Mobile Developer",
+      "vouches": 1
+    },
+    "T0365": {
+      "grade": 1,
+      "skill_grade": 1,
+      "reason": "Manual Tester",
+      "vouches": 1
+    },
+    "T0353": {
+      "grade": 1,
+      "skill_grade": 1,
+      "reason": "Manual Tester",
+      "vouches": 1
+    },
+    "T0359": {
+      "grade": 1,
+      "skill_grade": 1,
+      "reason": "Manual Tester",
+      "vouches": 1
+    }
+  },
+  "R02": {
+    "T0129": {
+      "grade": 3,
+      "skill_grade": 3,
+      "reason": "Tennis Player; 3 years; in Austin",
+      "vouches": 2
+    },
+    "T0130": {
+      "grade": 3,
+      "skill_grade": 3,
+      "reason": "Tennis Player; 6 years; in Austin",
+      "vouches": 1
+    },
+    "T0133": {
+      "grade": 3,
+      "skill_grade": 3,
+      "reason": "Tennis Player; 9 years; in Austin",
+      "vouches": 1
+    },
+    "T0127": {
+      "grade": 3,
+      "skill_grade": 3,
+      "reason": "Tennis Player; 1 years; in Austin",
+      "vouches": 1
+    },
+    "T0128": {
+      "grade": 3,
+      "skill_grade": 3,
+      "reason": "Tennis Player; 5 years; in Austin",
+      "vouches": 1
+    },
+    "T0125": {
+      "grade": 3,
+      "skill_grade": 3,
+      "reason": "Tennis Player; 1 years; in Austin",
+      "vouches": 1
+    },
+    "T0132": {
+      "grade": 3,
+      "skill_grade": 3,
+      "reason": "Tennis Player; 5 years; in Austin",
+      "vouches": 1
+    },
+    "T0126": {
+      "grade": 3,
+      "skill_grade": 3,
+      "reason": "Tennis Hitting Partner; 2 years; in Austin",
+      "vouches": 1
+    },
+    "T0099": {
+      "grade": 3,
+      "skill_grade": 3,
+      "reason": "Data Engineer; 2 years; in Austin",
+      "vouches": 1
+    },
+    "T0131": {
+      "grade": 2,
+      "skill_grade": 2,
+      "reason": "Tennis Player",
+      "vouches": 1
+    },
+    "S0015": {
+      "grade": 1,
+      "skill_grade": 2,
+      "reason": "Tennis Player; 6 years; in San Jose, work is in Austin",
+      "vouches": 1
+    },
+    "T0009": {
+      "grade": 1,
+      "skill_grade": 3,
+      "reason": "Tennis Player; 8 years; in Pune, work is in Austin",
+      "vouches": 1
+    },
+    "T0134": {
+      "grade": 1,
+      "skill_grade": 3,
+      "reason": "Tennis Player; 2 years; in Manchester, work is in Austin",
+      "vouches": 1
+    },
+    "T0280": {
+      "grade": 1,
+      "skill_grade": 1,
+      "reason": "Photo Editor",
+      "vouches": 1
+    },
+    "T0267": {
+      "grade": 1,
+      "skill_grade": 1,
+      "reason": "Candid Photographer",
+      "vouches": 1
+    },
+    "T0274": {
+      "grade": 1,
+      "skill_grade": 1,
+      "reason": "Photographer",
+      "vouches": 1
+    },
+    "T0266": {
+      "grade": 1,
+      "skill_grade": 1,
+      "reason": "Wedding Photographer",
+      "vouches": 1
+    },
+    "T0273": {
+      "grade": 1,
+      "skill_grade": 1,
+      "reason": "Wedding Photographer",
+      "vouches": 1
+    },
+    "T0281": {
+      "grade": 1,
+      "skill_grade": 1,
+      "reason": "Photographer",
+      "vouches": 1
+    },
+    "T0272": {
+      "grade": 1,
+      "skill_grade": 1,
+      "reason": "Event Photographer",
+      "vouches": 1
+    }
+  },
+  "R03": {
+    "T0146": {
+      "grade": 3,
+      "skill_grade": 3,
+      "reason": "Data Engineer; 6 years; in Hyderabad",
+      "vouches": 2
+    },
+    "T0150": {
+      "grade": 3,
+      "skill_grade": 3,
+      "reason": "Data Engineer; 9 years; in Hyderabad",
+      "vouches": 1
+    },
+    "T0145": {
+      "grade": 3,
+      "skill_grade": 3,
+      "reason": "Data Engineer; 7 years; in Hyderabad",
+      "vouches": 1
+    },
+    "T0144": {
+      "grade": 3,
+      "skill_grade": 3,
+      "reason": "Data Engineer; 9 years; in Hyderabad",
+      "vouches": 1
+    },
+    "T0142": {
+      "grade": 3,
+      "skill_grade": 3,
+      "reason": "Data Engineer; 9 years; in Hyderabad",
+      "vouches": 1
+    },
+    "T0149": {
+      "grade": 3,
+      "skill_grade": 3,
+      "reason": "Data Engineer; 6 years; in Hyderabad",
+      "vouches": 1
+    },
+    "T0147": {
+      "grade": 3,
+      "skill_grade": 3,
+      "reason": "Data Engineer; 7 years; in Hyderabad",
+      "vouches": 1
+    },
+    "T0143": {
+      "grade": 3,
+      "skill_grade": 3,
+      "reason": "Data Engineer; 6 years; in Hyderabad",
+      "vouches": 1
+    },
+    "T0148": {
+      "grade": 3,
+      "skill_grade": 3,
+      "reason": "Data Engineer",
+      "vouches": 1
+    },
+    "T0010": {
+      "grade": 2,
+      "skill_grade": 3,
+      "reason": "Data Engineer; 13 years; in Vijayawada, work is in Hyderabad",
+      "vouches": 1
+    },
+    "T0151": {
+      "grade": 2,
+      "skill_grade": 3,
+      "reason": "Data Engineer; 3 years, 5 asked; in Hyderabad",
+      "vouches": 1
+    },
+    "T0355": {
+      "grade": 2,
+      "skill_grade": 2,
+      "reason": "Test Automation; 7 years",
+      "vouches": 1
+    },
+    "T0353": {
+      "grade": 2,
+      "skill_grade": 2,
+      "reason": "Manual Tester; 7 years",
+      "vouches": 1
+    },
+    "T0359": {
+      "grade": 2,
+      "skill_grade": 2,
+      "reason": "Manual Tester",
+      "vouches": 1
+    },
+    "S0010": {
+      "grade": 1,
+      "skill_grade": 2,
+      "reason": "Data Engineer; 4 years, 5 asked; in Vijayawada, work is in Hyderabad",
+      "vouches": 1
+    },
+    "T0152": {
+      "grade": 1,
+      "skill_grade": 3,
+      "reason": "Data Engineer; 7 years; in Manchester, work is in Hyderabad",
+      "vouches": 1
+    },
+    "T0249": {
+      "grade": 1,
+      "skill_grade": 2,
+      "reason": "DevOps Engineer; 8 years; in Bengaluru, work is in Hyderabad",
+      "vouches": 1
+    },
+    "T0261": {
+      "grade": 1,
+      "skill_grade": 3,
+      "reason": "Cloud Engineer; 12 years; in Bengluguru, work is in Hyderabad",
+      "vouches": 1
+    },
+    "T0264": {
+      "grade": 1,
+      "skill_grade": 3,
+      "reason": "Cloud Engineer; 8 years; in Bengaluru, work is in Hyderabad",
+      "vouches": 1
+    },
+    "T0252": {
+      "grade": 1,
+      "skill_grade": 2,
+      "reason": "DevOps Engineer; 7 years; in Bengaluru, work is in Hyderabad",
+      "vouches": 1
+    },
+    "T0260": {
+      "grade": 1,
+      "skill_grade": 2,
+      "reason": "DevOps Engineer; 9 years; in Bengaluru, work is in Hyderabad",
+      "vouches": 1
+    },
+    "T0358": {
+      "grade": 1,
+      "skill_grade": 2,
+      "reason": "Test Automation; 2 years, 5 asked",
+      "vouches": 1
+    },
+    "T0354": {
+      "grade": 1,
+      "skill_grade": 2,
+      "reason": "Bug Hunter; 2 years, 5 asked",
+      "vouches": 1
+    },
+    "T0357": {
+      "grade": 1,
+      "skill_grade": 2,
+      "reason": "Test Automation; 3 years, 5 asked",
+      "vouches": 1
+    },
+    "T0356": {
+      "grade": 1,
+      "skill_grade": 2,
+      "reason": "Test Automation; 3 years, 5 asked",
+      "vouches": 1
+    },
+    "S0061": {
+      "grade": 1,
+      "skill_grade": 1,
+      "reason": "UX Researcher",
+      "vouches": 1
+    },
+    "S0020": {
+      "grade": 1,
+      "skill_grade": 1,
+      "reason": "Model Deployment",
+      "vouches": 1
+    },
+    "S0041": {
+      "grade": 1,
+      "skill_grade": 1,
+      "reason": "UI Designer",
+      "vouches": 1
+    },
+    "S0070": {
+      "grade": 1,
+      "skill_grade": 1,
+      "reason": "NLP Engineer",
+      "vouches": 1
+    }
+  },
+  "R04": {
+    "S0055": {
+      "grade": 3,
+      "skill_grade": 3,
+      "reason": "Tax Filer; 5 years",
+      "vouches": 2
+    },
+    "T0166": {
+      "grade": 3,
+      "skill_grade": 3,
+      "reason": "Tax Filer; 4 years",
+      "vouches": 1
+    },
+    "T0161": {
+      "grade": 3,
+      "skill_grade": 3,
+      "reason": "Tax Accountant; 3 years",
+      "vouches": 1
+    },
+    "T0169": {
+      "grade": 3,
+      "skill_grade": 3,
+      "reason": "Tax Filer; 9 years",
+      "vouches": 1
+    },
+    "T0163": {
+      "grade": 3,
+      "skill_grade": 3,
+      "reason": "Tax Filer; 3 years",
+      "vouches": 1
+    },
+    "T0164": {
+      "grade": 3,
+      "skill_grade": 3,
+      "reason": "Tax Filer; 9 years",
+      "vouches": 1
+    },
+    "T0168": {
+      "grade": 3,
+      "skill_grade": 3,
+      "reason": "Tax Filer; 3 years",
+      "vouches": 1
+    },
+    "T0162": {
+      "grade": 3,
+      "skill_grade": 3,
+      "reason": "Tax Preparer; 7 years",
+      "vouches": 1
+    },
+    "T0167": {
+      "grade": 3,
+      "skill_grade": 3,
+      "reason": "Bookkeeper",
+      "vouches": 1
+    },
+    "T0355": {
+      "grade": 3,
+      "skill_grade": 3,
+      "reason": "Test Automation; 7 years",
+      "vouches": 1
+    },
+    "T0356": {
+      "grade": 3,
+      "skill_grade": 3,
+      "reason": "Test Automation; 3 years",
+      "vouches": 1
+    },
+    "T0357": {
+      "grade": 3,
+      "skill_grade": 3,
+      "reason": "Test Automation; 3 years",
+      "vouches": 1
+    },
+    "T0353": {
+      "grade": 3,
+      "skill_grade": 3,
+      "reason": "Manual Tester; 7 years",
+      "vouches": 1
+    },
+    "T0359": {
+      "grade": 3,
+      "skill_grade": 3,
+      "reason": "Manual Tester",
+      "vouches": 1
+    },
+    "T0170": {
+      "grade": 2,
+      "skill_grade": 3,
+      "reason": "Tax Accountant; 2 years, 3 asked",
+      "vouches": 1
+    },
+    "T0354": {
+      "grade": 2,
+      "skill_grade": 3,
+      "reason": "Bug Hunter; 2 years, 3 asked",
+      "vouches": 1
+    },
+    "T0358": {
+      "grade": 2,
+      "skill_grade": 3,
+      "reason": "Test Automation; 2 years, 3 asked",
+      "vouches": 1
+    }
+  },
+  "R05": {
+    "S0057": {
+      "grade": 3,
+      "skill_grade": 3,
+      "reason": "ICU Nurse; 9 years; in Houston",
+      "vouches": 2
+    },
+    "T0177": {
+      "grade": 3,
+      "skill_grade": 3,
+      "reason": "ICU Nurse; 7 years; in Houston",
+      "vouches": 1
+    },
+    "T0179": {
+      "grade": 3,
+      "skill_grade": 3,
+      "reason": "ICU Nurse; 7 years; in Houston",
+      "vouches": 1
+    },
+    "T0185": {
+      "grade": 3,
+      "skill_grade": 3,
+      "reason": "ICU Nurse; 3 years; in Houston",
+      "vouches": 1
+    },
+    "T0184": {
+      "grade": 3,
+      "skill_grade": 3,
+      "reason": "ICU Nurse; 9 years; in Houston",
+      "vouches": 1
+    },
+    "T0180": {
+      "grade": 3,
+      "skill_grade": 3,
+      "reason": "ICU Nurse; 3 years; in Houston",
+      "vouches": 1
+    },
+    "T0182": {
+      "grade": 3,
+      "skill_grade": 3,
+      "reason": "ICU Nurse; 6 years; in Houston",
+      "vouches": 1
+    },
+    "T0178": {
+      "grade": 3,
+      "skill_grade": 3,
+      "reason": "Critical Care Nurse; 8 years; in Houston",
+      "vouches": 1
+    },
+    "T0186": {
+      "grade": 1,
+      "skill_grade": 1,
+      "reason": "IV Therapy Nurse",
+      "vouches": 1
+    },
+    "T0047": {
+      "grade": 1,
+      "skill_grade": 3,
+      "reason": "ICU Nurse; 3 years; in London, work is in houston",
+      "vouches": 1
+    },
+    "T0187": {
+      "grade": 1,
+      "skill_grade": 1,
+      "reason": "ICU Nurse",
+      "vouches": 1
+    },
+    "T0082": {
+      "grade": 1,
+      "skill_grade": 3,
+      "reason": "Nurse; 7 years; in Chennai, work is in houston",
+      "vouches": 1
+    },
+    "T0098": {
+      "grade": 1,
+      "skill_grade": 1,
+      "reason": "Manual Therapist",
+      "vouches": 1
+    },
+    "T0183": {
+      "grade": 1,
+      "skill_grade": 1,
+      "reason": "IV Therapy Nurse",
+      "vouches": 1
+    }
+  },
+  "R06": {
+    "T0200": {
+      "grade": 3,
+      "skill_grade": 3,
+      "reason": "Electrician; 7 years; in Houston",
+      "vouches": 3
+    },
+    "T0204": {
+      "grade": 3,
+      "skill_grade": 3,
+      "reason": "Residential electrician; 7 years; in Houston",
+      "vouches": 1
+    },
+    "T0201": {
+      "grade": 3,
+      "skill_grade": 3,
+      "reason": "EV Installer; 5 years; in Houston",
+      "vouches": 1
+    },
+    "T0203": {
+      "grade": 3,
+      "skill_grade": 3,
+      "reason": "Residential electrician; 6 years; in Houston",
+      "vouches": 1
+    },
+    "T0196": {
+      "grade": 3,
+      "skill_grade": 3,
+      "reason": "EV Installer; 10 years; in Houston",
+      "vouches": 1
+    },
+    "T0199": {
+      "grade": 3,
+      "skill_grade": 3,
+      "reason": "Electrician; 7 years; in Houston",
+      "vouches": 1
+    },
+    "T0198": {
+      "grade": 3,
+      "skill_grade": 3,
+      "reason": "Electrician; 10 years; in Houston",
+      "vouches": 1
+    },
+    "T0197": {
+      "grade": 3,
+      "skill_grade": 3,
+      "reason": "Electrician; 10 years; in Houston",
+      "vouches": 1
+    },
+    "T0205": {
+      "grade": 2,
+      "skill_grade": 3,
+      "reason": "Residential electrician; 4 years, 5 asked; in Houston",
+      "vouches": 1
+    },
+    "T0013": {
+      "grade": 2,
+      "skill_grade": 2,
+      "reason": "Electrician",
+      "vouches": 1
+    },
+    "T0202": {
+      "grade": 2,
+      "skill_grade": 2,
+      "reason": "EV charger installer",
+      "vouches": 1
+    },
+    "T0075": {
+      "grade": 1,
+      "skill_grade": 3,
+      "reason": "Electrician; 9 years; in Toronto, work is in Houston",
+      "vouches": 1
+    },
+    "S0036": {
+      "grade": 1,
+      "skill_grade": 3,
+      "reason": "EV Installer; 2 years, 5 asked; in London, work is in Houston",
+      "vouches": 1
+    },
+    "T0101": {
+      "grade": 1,
+      "skill_grade": 3,
+      "reason": "Electrician; 9 years; in Pune, work is in Houston",
+      "vouches": 1
+    },
+    "T0046": {
+      "grade": 1,
+      "skill_grade": 3,
+      "reason": "Electrician; 4 years, 5 asked; in Vijayawada, work is in Houston",
+      "vouches": 1
+    },
+    "T0177": {
+      "grade": 1,
+      "skill_grade": 1,
+      "reason": "ICU Nurse",
+      "vouches": 1
+    },
+    "T0179": {
+      "grade": 1,
+      "skill_grade": 1,
+      "reason": "ICU Nurse",
+      "vouches": 1
+    },
+    "T0180": {
+      "grade": 1,
+      "skill_grade": 1,
+      "reason": "ICU Nurse",
+      "vouches": 1
+    },
+    "T0182": {
+      "grade": 1,
+      "skill_grade": 1,
+      "reason": "ICU Nurse",
+      "vouches": 1
+    },
+    "T0178": {
+      "grade": 1,
+      "skill_grade": 1,
+      "reason": "Critical Care Nurse",
+      "vouches": 1
+    }
+  },
+  "R07": {
+    "T0218": {
+      "grade": 3,
+      "skill_grade": 3,
+      "reason": "UX Researcher; 5 years",
+      "vouches": 2
+    },
+    "T0221": {
+      "grade": 3,
+      "skill_grade": 3,
+      "reason": "UX Researcher; 9 years",
+      "vouches": 1
+    },
+    "T0219": {
+      "grade": 3,
+      "skill_grade": 3,
+      "reason": "UX Researcher; 3 years",
+      "vouches": 1
+    },
+    "T0222": {
+      "grade": 3,
+      "skill_grade": 3,
+      "reason": "UX Researcher; 3 years",
+      "vouches": 1
+    },
+    "T0094": {
+      "grade": 3,
+      "skill_grade": 3,
+      "reason": "UX Researcher; 11 years",
+      "vouches": 1
+    },
+    "T0214": {
+      "grade": 3,
+      "skill_grade": 3,
+      "reason": "UX Researcher; 3 years",
+      "vouches": 1
+    },
+    "S0016": {
+      "grade": 3,
+      "skill_grade": 3,
+      "reason": "UX Researcher; 3 years",
+      "vouches": 1
+    },
+    "T0215": {
+      "grade": 3,
+      "skill_grade": 3,
+      "reason": "Product Designer; 9 years",
+      "vouches": 1
+    },
+    "T0333": {
+      "grade": 3,
+      "skill_grade": 3,
+      "reason": "Physiotherapist; 7 years",
+      "vouches": 1
+    },
+    "T0322": {
+      "grade": 3,
+      "skill_grade": 3,
+      "reason": "Physiotherapist; 9 years",
+      "vouches": 1
+    },
+    "T0216": {
+      "grade": 2,
+      "skill_grade": 2,
+      "reason": "UX Researcher; 3 years",
+      "vouches": 1
+    },
+    "T0217": {
+      "grade": 2,
+      "skill_grade": 2,
+      "reason": "UX Researcher; 6 years",
+      "vouches": 1
+    },
+    "S0022": {
+      "grade": 2,
+      "skill_grade": 2,
+      "reason": "Wireframing; 7 years",
+      "vouches": 1
+    },
+    "T0220": {
+      "grade": 2,
+      "skill_grade": 2,
+      "reason": "UI Designer",
+      "vouches": 1
+    },
+    "T0223": {
+      "grade": 1,
+      "skill_grade": 1,
+      "reason": "UX Researcher",
+      "vouches": 1
+    },
+    "T0334": {
+      "grade": 1,
+      "skill_grade": 1,
+      "reason": "Manual Therapist",
+      "vouches": 1
+    },
+    "T0329": {
+      "grade": 1,
+      "skill_grade": 1,
+      "reason": "Physiotherapist",
+      "vouches": 1
+    },
+    "T0326": {
+      "grade": 1,
+      "skill_grade": 1,
+      "reason": "Physiotherapist",
+      "vouches": 1
+    }
+  },
+  "R08": {
+    "T0235": {
+      "grade": 3,
+      "skill_grade": 3,
+      "reason": "Math Tutor; 6 years",
+      "vouches": 2
+    },
+    "T0239": {
+      "grade": 3,
+      "skill_grade": 3,
+      "reason": "Math Tutor; 8 years",
+      "vouches": 1
+    },
+    "T0234": {
+      "grade": 3,
+      "skill_grade": 3,
+      "reason": "Math Tutor; 5 years",
+      "vouches": 1
+    },
+    "T0231": {
+      "grade": 3,
+      "skill_grade": 3,
+      "reason": "Math Tutor; 7 years",
+      "vouches": 1
+    },
+    "T0233": {
+      "grade": 3,
+      "skill_grade": 3,
+      "reason": "Math Tutor; 7 years",
+      "vouches": 1
+    },
+    "T0236": {
+      "grade": 3,
+      "skill_grade": 3,
+      "reason": "Math Tutor; 5 years",
+      "vouches": 1
+    },
+    "T0238": {
+      "grade": 3,
+      "skill_grade": 3,
+      "reason": "Math Tutor; 5 years",
+      "vouches": 1
+    },
+    "T0240": {
+      "grade": 2,
+      "skill_grade": 3,
+      "reason": "Math Tutor; 1 years, 2 asked",
+      "vouches": 1
+    },
+    "T0237": {
+      "grade": 2,
+      "skill_grade": 2,
+      "reason": "Math Tutor",
+      "vouches": 1
+    },
+    "T0232": {
+      "grade": 2,
+      "skill_grade": 2,
+      "reason": "Exam Coach; 3 years",
+      "vouches": 1
+    },
+    "T0144": {
+      "grade": 2,
+      "skill_grade": 2,
+      "reason": "Data Engineer; 9 years",
+      "vouches": 1
+    },
+    "T0086": {
+      "grade": 2,
+      "skill_grade": 2,
+      "reason": "Test Automation; 6 years",
+      "vouches": 1
+    },
+    "T0119": {
+      "grade": 2,
+      "skill_grade": 2,
+      "reason": "Mobile Developer; 9 years",
+      "vouches": 1
+    },
+    "T0112": {
+      "grade": 2,
+      "skill_grade": 2,
+      "reason": "Mobile Developer; 9 years",
+      "vouches": 1
+    },
+    "T0214": {
+      "grade": 2,
+      "skill_grade": 2,
+      "reason": "UX Researcher; 3 years",
+      "vouches": 1
+    },
+    "T0219": {
+      "grade": 2,
+      "skill_grade": 2,
+      "reason": "UX Researcher; 3 years",
+      "vouches": 1
+    },
+    "T0218": {
+      "grade": 2,
+      "skill_grade": 2,
+      "reason": "UX Researcher; 5 years",
+      "vouches": 1
+    },
+    "T0217": {
+      "grade": 2,
+      "skill_grade": 2,
+      "reason": "UX Researcher; 6 years",
+      "vouches": 1
+    },
+    "T0147": {
+      "grade": 2,
+      "skill_grade": 2,
+      "reason": "Data Engineer; 7 years",
+      "vouches": 1
+    },
+    "T0216": {
+      "grade": 2,
+      "skill_grade": 2,
+      "reason": "UX Researcher; 3 years",
+      "vouches": 1
+    },
+    "T0109": {
+      "grade": 2,
+      "skill_grade": 2,
+      "reason": "React Native Developer; 6 years",
+      "vouches": 1
+    },
+    "T0094": {
+      "grade": 2,
+      "skill_grade": 2,
+      "reason": "UX Researcher; 11 years",
+      "vouches": 1
+    },
+    "T0220": {
+      "grade": 2,
+      "skill_grade": 2,
+      "reason": "UI Designer",
+      "vouches": 1
+    },
+    "T0215": {
+      "grade": 1,
+      "skill_grade": 1,
+      "reason": "Product Designer",
+      "vouches": 1
+    }
+  },
+  "R09": {
+    "T0251": {
+      "grade": 3,
+      "skill_grade": 3,
+      "reason": "DevOps Engineer; 10 years; in Bengaluru",
+      "vouches": 2
+    },
+    "T0249": {
+      "grade": 3,
+      "skill_grade": 3,
+      "reason": "DevOps Engineer; 8 years; in Bengaluru",
+      "vouches": 1
+    },
+    "T0254": {
+      "grade": 3,
+      "skill_grade": 3,
+      "reason": "DevOps Engineer; 7 years; in Bengaluru",
+      "vouches": 1
+    },
+    "T0255": {
+      "grade": 3,
+      "skill_grade": 3,
+      "reason": "DevOps Engineer; 7 years; in Bengaluru",
+      "vouches": 1
+    },
+    "T0247": {
+      "grade": 3,
+      "skill_grade": 3,
+      "reason": "DevOps Engineer; 8 years; in Bengaluru",
+      "vouches": 1
+    },
+    "T0252": {
+      "grade": 3,
+      "skill_grade": 3,
+      "reason": "DevOps Engineer; 7 years; in Bengaluru",
+      "vouches": 1
+    },
+    "T0250": {
+      "grade": 3,
+      "skill_grade": 3,
+      "reason": "DevOps Engineer; 12 years; in Bengaluru",
+      "vouches": 1
+    },
+    "T0248": {
+      "grade": 3,
+      "skill_grade": 3,
+      "reason": "DevOps Engineer; 11 years; in Bengaluru",
+      "vouches": 1
+    },
+    "T0253": {
+      "grade": 2,
+      "skill_grade": 2,
+      "reason": "DevOps Engineer",
+      "vouches": 1
+    },
+    "T0256": {
+      "grade": 1,
+      "skill_grade": 2,
+      "reason": "DevOps Engineer; 4 years, 6 asked; in Bengaluru",
+      "vouches": 1
+    },
+    "T0147": {
+      "grade": 1,
+      "skill_grade": 1,
+      "reason": "Data Engineer",
+      "vouches": 1
+    }
+  },
+  "R10": {
+    "T0270": {
+      "grade": 2,
+      "skill_grade": 3,
+      "reason": "Event Photographer; 7 years; in Bengaluru, work is in Hyderabad",
+      "vouches": 2
+    },
+    "T0269": {
+      "grade": 2,
+      "skill_grade": 3,
+      "reason": "Wedding Photographer; 2 years; in Bengaluru, work is in Hyderabad",
+      "vouches": 1
+    },
+    "T0266": {
+      "grade": 2,
+      "skill_grade": 3,
+      "reason": "Wedding Photographer; 5 years; in Bengaluru, work is in Hyderabad",
+      "vouches": 1
+    },
+    "T0274": {
+      "grade": 2,
+      "skill_grade": 3,
+      "reason": "Photographer; 2 years; in Bengaluru, work is in Hyderabad",
+      "vouches": 1
+    },
+    "T0273": {
+      "grade": 2,
+      "skill_grade": 3,
+      "reason": "Wedding Photographer; 5 years; in Bengaluru, work is in Hyderabad",
+      "vouches": 1
+    },
+    "T0268": {
+      "grade": 2,
+      "skill_grade": 3,
+      "reason": "Photo Editor; 5 years; in Bengaluru, work is in Hyderabad",
+      "vouches": 1
+    },
+    "T0271": {
+      "grade": 2,
+      "skill_grade": 3,
+      "reason": "Photo Editor; 7 years; in Bengaluru, work is in Hyderabad",
+      "vouches": 1
+    },
+    "T0272": {
+      "grade": 2,
+      "skill_grade": 2,
+      "reason": "Event Photographer",
+      "vouches": 1
+    },
+    "T0275": {
+      "grade": 1,
+      "skill_grade": 3,
+      "reason": "Photographer; 0 years, 2 asked; in Bengaluru, work is in Hyderabad",
+      "vouches": 1
+    },
+    "T0008": {
+      "grade": 1,
+      "skill_grade": 3,
+      "reason": "Photographer; 3 years; in San Jose, work is in Hyderabad",
+      "vouches": 1
+    },
+    "T0276": {
+      "grade": 1,
+      "skill_grade": 3,
+      "reason": "Photographer; 3 years; in San Jose, work is in Hyderabad",
+      "vouches": 1
+    },
+    "T0267": {
+      "grade": 1,
+      "skill_grade": 2,
+      "reason": "Candid Photographer; 3 years; in Bengaluru, work is in Hyderabad",
+      "vouches": 1
+    }
+  },
+  "R11": {
+    "S0069": {
+      "grade": 3,
+      "skill_grade": 3,
+      "reason": "NLP Engineer; 10 years",
+      "vouches": 2
+    },
+    "T0290": {
+      "grade": 3,
+      "skill_grade": 3,
+      "reason": "NLP Engineer; 8 years",
+      "vouches": 1
+    },
+    "T0288": {
+      "grade": 3,
+      "skill_grade": 3,
+      "reason": "NLP Engineer; 7 years",
+      "vouches": 1
+    },
+    "T0286": {
+      "grade": 3,
+      "skill_grade": 3,
+      "reason": "NLP Engineer; 10 years",
+      "vouches": 1
+    },
+    "T0291": {
+      "grade": 3,
+      "skill_grade": 3,
+      "reason": "NLP Engineer; 7 years",
+      "vouches": 1
+    },
+    "T0285": {
+      "grade": 3,
+      "skill_grade": 3,
+      "reason": "NLP Engineer; 4 years",
+      "vouches": 1
+    },
+    "T0283": {
+      "grade": 3,
+      "skill_grade": 3,
+      "reason": "NLP Engineer; 4 years",
+      "vouches": 1
+    },
+    "T0012": {
+      "grade": 3,
+      "skill_grade": 3,
+      "reason": "NLP Engineer; 4 years",
+      "vouches": 1
+    },
+    "T0284": {
+      "grade": 3,
+      "skill_grade": 3,
+      "reason": "LLM Engineer; 7 years",
+      "vouches": 1
+    },
+    "S0054": {
+      "grade": 2,
+      "skill_grade": 2,
+      "reason": "Data Pipeline Engineer; 5 years",
+      "vouches": 2
+    },
+    "T0260": {
+      "grade": 2,
+      "skill_grade": 2,
+      "reason": "DevOps Engineer; 9 years",
+      "vouches": 1
+    },
+    "S0053": {
+      "grade": 2,
+      "skill_grade": 2,
+      "reason": "Spark Engineer; 6 years",
+      "vouches": 1
+    },
+    "T0092": {
+      "grade": 1,
+      "skill_grade": 1,
+      "reason": "Test Automation Engineer",
+      "vouches": 2
+    },
+    "T0292": {
+      "grade": 1,
+      "skill_grade": 1,
+      "reason": "NLP Engineer",
+      "vouches": 1
+    },
+    "T0289": {
+      "grade": 1,
+      "skill_grade": 1,
+      "reason": "NLP Engineer",
+      "vouches": 1
+    },
+    "T0035": {
+      "grade": 1,
+      "skill_grade": 1,
+      "reason": "API Developer",
+      "vouches": 1
+    },
+    "T0010": {
+      "grade": 1,
+      "skill_grade": 1,
+      "reason": "Data Engineer",
+      "vouches": 1
+    },
+    "S0022": {
+      "grade": 1,
+      "skill_grade": 1,
+      "reason": "Wireframing",
+      "vouches": 1
+    },
+    "T0064": {
+      "grade": 1,
+      "skill_grade": 1,
+      "reason": "Software developer",
+      "vouches": 1
+    },
+    "S0062": {
+      "grade": 1,
+      "skill_grade": 1,
+      "reason": "Figma Designer",
+      "vouches": 1
+    },
+    "T0049": {
+      "grade": 1,
+      "skill_grade": 1,
+      "reason": "Manual Tester",
+      "vouches": 1
+    },
+    "T0048": {
+      "grade": 1,
+      "skill_grade": 1,
+      "reason": "Cloud Engineer",
+      "vouches": 1
+    },
+    "T0319": {
+      "grade": 1,
+      "skill_grade": 1,
+      "reason": "Crypto Trader",
+      "vouches": 1
+    }
+  },
+  "R12": {
+    "T0011": {
+      "grade": 3,
+      "skill_grade": 3,
+      "reason": "Guitar Coach; 5 years",
+      "vouches": 1
+    },
+    "T0133": {
+      "grade": 1,
+      "skill_grade": 1,
+      "reason": "Tennis Player",
+      "vouches": 1
+    },
+    "S0064": {
+      "grade": 1,
+      "skill_grade": 1,
+      "reason": "Math Tutor",
+      "vouches": 1
+    },
+    "T0139": {
+      "grade": 1,
+      "skill_grade": 1,
+      "reason": "Tennis Player",
+      "vouches": 1
+    },
+    "T0127": {
+      "grade": 1,
+      "skill_grade": 1,
+      "reason": "Tennis Player",
+      "vouches": 1
+    },
+    "T0138": {
+      "grade": 1,
+      "skill_grade": 1,
+      "reason": "Tennis Player",
+      "vouches": 1
+    },
+    "T0005": {
+      "grade": 1,
+      "skill_grade": 1,
+      "reason": "Language Tutor",
+      "vouches": 1
+    },
+    "T0033": {
+      "grade": 1,
+      "skill_grade": 1,
+      "reason": "Language Teaching",
+      "vouches": 1
+    },
+    "T0062": {
+      "grade": 1,
+      "skill_grade": 1,
+      "reason": "Language speaker",
+      "vouches": 1
+    }
+  },
+  "R13": {},
+  "R14": {
+    "T0308": {
+      "grade": 3,
+      "skill_grade": 3,
+      "reason": "Coin Appraiser; 5 years",
+      "vouches": 2
+    },
+    "T0311": {
+      "grade": 3,
+      "skill_grade": 3,
+      "reason": "Coin Appraiser; 3 years",
+      "vouches": 1
+    },
+    "T0307": {
+      "grade": 3,
+      "skill_grade": 3,
+      "reason": "Coin Appraiser; 1 years",
+      "vouches": 1
+    },
+    "T0312": {
+      "grade": 3,
+      "skill_grade": 3,
+      "reason": "Coin Appraiser; 7 years",
+      "vouches": 1
+    },
+    "T0309": {
+      "grade": 3,
+      "skill_grade": 3,
+      "reason": "Coin Appraiser; 1 years",
+      "vouches": 1
+    },
+    "T0306": {
+      "grade": 3,
+      "skill_grade": 3,
+      "reason": "Coin Appraiser; 2 years",
+      "vouches": 1
+    },
+    "T0304": {
+      "grade": 3,
+      "skill_grade": 3,
+      "reason": "Numismatics Enthusiast; 2 years",
+      "vouches": 1
+    },
+    "T0310": {
+      "grade": 1,
+      "skill_grade": 1,
+      "reason": "Coin Grader",
+      "vouches": 1
+    },
+    "T0305": {
+      "grade": 1,
+      "skill_grade": 1,
+      "reason": "Currency Collector",
+      "vouches": 1
+    }
+  },
+  "R15": {
+    "T0324": {
+      "grade": 3,
+      "skill_grade": 3,
+      "reason": "Physiotherapist; 5 years; in Toronto",
+      "vouches": 2
+    },
+    "T0327": {
+      "grade": 3,
+      "skill_grade": 3,
+      "reason": "Physiotherapist; 6 years; in Toronto",
+      "vouches": 1
+    },
+    "T0323": {
+      "grade": 3,
+      "skill_grade": 3,
+      "reason": "Physiotherapist; 6 years; in Toronto",
+      "vouches": 1
+    },
+    "T0320": {
+      "grade": 3,
+      "skill_grade": 3,
+      "reason": "Manual Therapist; 9 years; in Toronto",
+      "vouches": 1
+    },
+    "T0325": {
+      "grade": 3,
+      "skill_grade": 3,
+      "reason": "Physiotherapist; 5 years; in Toronto",
+      "vouches": 1
+    },
+    "T0322": {
+      "grade": 3,
+      "skill_grade": 3,
+      "reason": "Physiotherapist; 9 years; in Toronto",
+      "vouches": 1
+    },
+    "T0321": {
+      "grade": 3,
+      "skill_grade": 3,
+      "reason": "Injury Rehab Specialist; 4 years; in Toronto",
+      "vouches": 1
+    },
+    "T0328": {
+      "grade": 3,
+      "skill_grade": 3,
+      "reason": "Physiotherapist; 8 years; in Toronto",
+      "vouches": 1
+    },
+    "T0326": {
+      "grade": 2,
+      "skill_grade": 2,
+      "reason": "Physiotherapist",
+      "vouches": 1
+    },
+    "T0329": {
+      "grade": 1,
+      "skill_grade": 2,
+      "reason": "Physiotherapist; 1 years, 3 asked; in Toronto",
+      "vouches": 1
+    },
+    "T0330": {
+      "grade": 1,
+      "skill_grade": 1,
+      "reason": "Manual Therapist",
+      "vouches": 1
+    },
+    "T0126": {
+      "grade": 1,
+      "skill_grade": 1,
+      "reason": "Tennis Hitting Partner",
+      "vouches": 1
+    },
+    "T0138": {
+      "grade": 1,
+      "skill_grade": 1,
+      "reason": "Tennis Player",
+      "vouches": 1
+    }
+  },
+  "R16": {
+    "T0342": {
+      "grade": 3,
+      "skill_grade": 3,
+      "reason": "Telugu Teacher; 2 years",
+      "vouches": 2
+    },
+    "T0339": {
+      "grade": 3,
+      "skill_grade": 3,
+      "reason": "Telugu Teacher; 1 years",
+      "vouches": 1
+    },
+    "T0341": {
+      "grade": 3,
+      "skill_grade": 3,
+      "reason": "Telugu Teacher; 8 years",
+      "vouches": 1
+    },
+    "T0338": {
+      "grade": 3,
+      "skill_grade": 3,
+      "reason": "Telugu Teacher; 7 years",
+      "vouches": 1
+    },
+    "T0345": {
+      "grade": 3,
+      "skill_grade": 3,
+      "reason": "Telugu Teacher; 9 years",
+      "vouches": 1
+    },
+    "T0346": {
+      "grade": 3,
+      "skill_grade": 3,
+      "reason": "Telugu Teacher; 8 years",
+      "vouches": 1
+    },
+    "T0340": {
+      "grade": 3,
+      "skill_grade": 3,
+      "reason": "Telugu Teacher; 7 years",
+      "vouches": 1
+    },
+    "T0343": {
+      "grade": 3,
+      "skill_grade": 3,
+      "reason": "Telugu Teacher; 8 years",
+      "vouches": 1
+    },
+    "T0102": {
+      "grade": 3,
+      "skill_grade": 3,
+      "reason": "Telugu Teacher; 15 years",
+      "vouches": 1
+    },
+    "S0006": {
+      "grade": 3,
+      "skill_grade": 3,
+      "reason": "Language Teacher; 5 years",
+      "vouches": 1
+    },
+    "T0344": {
+      "grade": 3,
+      "skill_grade": 3,
+      "reason": "Telugu Teacher",
+      "vouches": 1
+    },
+    "T0060": {
+      "grade": 2,
+      "skill_grade": 2,
+      "reason": "Tennis player; 9 years",
+      "vouches": 1
+    },
+    "T0055": {
+      "grade": 2,
+      "skill_grade": 2,
+      "reason": "Tennis Player",
+      "vouches": 1
+    },
+    "T0125": {
+      "grade": 2,
+      "skill_grade": 2,
+      "reason": "Tennis Player; 1 years",
+      "vouches": 1
+    },
+    "T0073": {
+      "grade": 1,
+      "skill_grade": 1,
+      "reason": "Hitting Partner",
+      "vouches": 1
+    },
+    "T0245": {
+      "grade": 1,
+      "skill_grade": 1,
+      "reason": "Math Tutor",
+      "vouches": 1
+    },
+    "T0057": {
+      "grade": 1,
+      "skill_grade": 1,
+      "reason": "Guitar Coach",
+      "vouches": 1
+    },
+    "T0236": {
+      "grade": 1,
+      "skill_grade": 1,
+      "reason": "Math Tutor",
+      "vouches": 1
+    },
+    "T0237": {
+      "grade": 1,
+      "skill_grade": 1,
+      "reason": "Math Tutor",
+      "vouches": 1
+    }
+  },
+  "R17": {
+    "T0357": {
+      "grade": 3,
+      "skill_grade": 3,
+      "reason": "Test Automation; 3 years",
+      "vouches": 2
+    },
+    "T0354": {
+      "grade": 3,
+      "skill_grade": 3,
+      "reason": "Bug Hunter; 2 years",
+      "vouches": 1
+    },
+    "S0038": {
+      "grade": 3,
+      "skill_grade": 3,
+      "reason": "Test Automation Engineer; 14 years",
+      "vouches": 1
+    },
+    "S0021": {
+      "grade": 3,
+      "skill_grade": 3,
+      "reason": "Test Automation; 15 years",
+      "vouches": 1
+    },
+    "T0027": {
+      "grade": 3,
+      "skill_grade": 3,
+      "reason": "Test Automation; 13 years",
+      "vouches": 1
+    },
+    "T0356": {
+      "grade": 3,
+      "skill_grade": 3,
+      "reason": "Test Automation; 3 years",
+      "vouches": 1
+    },
+    "T0355": {
+      "grade": 3,
+      "skill_grade": 3,
+      "reason": "Test Automation; 7 years",
+      "vouches": 1
+    },
+    "T0361": {
+      "grade": 3,
+      "skill_grade": 3,
+      "reason": "Test Automation; 5 years",
+      "vouches": 1
+    },
+    "T0358": {
+      "grade": 3,
+      "skill_grade": 3,
+      "reason": "Test Automation; 2 years",
+      "vouches": 1
+    },
+    "T0260": {
+      "grade": 3,
+      "skill_grade": 3,
+      "reason": "DevOps Engineer; 9 years",
+      "vouches": 1
+    },
+    "T0360": {
+      "grade": 3,
+      "skill_grade": 3,
+      "reason": "Test Automation; 6 years",
+      "vouches": 1
+    },
+    "T0353": {
+      "grade": 3,
+      "skill_grade": 3,
+      "reason": "Manual Tester; 7 years",
+      "vouches": 1
+    },
+    "T0249": {
+      "grade": 3,
+      "skill_grade": 3,
+      "reason": "DevOps Engineer; 8 years",
+      "vouches": 1
+    },
+    "T0261": {
+      "grade": 3,
+      "skill_grade": 3,
+      "reason": "Cloud Engineer; 12 years",
+      "vouches": 1
+    },
+    "T0228": {
+      "grade": 3,
+      "skill_grade": 3,
+      "reason": "UX Designer; 9 years",
+      "vouches": 1
+    },
+    "T0264": {
+      "grade": 3,
+      "skill_grade": 3,
+      "reason": "Cloud Engineer; 8 years",
+      "vouches": 1
+    },
+    "T0218": {
+      "grade": 3,
+      "skill_grade": 3,
+      "reason": "UX Researcher; 5 years",
+      "vouches": 1
+    },
+    "T0219": {
+      "grade": 3,
+      "skill_grade": 3,
+      "reason": "UX Researcher; 3 years",
+      "vouches": 1
+    },
+    "T0252": {
+      "grade": 3,
+      "skill_grade": 3,
+      "reason": "DevOps Engineer; 7 years",
+      "vouches": 1
+    },
+    "T0227": {
+      "grade": 3,
+      "skill_grade": 3,
+      "reason": "UX Designer; 7 years",
+      "vouches": 1
+    },
+    "T0214": {
+      "grade": 3,
+      "skill_grade": 3,
+      "reason": "UX Researcher; 3 years",
+      "vouches": 1
+    },
+    "T0359": {
+      "grade": 3,
+      "skill_grade": 3,
+      "reason": "Manual Tester",
+      "vouches": 1
+    },
+    "T0050": {
+      "grade": 1,
+      "skill_grade": 1,
+      "reason": "Mobile Developer",
+      "vouches": 1
+    },
+    "T0112": {
+      "grade": 1,
+      "skill_grade": 1,
+      "reason": "Mobile Developer",
+      "vouches": 1
+    },
+    "T0362": {
+      "grade": 1,
+      "skill_grade": 2,
+      "reason": "Test Automation; 1 years, 2 asked",
+      "vouches": 1
+    },
+    "T0015": {
+      "grade": 1,
+      "skill_grade": 1,
+      "reason": "Frontend Developer",
+      "vouches": 1
+    },
+    "T0120": {
+      "grade": 1,
+      "skill_grade": 1,
+      "reason": "Mobile Developer",
+      "vouches": 1
+    },
+    "T0109": {
+      "grade": 1,
+      "skill_grade": 1,
+      "reason": "React Native Developer",
+      "vouches": 1
+    },
+    "T0121": {
+      "grade": 1,
+      "skill_grade": 1,
+      "reason": "Mobile Developer",
+      "vouches": 1
+    },
+    "T0085": {
+      "grade": 1,
+      "skill_grade": 1,
+      "reason": "API Developer",
+      "vouches": 1
+    }
+  }
+}

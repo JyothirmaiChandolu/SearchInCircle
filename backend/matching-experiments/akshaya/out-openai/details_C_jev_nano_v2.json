@@ -1,0 +1,5710 @@
+{
+  "R01": {
+    "T2497": {
+      "grade": 3,
+      "skill_grade": 3,
+      "vouches": 2
+    },
+    "T2493": {
+      "grade": 3,
+      "skill_grade": 3,
+      "vouches": 1
+    },
+    "T2501": {
+      "grade": 3,
+      "skill_grade": 3,
+      "vouches": 1
+    },
+    "T2500": {
+      "grade": 3,
+      "skill_grade": 3,
+      "vouches": 1
+    },
+    "T2498": {
+      "grade": 3,
+      "skill_grade": 3,
+      "vouches": 1
+    },
+    "T2495": {
+      "grade": 3,
+      "skill_grade": 3,
+      "vouches": 1
+    },
+    "T3100": {
+      "grade": 3,
+      "skill_grade": 3,
+      "vouches": 1
+    },
+    "T2496": {
+      "grade": 3,
+      "skill_grade": 3,
+      "vouches": 1
+    },
+    "S0782": {
+      "grade": 3,
+      "skill_grade": 3,
+      "vouches": 1
+    },
+    "T2494": {
+      "grade": 3,
+      "skill_grade": 3,
+      "vouches": 1
+    },
+    "T2503": {
+      "grade": 3,
+      "skill_grade": 2,
+      "vouches": 1
+    },
+    "T2502": {
+      "grade": 0,
+      "skill_grade": 3,
+      "vouches": 1
+    },
+    "T2499": {
+      "grade": 0,
+      "skill_grade": 2,
+      "vouches": 1
+    },
+    "T3101": {
+      "grade": 0,
+      "skill_grade": 1,
+      "vouches": 1
+    },
+    "T3102": {
+      "grade": 0,
+      "skill_grade": 1,
+      "vouches": 1
+    },
+    "T1778": {
+      "grade": 0,
+      "skill_grade": 1,
+      "vouches": 1
+    },
+    "T0452": {
+      "grade": 0,
+      "skill_grade": 1,
+      "vouches": 1
+    },
+    "T1883": {
+      "grade": 0,
+      "skill_grade": 1,
+      "vouches": 1
+    },
+    "T2518": {
+      "grade": 0,
+      "skill_grade": 1,
+      "vouches": 1
+    }
+  },
+  "R02": {
+    "T2516": {
+      "grade": 3,
+      "skill_grade": 3,
+      "vouches": 2
+    },
+    "S0548": {
+      "grade": 3,
+      "skill_grade": 3,
+      "vouches": 1
+    },
+    "T2519": {
+      "grade": 3,
+      "skill_grade": 3,
+      "vouches": 1
+    },
+    "T2520": {
+      "grade": 3,
+      "skill_grade": 3,
+      "vouches": 1
+    },
+    "T2515": {
+      "grade": 3,
+      "skill_grade": 3,
+      "vouches": 1
+    },
+    "T2513": {
+      "grade": 3,
+      "skill_grade": 3,
+      "vouches": 1
+    },
+    "T2514": {
+      "grade": 3,
+      "skill_grade": 3,
+      "vouches": 1
+    },
+    "T3104": {
+      "grade": 3,
+      "skill_grade": 3,
+      "vouches": 1
+    },
+    "T2522": {
+      "grade": 3,
+      "skill_grade": 2,
+      "vouches": 1
+    },
+    "T3110": {
+      "grade": 3,
+      "skill_grade": 2,
+      "vouches": 1
+    },
+    "T3108": {
+      "grade": 3,
+      "skill_grade": 2,
+      "vouches": 1
+    },
+    "T3109": {
+      "grade": 3,
+      "skill_grade": 2,
+      "vouches": 1
+    },
+    "T2512": {
+      "grade": 3,
+      "skill_grade": 1,
+      "vouches": 1
+    },
+    "T2523": {
+      "grade": 3,
+      "skill_grade": 1,
+      "vouches": 1
+    },
+    "T2517": {
+      "grade": 3,
+      "skill_grade": 1,
+      "vouches": 1
+    },
+    "S0544": {
+      "grade": 2,
+      "skill_grade": 1,
+      "vouches": 1
+    },
+    "S0563": {
+      "grade": 2,
+      "skill_grade": 1,
+      "vouches": 1
+    },
+    "S0536": {
+      "grade": 2,
+      "skill_grade": 1,
+      "vouches": 1
+    },
+    "T3106": {
+      "grade": 1,
+      "skill_grade": 2,
+      "vouches": 1
+    },
+    "T3105": {
+      "grade": 0,
+      "skill_grade": 3,
+      "vouches": 1
+    },
+    "T3103": {
+      "grade": 0,
+      "skill_grade": 2,
+      "vouches": 1
+    },
+    "T3107": {
+      "grade": 0,
+      "skill_grade": 2,
+      "vouches": 1
+    },
+    "T2521": {
+      "grade": 0,
+      "skill_grade": 2,
+      "vouches": 1
+    },
+    "S0541": {
+      "grade": 0,
+      "skill_grade": 1,
+      "vouches": 1
+    },
+    "T2518": {
+      "grade": 0,
+      "skill_grade": 1,
+      "vouches": 1
+    }
+  },
+  "R03": {
+    "T2535": {
+      "grade": 3,
+      "skill_grade": 3,
+      "vouches": 2
+    },
+    "T0447": {
+      "grade": 3,
+      "skill_grade": 3,
+      "vouches": 2
+    },
+    "T2536": {
+      "grade": 3,
+      "skill_grade": 3,
+      "vouches": 1
+    },
+    "T2539": {
+      "grade": 3,
+      "skill_grade": 3,
+      "vouches": 1
+    },
+    "T3132": {
+      "grade": 3,
+      "skill_grade": 3,
+      "vouches": 1
+    },
+    "T2534": {
+      "grade": 3,
+      "skill_grade": 3,
+      "vouches": 1
+    },
+    "T3128": {
+      "grade": 3,
+      "skill_grade": 3,
+      "vouches": 1
+    },
+    "T0436": {
+      "grade": 3,
+      "skill_grade": 3,
+      "vouches": 1
+    },
+    "T3116": {
+      "grade": 3,
+      "skill_grade": 3,
+      "vouches": 1
+    },
+    "T3126": {
+      "grade": 3,
+      "skill_grade": 3,
+      "vouches": 1
+    },
+    "T2538": {
+      "grade": 3,
+      "skill_grade": 3,
+      "vouches": 1
+    },
+    "T3111": {
+      "grade": 3,
+      "skill_grade": 3,
+      "vouches": 1
+    },
+    "S0129": {
+      "grade": 3,
+      "skill_grade": 3,
+      "vouches": 1
+    },
+    "T2531": {
+      "grade": 3,
+      "skill_grade": 3,
+      "vouches": 1
+    },
+    "T0464": {
+      "grade": 3,
+      "skill_grade": 3,
+      "vouches": 1
+    },
+    "T0462": {
+      "grade": 3,
+      "skill_grade": 3,
+      "vouches": 1
+    },
+    "T0757": {
+      "grade": 3,
+      "skill_grade": 3,
+      "vouches": 1
+    },
+    "T2532": {
+      "grade": 3,
+      "skill_grade": 3,
+      "vouches": 1
+    },
+    "T0463": {
+      "grade": 3,
+      "skill_grade": 3,
+      "vouches": 1
+    },
+    "S0783": {
+      "grade": 3,
+      "skill_grade": 3,
+      "vouches": 1
+    },
+    "T0298": {
+      "grade": 3,
+      "skill_grade": 3,
+      "vouches": 1
+    },
+    "T0512": {
+      "grade": 3,
+      "skill_grade": 2,
+      "vouches": 1
+    },
+    "T2542": {
+      "grade": 3,
+      "skill_grade": 2,
+      "vouches": 1
+    },
+    "T0393": {
+      "grade": 3,
+      "skill_grade": 2,
+      "vouches": 1
+    },
+    "T0091": {
+      "grade": 3,
+      "skill_grade": 2,
+      "vouches": 1
+    },
+    "T0381": {
+      "grade": 3,
+      "skill_grade": 1,
+      "vouches": 1
+    },
+    "T0516": {
+      "grade": 3,
+      "skill_grade": 1,
+      "vouches": 1
+    },
+    "T2540": {
+      "grade": 2,
+      "skill_grade": 3,
+      "vouches": 1
+    },
+    "T3118": {
+      "grade": 2,
+      "skill_grade": 3,
+      "vouches": 1
+    },
+    "T3133": {
+      "grade": 2,
+      "skill_grade": 3,
+      "vouches": 1
+    },
+    "T0513": {
+      "grade": 2,
+      "skill_grade": 3,
+      "vouches": 1
+    },
+    "T2533": {
+      "grade": 2,
+      "skill_grade": 3,
+      "vouches": 1
+    },
+    "T3125": {
+      "grade": 2,
+      "skill_grade": 3,
+      "vouches": 1
+    },
+    "T2811": {
+      "grade": 2,
+      "skill_grade": 3,
+      "vouches": 1
+    },
+    "T3120": {
+      "grade": 2,
+      "skill_grade": 3,
+      "vouches": 1
+    },
+    "T3122": {
+      "grade": 2,
+      "skill_grade": 3,
+      "vouches": 1
+    },
+    "T3124": {
+      "grade": 2,
+      "skill_grade": 3,
+      "vouches": 1
+    },
+    "S0108": {
+      "grade": 2,
+      "skill_grade": 3,
+      "vouches": 1
+    },
+    "S0045": {
+      "grade": 2,
+      "skill_grade": 2,
+      "vouches": 1
+    },
+    "T0102": {
+      "grade": 2,
+      "skill_grade": 2,
+      "vouches": 1
+    },
+    "T0271": {
+      "grade": 2,
+      "skill_grade": 2,
+      "vouches": 1
+    },
+    "T0098": {
+      "grade": 2,
+      "skill_grade": 2,
+      "vouches": 1
+    },
+    "T0754": {
+      "grade": 2,
+      "skill_grade": 2,
+      "vouches": 1
+    },
+    "S0147": {
+      "grade": 2,
+      "skill_grade": 2,
+      "vouches": 1
+    },
+    "T0074": {
+      "grade": 2,
+      "skill_grade": 1,
+      "vouches": 1
+    },
+    "T0282": {
+      "grade": 2,
+      "skill_grade": 1,
+      "vouches": 1
+    },
+    "S0166": {
+      "grade": 2,
+      "skill_grade": 1,
+      "vouches": 1
+    },
+    "T3121": {
+      "grade": 1,
+      "skill_grade": 3,
+      "vouches": 1
+    },
+    "T2914": {
+      "grade": 1,
+      "skill_grade": 3,
+      "vouches": 1
+    },
+    "T3178": {
+      "grade": 1,
+      "skill_grade": 1,
+      "vouches": 1
+    },
+    "T3119": {
+      "grade": 0,
+      "skill_grade": 3,
+      "vouches": 1
+    },
+    "T3127": {
+      "grade": 0,
+      "skill_grade": 3,
+      "vouches": 1
+    },
+    "T3117": {
+      "grade": 0,
+      "skill_grade": 3,
+      "vouches": 1
+    },
+    "T0121": {
+      "grade": 0,
+      "skill_grade": 3,
+      "vouches": 1
+    },
+    "T3114": {
+      "grade": 0,
+      "skill_grade": 3,
+      "vouches": 1
+    },
+    "T2541": {
+      "grade": 0,
+      "skill_grade": 3,
+      "vouches": 1
+    },
+    "T3131": {
+      "grade": 0,
+      "skill_grade": 3,
+      "vouches": 1
+    },
+    "T3129": {
+      "grade": 0,
+      "skill_grade": 3,
+      "vouches": 1
+    },
+    "T3115": {
+      "grade": 0,
+      "skill_grade": 3,
+      "vouches": 1
+    },
+    "T0173": {
+      "grade": 0,
+      "skill_grade": 3,
+      "vouches": 1
+    },
+    "T3123": {
+      "grade": 0,
+      "skill_grade": 3,
+      "vouches": 1
+    },
+    "T0815": {
+      "grade": 0,
+      "skill_grade": 3,
+      "vouches": 1
+    },
+    "T3113": {
+      "grade": 0,
+      "skill_grade": 3,
+      "vouches": 1
+    },
+    "T3112": {
+      "grade": 0,
+      "skill_grade": 3,
+      "vouches": 1
+    },
+    "T0461": {
+      "grade": 0,
+      "skill_grade": 2,
+      "vouches": 1
+    },
+    "T0456": {
+      "grade": 0,
+      "skill_grade": 2,
+      "vouches": 1
+    },
+    "T0349": {
+      "grade": 0,
+      "skill_grade": 2,
+      "vouches": 1
+    },
+    "T0162": {
+      "grade": 0,
+      "skill_grade": 2,
+      "vouches": 1
+    },
+    "T0172": {
+      "grade": 0,
+      "skill_grade": 2,
+      "vouches": 1
+    },
+    "S0062": {
+      "grade": 0,
+      "skill_grade": 2,
+      "vouches": 1
+    },
+    "T0399": {
+      "grade": 0,
+      "skill_grade": 2,
+      "vouches": 1
+    },
+    "T0385": {
+      "grade": 0,
+      "skill_grade": 2,
+      "vouches": 1
+    },
+    "T3130": {
+      "grade": 0,
+      "skill_grade": 2,
+      "vouches": 1
+    },
+    "S0138": {
+      "grade": 0,
+      "skill_grade": 2,
+      "vouches": 1
+    },
+    "T2537": {
+      "grade": 0,
+      "skill_grade": 2,
+      "vouches": 1
+    },
+    "S0208": {
+      "grade": 0,
+      "skill_grade": 2,
+      "vouches": 1
+    },
+    "T0120": {
+      "grade": 0,
+      "skill_grade": 1,
+      "vouches": 1
+    },
+    "T0433": {
+      "grade": 0,
+      "skill_grade": 1,
+      "vouches": 1
+    },
+    "T0466": {
+      "grade": 0,
+      "skill_grade": 1,
+      "vouches": 1
+    },
+    "T0104": {
+      "grade": 0,
+      "skill_grade": 1,
+      "vouches": 1
+    },
+    "T2653": {
+      "grade": 0,
+      "skill_grade": 1,
+      "vouches": 1
+    },
+    "S0075": {
+      "grade": 0,
+      "skill_grade": 1,
+      "vouches": 1
+    },
+    "S0162": {
+      "grade": 0,
+      "skill_grade": 1,
+      "vouches": 1
+    },
+    "T2807": {
+      "grade": 0,
+      "skill_grade": 1,
+      "vouches": 1
+    },
+    "T3211": {
+      "grade": 0,
+      "skill_grade": 1,
+      "vouches": 1
+    },
+    "T2808": {
+      "grade": 0,
+      "skill_grade": 1,
+      "vouches": 1
+    },
+    "T3193": {
+      "grade": 0,
+      "skill_grade": 1,
+      "vouches": 1
+    }
+  },
+  "R04": {
+    "S0717": {
+      "grade": 3,
+      "skill_grade": 3,
+      "vouches": 2
+    },
+    "T2554": {
+      "grade": 3,
+      "skill_grade": 3,
+      "vouches": 1
+    },
+    "T2559": {
+      "grade": 3,
+      "skill_grade": 3,
+      "vouches": 1
+    },
+    "T2558": {
+      "grade": 3,
+      "skill_grade": 3,
+      "vouches": 1
+    },
+    "T2556": {
+      "grade": 3,
+      "skill_grade": 3,
+      "vouches": 1
+    },
+    "T2553": {
+      "grade": 3,
+      "skill_grade": 3,
+      "vouches": 1
+    },
+    "T0914": {
+      "grade": 3,
+      "skill_grade": 3,
+      "vouches": 1
+    },
+    "T3134": {
+      "grade": 3,
+      "skill_grade": 3,
+      "vouches": 1
+    },
+    "S0785": {
+      "grade": 3,
+      "skill_grade": 3,
+      "vouches": 1
+    },
+    "S0784": {
+      "grade": 3,
+      "skill_grade": 3,
+      "vouches": 1
+    },
+    "T0200": {
+      "grade": 3,
+      "skill_grade": 3,
+      "vouches": 1
+    },
+    "T0895": {
+      "grade": 3,
+      "skill_grade": 3,
+      "vouches": 1
+    },
+    "T0266": {
+      "grade": 3,
+      "skill_grade": 3,
+      "vouches": 1
+    },
+    "S0224": {
+      "grade": 3,
+      "skill_grade": 2,
+      "vouches": 1
+    },
+    "T2561": {
+      "grade": 3,
+      "skill_grade": 2,
+      "vouches": 1
+    },
+    "T2552": {
+      "grade": 2,
+      "skill_grade": 3,
+      "vouches": 1
+    },
+    "T0548": {
+      "grade": 2,
+      "skill_grade": 2,
+      "vouches": 1
+    },
+    "T3137": {
+      "grade": 1,
+      "skill_grade": 3,
+      "vouches": 1
+    },
+    "T2551": {
+      "grade": 0,
+      "skill_grade": 3,
+      "vouches": 1
+    },
+    "T2560": {
+      "grade": 0,
+      "skill_grade": 3,
+      "vouches": 1
+    },
+    "T3138": {
+      "grade": 0,
+      "skill_grade": 3,
+      "vouches": 1
+    },
+    "T3135": {
+      "grade": 0,
+      "skill_grade": 3,
+      "vouches": 1
+    },
+    "T2557": {
+      "grade": 0,
+      "skill_grade": 3,
+      "vouches": 1
+    },
+    "T3136": {
+      "grade": 0,
+      "skill_grade": 2,
+      "vouches": 1
+    }
+  },
+  "R05": {
+    "T2572": {
+      "grade": 3,
+      "skill_grade": 3,
+      "vouches": 2
+    },
+    "T2570": {
+      "grade": 3,
+      "skill_grade": 3,
+      "vouches": 1
+    },
+    "T3143": {
+      "grade": 3,
+      "skill_grade": 3,
+      "vouches": 1
+    },
+    "T2568": {
+      "grade": 3,
+      "skill_grade": 3,
+      "vouches": 1
+    },
+    "T2571": {
+      "grade": 3,
+      "skill_grade": 3,
+      "vouches": 1
+    },
+    "S0786": {
+      "grade": 3,
+      "skill_grade": 3,
+      "vouches": 1
+    },
+    "T2569": {
+      "grade": 3,
+      "skill_grade": 3,
+      "vouches": 1
+    },
+    "T2575": {
+      "grade": 3,
+      "skill_grade": 3,
+      "vouches": 1
+    },
+    "T2576": {
+      "grade": 3,
+      "skill_grade": 3,
+      "vouches": 1
+    },
+    "T2573": {
+      "grade": 3,
+      "skill_grade": 3,
+      "vouches": 1
+    },
+    "T1712": {
+      "grade": 3,
+      "skill_grade": 2,
+      "vouches": 1
+    },
+    "T2848": {
+      "grade": 3,
+      "skill_grade": 2,
+      "vouches": 1
+    },
+    "T2579": {
+      "grade": 3,
+      "skill_grade": 2,
+      "vouches": 1
+    },
+    "T1563": {
+      "grade": 3,
+      "skill_grade": 2,
+      "vouches": 1
+    },
+    "T3139": {
+      "grade": 3,
+      "skill_grade": 1,
+      "vouches": 1
+    },
+    "S0513": {
+      "grade": 3,
+      "skill_grade": 1,
+      "vouches": 1
+    },
+    "T3140": {
+      "grade": 2,
+      "skill_grade": 3,
+      "vouches": 1
+    },
+    "T1680": {
+      "grade": 2,
+      "skill_grade": 3,
+      "vouches": 1
+    },
+    "T2577": {
+      "grade": 2,
+      "skill_grade": 3,
+      "vouches": 1
+    },
+    "T1894": {
+      "grade": 2,
+      "skill_grade": 3,
+      "vouches": 1
+    },
+    "S0479": {
+      "grade": 2,
+      "skill_grade": 2,
+      "vouches": 1
+    },
+    "T3141": {
+      "grade": 1,
+      "skill_grade": 3,
+      "vouches": 1
+    },
+    "T3145": {
+      "grade": 0,
+      "skill_grade": 3,
+      "vouches": 1
+    },
+    "T3146": {
+      "grade": 0,
+      "skill_grade": 3,
+      "vouches": 1
+    },
+    "T2578": {
+      "grade": 0,
+      "skill_grade": 3,
+      "vouches": 1
+    },
+    "S0511": {
+      "grade": 0,
+      "skill_grade": 3,
+      "vouches": 1
+    },
+    "T1660": {
+      "grade": 0,
+      "skill_grade": 3,
+      "vouches": 1
+    },
+    "S0494": {
+      "grade": 0,
+      "skill_grade": 2,
+      "vouches": 2
+    },
+    "T1663": {
+      "grade": 0,
+      "skill_grade": 2,
+      "vouches": 1
+    },
+    "T3142": {
+      "grade": 0,
+      "skill_grade": 2,
+      "vouches": 1
+    },
+    "T1621": {
+      "grade": 0,
+      "skill_grade": 2,
+      "vouches": 1
+    },
+    "T1639": {
+      "grade": 0,
+      "skill_grade": 2,
+      "vouches": 1
+    },
+    "T1567": {
+      "grade": 0,
+      "skill_grade": 2,
+      "vouches": 1
+    },
+    "T2574": {
+      "grade": 0,
+      "skill_grade": 2,
+      "vouches": 1
+    },
+    "T3144": {
+      "grade": 0,
+      "skill_grade": 1,
+      "vouches": 1
+    },
+    "T1610": {
+      "grade": 0,
+      "skill_grade": 1,
+      "vouches": 1
+    }
+  },
+  "R06": {
+    "S0721": {
+      "grade": 3,
+      "skill_grade": 3,
+      "vouches": 2
+    },
+    "T2593": {
+      "grade": 3,
+      "skill_grade": 3,
+      "vouches": 1
+    },
+    "T2590": {
+      "grade": 3,
+      "skill_grade": 3,
+      "vouches": 1
+    },
+    "T2591": {
+      "grade": 3,
+      "skill_grade": 3,
+      "vouches": 1
+    },
+    "T2588": {
+      "grade": 3,
+      "skill_grade": 3,
+      "vouches": 1
+    },
+    "T2596": {
+      "grade": 3,
+      "skill_grade": 3,
+      "vouches": 1
+    },
+    "T1619": {
+      "grade": 3,
+      "skill_grade": 3,
+      "vouches": 1
+    },
+    "T2595": {
+      "grade": 3,
+      "skill_grade": 3,
+      "vouches": 1
+    },
+    "T2589": {
+      "grade": 3,
+      "skill_grade": 3,
+      "vouches": 1
+    },
+    "T2599": {
+      "grade": 3,
+      "skill_grade": 2,
+      "vouches": 1
+    },
+    "T1591": {
+      "grade": 3,
+      "skill_grade": 2,
+      "vouches": 1
+    },
+    "T2597": {
+      "grade": 2,
+      "skill_grade": 3,
+      "vouches": 1
+    },
+    "T2598": {
+      "grade": 0,
+      "skill_grade": 3,
+      "vouches": 1
+    },
+    "T0624": {
+      "grade": 0,
+      "skill_grade": 3,
+      "vouches": 1
+    },
+    "T2594": {
+      "grade": 0,
+      "skill_grade": 2,
+      "vouches": 1
+    },
+    "T1610": {
+      "grade": 0,
+      "skill_grade": 1,
+      "vouches": 1
+    }
+  },
+  "R07": {
+    "T2611": {
+      "grade": 3,
+      "skill_grade": 3,
+      "vouches": 2
+    },
+    "T2615": {
+      "grade": 3,
+      "skill_grade": 3,
+      "vouches": 1
+    },
+    "T2614": {
+      "grade": 3,
+      "skill_grade": 3,
+      "vouches": 1
+    },
+    "T2612": {
+      "grade": 3,
+      "skill_grade": 3,
+      "vouches": 1
+    },
+    "T2610": {
+      "grade": 3,
+      "skill_grade": 3,
+      "vouches": 1
+    },
+    "T2608": {
+      "grade": 3,
+      "skill_grade": 3,
+      "vouches": 1
+    },
+    "T2617": {
+      "grade": 3,
+      "skill_grade": 2,
+      "vouches": 1
+    },
+    "S0371": {
+      "grade": 3,
+      "skill_grade": 2,
+      "vouches": 1
+    },
+    "T2609": {
+      "grade": 2,
+      "skill_grade": 3,
+      "vouches": 1
+    },
+    "T2607": {
+      "grade": 2,
+      "skill_grade": 3,
+      "vouches": 1
+    },
+    "T2616": {
+      "grade": 0,
+      "skill_grade": 3,
+      "vouches": 1
+    },
+    "T2613": {
+      "grade": 0,
+      "skill_grade": 3,
+      "vouches": 1
+    },
+    "S0574": {
+      "grade": 0,
+      "skill_grade": 1,
+      "vouches": 1
+    }
+  },
+  "R08": {
+    "S0725": {
+      "grade": 3,
+      "skill_grade": 3,
+      "vouches": 2
+    },
+    "T2632": {
+      "grade": 3,
+      "skill_grade": 3,
+      "vouches": 1
+    },
+    "T2628": {
+      "grade": 3,
+      "skill_grade": 3,
+      "vouches": 1
+    },
+    "T2625": {
+      "grade": 3,
+      "skill_grade": 3,
+      "vouches": 1
+    },
+    "T2627": {
+      "grade": 3,
+      "skill_grade": 3,
+      "vouches": 1
+    },
+    "T2635": {
+      "grade": 3,
+      "skill_grade": 3,
+      "vouches": 1
+    },
+    "T2049": {
+      "grade": 3,
+      "skill_grade": 3,
+      "vouches": 1
+    },
+    "T2626": {
+      "grade": 3,
+      "skill_grade": 3,
+      "vouches": 1
+    },
+    "T2633": {
+      "grade": 3,
+      "skill_grade": 3,
+      "vouches": 1
+    },
+    "S0572": {
+      "grade": 3,
+      "skill_grade": 2,
+      "vouches": 2
+    },
+    "S0594": {
+      "grade": 3,
+      "skill_grade": 2,
+      "vouches": 2
+    },
+    "T2630": {
+      "grade": 0,
+      "skill_grade": 3,
+      "vouches": 1
+    },
+    "T2634": {
+      "grade": 0,
+      "skill_grade": 3,
+      "vouches": 1
+    },
+    "T2113": {
+      "grade": 0,
+      "skill_grade": 3,
+      "vouches": 1
+    },
+    "T2631": {
+      "grade": 0,
+      "skill_grade": 3,
+      "vouches": 1
+    }
+  },
+  "R09": {
+    "T2646": {
+      "grade": 3,
+      "skill_grade": 3,
+      "vouches": 2
+    },
+    "T3151": {
+      "grade": 3,
+      "skill_grade": 3,
+      "vouches": 1
+    },
+    "T2642": {
+      "grade": 3,
+      "skill_grade": 3,
+      "vouches": 1
+    },
+    "T2644": {
+      "grade": 3,
+      "skill_grade": 3,
+      "vouches": 1
+    },
+    "T2645": {
+      "grade": 3,
+      "skill_grade": 3,
+      "vouches": 1
+    },
+    "T3155": {
+      "grade": 3,
+      "skill_grade": 3,
+      "vouches": 1
+    },
+    "T2647": {
+      "grade": 3,
+      "skill_grade": 3,
+      "vouches": 1
+    },
+    "T3149": {
+      "grade": 3,
+      "skill_grade": 3,
+      "vouches": 1
+    },
+    "S0787": {
+      "grade": 3,
+      "skill_grade": 3,
+      "vouches": 1
+    },
+    "T2649": {
+      "grade": 3,
+      "skill_grade": 3,
+      "vouches": 1
+    },
+    "T2652": {
+      "grade": 3,
+      "skill_grade": 3,
+      "vouches": 1
+    },
+    "T2650": {
+      "grade": 3,
+      "skill_grade": 3,
+      "vouches": 1
+    },
+    "T1238": {
+      "grade": 3,
+      "skill_grade": 2,
+      "vouches": 1
+    },
+    "T3153": {
+      "grade": 2,
+      "skill_grade": 3,
+      "vouches": 1
+    },
+    "T3154": {
+      "grade": 2,
+      "skill_grade": 3,
+      "vouches": 1
+    },
+    "T2651": {
+      "grade": 2,
+      "skill_grade": 3,
+      "vouches": 1
+    },
+    "T2643": {
+      "grade": 2,
+      "skill_grade": 2,
+      "vouches": 1
+    },
+    "T3150": {
+      "grade": 2,
+      "skill_grade": 2,
+      "vouches": 1
+    },
+    "S0358": {
+      "grade": 2,
+      "skill_grade": 1,
+      "vouches": 1
+    },
+    "T2653": {
+      "grade": 2,
+      "skill_grade": 1,
+      "vouches": 1
+    },
+    "S0020": {
+      "grade": 1,
+      "skill_grade": 3,
+      "vouches": 1
+    },
+    "T3152": {
+      "grade": 0,
+      "skill_grade": 3,
+      "vouches": 1
+    },
+    "T1206": {
+      "grade": 0,
+      "skill_grade": 3,
+      "vouches": 1
+    },
+    "T3148": {
+      "grade": 0,
+      "skill_grade": 3,
+      "vouches": 1
+    },
+    "S0312": {
+      "grade": 0,
+      "skill_grade": 2,
+      "vouches": 1
+    },
+    "T3147": {
+      "grade": 0,
+      "skill_grade": 2,
+      "vouches": 1
+    },
+    "T2648": {
+      "grade": 0,
+      "skill_grade": 2,
+      "vouches": 1
+    },
+    "T0431": {
+      "grade": 0,
+      "skill_grade": 2,
+      "vouches": 1
+    },
+    "S0343": {
+      "grade": 0,
+      "skill_grade": 1,
+      "vouches": 1
+    }
+  },
+  "R10": {
+    "T2665": {
+      "grade": 3,
+      "skill_grade": 3,
+      "vouches": 2
+    },
+    "T2661": {
+      "grade": 3,
+      "skill_grade": 3,
+      "vouches": 1
+    },
+    "T2668": {
+      "grade": 3,
+      "skill_grade": 3,
+      "vouches": 1
+    },
+    "T2663": {
+      "grade": 3,
+      "skill_grade": 3,
+      "vouches": 1
+    },
+    "T2664": {
+      "grade": 3,
+      "skill_grade": 3,
+      "vouches": 1
+    },
+    "T2662": {
+      "grade": 3,
+      "skill_grade": 3,
+      "vouches": 1
+    },
+    "T2669": {
+      "grade": 3,
+      "skill_grade": 3,
+      "vouches": 1
+    },
+    "T2666": {
+      "grade": 3,
+      "skill_grade": 3,
+      "vouches": 1
+    },
+    "T1086": {
+      "grade": 3,
+      "skill_grade": 3,
+      "vouches": 1
+    },
+    "T2672": {
+      "grade": 3,
+      "skill_grade": 2,
+      "vouches": 1
+    },
+    "T0994": {
+      "grade": 3,
+      "skill_grade": 2,
+      "vouches": 1
+    },
+    "T0955": {
+      "grade": 3,
+      "skill_grade": 1,
+      "vouches": 1
+    },
+    "T2670": {
+      "grade": 1,
+      "skill_grade": 3,
+      "vouches": 1
+    },
+    "T1050": {
+      "grade": 0,
+      "skill_grade": 3,
+      "vouches": 1
+    },
+    "T2363": {
+      "grade": 0,
+      "skill_grade": 3,
+      "vouches": 1
+    },
+    "T2671": {
+      "grade": 0,
+      "skill_grade": 3,
+      "vouches": 1
+    },
+    "T2667": {
+      "grade": 0,
+      "skill_grade": 3,
+      "vouches": 1
+    },
+    "T1258": {
+      "grade": 0,
+      "skill_grade": 3,
+      "vouches": 1
+    },
+    "T0964": {
+      "grade": 0,
+      "skill_grade": 3,
+      "vouches": 1
+    },
+    "T2673": {
+      "grade": 0,
+      "skill_grade": 1,
+      "vouches": 1
+    }
+  },
+  "R11": {
+    "S0731": {
+      "grade": 3,
+      "skill_grade": 3,
+      "vouches": 1
+    },
+    "T2680": {
+      "grade": 2,
+      "skill_grade": 3,
+      "vouches": 1
+    },
+    "T2681": {
+      "grade": 2,
+      "skill_grade": 3,
+      "vouches": 1
+    },
+    "T2683": {
+      "grade": 2,
+      "skill_grade": 2,
+      "vouches": 1
+    },
+    "T2117": {
+      "grade": 2,
+      "skill_grade": 2,
+      "vouches": 1
+    },
+    "T2682": {
+      "grade": 1,
+      "skill_grade": 3,
+      "vouches": 1
+    }
+  },
+  "R12": {
+    "T2139": {
+      "grade": 2,
+      "skill_grade": 1,
+      "vouches": 1
+    }
+  },
+  "R13": {},
+  "R14": {
+    "S0734": {
+      "grade": 3,
+      "skill_grade": 3,
+      "vouches": 2
+    },
+    "T2702": {
+      "grade": 3,
+      "skill_grade": 3,
+      "vouches": 1
+    },
+    "T2703": {
+      "grade": 3,
+      "skill_grade": 3,
+      "vouches": 1
+    },
+    "T2697": {
+      "grade": 3,
+      "skill_grade": 3,
+      "vouches": 1
+    },
+    "T1381": {
+      "grade": 3,
+      "skill_grade": 3,
+      "vouches": 1
+    },
+    "T2695": {
+      "grade": 3,
+      "skill_grade": 3,
+      "vouches": 1
+    },
+    "T2698": {
+      "grade": 3,
+      "skill_grade": 3,
+      "vouches": 1
+    },
+    "T1411": {
+      "grade": 3,
+      "skill_grade": 3,
+      "vouches": 1
+    },
+    "T2700": {
+      "grade": 2,
+      "skill_grade": 3,
+      "vouches": 1
+    },
+    "T2696": {
+      "grade": 2,
+      "skill_grade": 2,
+      "vouches": 1
+    },
+    "T2701": {
+      "grade": 0,
+      "skill_grade": 2,
+      "vouches": 1
+    }
+  },
+  "R15": {
+    "T2715": {
+      "grade": 3,
+      "skill_grade": 3,
+      "vouches": 2
+    },
+    "T2711": {
+      "grade": 3,
+      "skill_grade": 3,
+      "vouches": 1
+    },
+    "T2716": {
+      "grade": 3,
+      "skill_grade": 3,
+      "vouches": 1
+    },
+    "T2719": {
+      "grade": 3,
+      "skill_grade": 3,
+      "vouches": 1
+    },
+    "T2718": {
+      "grade": 3,
+      "skill_grade": 3,
+      "vouches": 1
+    },
+    "T2714": {
+      "grade": 3,
+      "skill_grade": 3,
+      "vouches": 1
+    },
+    "T2712": {
+      "grade": 3,
+      "skill_grade": 3,
+      "vouches": 1
+    },
+    "T2713": {
+      "grade": 3,
+      "skill_grade": 3,
+      "vouches": 1
+    },
+    "T2722": {
+      "grade": 3,
+      "skill_grade": 1,
+      "vouches": 1
+    },
+    "S0642": {
+      "grade": 3,
+      "skill_grade": 1,
+      "vouches": 1
+    },
+    "T2720": {
+      "grade": 2,
+      "skill_grade": 3,
+      "vouches": 1
+    },
+    "T2721": {
+      "grade": 0,
+      "skill_grade": 3,
+      "vouches": 1
+    },
+    "T2717": {
+      "grade": 0,
+      "skill_grade": 2,
+      "vouches": 1
+    }
+  },
+  "R16": {
+    "S0738": {
+      "grade": 3,
+      "skill_grade": 3,
+      "vouches": 2
+    },
+    "T2733": {
+      "grade": 3,
+      "skill_grade": 3,
+      "vouches": 1
+    },
+    "T2731": {
+      "grade": 3,
+      "skill_grade": 3,
+      "vouches": 1
+    },
+    "T2730": {
+      "grade": 3,
+      "skill_grade": 3,
+      "vouches": 1
+    },
+    "T2735": {
+      "grade": 3,
+      "skill_grade": 3,
+      "vouches": 1
+    },
+    "T2732": {
+      "grade": 3,
+      "skill_grade": 3,
+      "vouches": 1
+    },
+    "T2737": {
+      "grade": 3,
+      "skill_grade": 3,
+      "vouches": 1
+    },
+    "T2738": {
+      "grade": 3,
+      "skill_grade": 2,
+      "vouches": 1
+    },
+    "T2739": {
+      "grade": 3,
+      "skill_grade": 2,
+      "vouches": 1
+    },
+    "T2736": {
+      "grade": 0,
+      "skill_grade": 2,
+      "vouches": 1
+    }
+  },
+  "R17": {
+    "T0183": {
+      "grade": 3,
+      "skill_grade": 3,
+      "vouches": 1
+    },
+    "S0088": {
+      "grade": 3,
+      "skill_grade": 1,
+      "vouches": 1
+    },
+    "T3194": {
+      "grade": 3,
+      "skill_grade": 1,
+      "vouches": 1
+    },
+    "T2809": {
+      "grade": 3,
+      "skill_grade": 1,
+      "vouches": 1
+    },
+    "S0740": {
+      "grade": 2,
+      "skill_grade": 3,
+      "vouches": 2
+    },
+    "T0284": {
+      "grade": 2,
+      "skill_grade": 3,
+      "vouches": 2
+    },
+    "T3159": {
+      "grade": 2,
+      "skill_grade": 3,
+      "vouches": 1
+    },
+    "T2748": {
+      "grade": 2,
+      "skill_grade": 3,
+      "vouches": 1
+    },
+    "T0062": {
+      "grade": 2,
+      "skill_grade": 3,
+      "vouches": 1
+    },
+    "S0788": {
+      "grade": 2,
+      "skill_grade": 3,
+      "vouches": 1
+    },
+    "T2750": {
+      "grade": 2,
+      "skill_grade": 3,
+      "vouches": 1
+    },
+    "T2755": {
+      "grade": 2,
+      "skill_grade": 3,
+      "vouches": 1
+    },
+    "T2749": {
+      "grade": 2,
+      "skill_grade": 3,
+      "vouches": 1
+    },
+    "T2747": {
+      "grade": 2,
+      "skill_grade": 3,
+      "vouches": 1
+    },
+    "S0143": {
+      "grade": 2,
+      "skill_grade": 3,
+      "vouches": 1
+    },
+    "T2754": {
+      "grade": 2,
+      "skill_grade": 3,
+      "vouches": 1
+    },
+    "T2752": {
+      "grade": 2,
+      "skill_grade": 3,
+      "vouches": 1
+    },
+    "T0455": {
+      "grade": 2,
+      "skill_grade": 3,
+      "vouches": 1
+    },
+    "S0090": {
+      "grade": 2,
+      "skill_grade": 3,
+      "vouches": 1
+    },
+    "S0124": {
+      "grade": 2,
+      "skill_grade": 3,
+      "vouches": 1
+    },
+    "T0134": {
+      "grade": 2,
+      "skill_grade": 3,
+      "vouches": 1
+    },
+    "T0201": {
+      "grade": 2,
+      "skill_grade": 2,
+      "vouches": 1
+    },
+    "S0057": {
+      "grade": 2,
+      "skill_grade": 2,
+      "vouches": 1
+    },
+    "T0499": {
+      "grade": 2,
+      "skill_grade": 2,
+      "vouches": 1
+    },
+    "S0152": {
+      "grade": 2,
+      "skill_grade": 2,
+      "vouches": 1
+    },
+    "T0563": {
+      "grade": 2,
+      "skill_grade": 1,
+      "vouches": 1
+    },
+    "T0503": {
+      "grade": 2,
+      "skill_grade": 1,
+      "vouches": 1
+    },
+    "T0093": {
+      "grade": 2,
+      "skill_grade": 1,
+      "vouches": 1
+    },
+    "T0355": {
+      "grade": 2,
+      "skill_grade": 1,
+      "vouches": 1
+    },
+    "S0157": {
+      "grade": 2,
+      "skill_grade": 1,
+      "vouches": 1
+    },
+    "T0537": {
+      "grade": 2,
+      "skill_grade": 1,
+      "vouches": 1
+    },
+    "T2653": {
+      "grade": 2,
+      "skill_grade": 1,
+      "vouches": 1
+    },
+    "T3215": {
+      "grade": 2,
+      "skill_grade": 1,
+      "vouches": 1
+    },
+    "T0454": {
+      "grade": 2,
+      "skill_grade": 1,
+      "vouches": 1
+    },
+    "S0059": {
+      "grade": 2,
+      "skill_grade": 1,
+      "vouches": 1
+    },
+    "T3231": {
+      "grade": 2,
+      "skill_grade": 1,
+      "vouches": 1
+    },
+    "T0303": {
+      "grade": 2,
+      "skill_grade": 1,
+      "vouches": 1
+    },
+    "S0242": {
+      "grade": 2,
+      "skill_grade": 1,
+      "vouches": 1
+    },
+    "T2543": {
+      "grade": 2,
+      "skill_grade": 1,
+      "vouches": 1
+    },
+    "T2803": {
+      "grade": 2,
+      "skill_grade": 1,
+      "vouches": 1
+    },
+    "T0128": {
+      "grade": 2,
+      "skill_grade": 1,
+      "vouches": 1
+    },
+    "S0098": {
+      "grade": 2,
+      "skill_grade": 1,
+      "vouches": 1
+    },
+    "T3185": {
+      "grade": 2,
+      "skill_grade": 1,
+      "vouches": 1
+    },
+    "T0861": {
+      "grade": 2,
+      "skill_grade": 1,
+      "vouches": 1
+    },
+    "S0084": {
+      "grade": 2,
+      "skill_grade": 1,
+      "vouches": 1
+    },
+    "T0159": {
+      "grade": 2,
+      "skill_grade": 1,
+      "vouches": 1
+    },
+    "T0145": {
+      "grade": 2,
+      "skill_grade": 1,
+      "vouches": 1
+    },
+    "T0383": {
+      "grade": 2,
+      "skill_grade": 1,
+      "vouches": 1
+    },
+    "T3201": {
+      "grade": 2,
+      "skill_grade": 1,
+      "vouches": 1
+    },
+    "T3191": {
+      "grade": 2,
+      "skill_grade": 1,
+      "vouches": 1
+    },
+    "T0185": {
+      "grade": 2,
+      "skill_grade": 1,
+      "vouches": 1
+    },
+    "T2806": {
+      "grade": 2,
+      "skill_grade": 1,
+      "vouches": 1
+    },
+    "T2810": {
+      "grade": 2,
+      "skill_grade": 1,
+      "vouches": 1
+    },
+    "T0380": {
+      "grade": 2,
+      "skill_grade": 1,
+      "vouches": 1
+    },
+    "S0097": {
+      "grade": 2,
+      "skill_grade": 1,
+      "vouches": 1
+    },
+    "T0187": {
+      "grade": 1,
+      "skill_grade": 2,
+      "vouches": 1
+    },
+    "T0314": {
+      "grade": 1,
+      "skill_grade": 2,
+      "vouches": 1
+    },
+    "T0341": {
+      "grade": 1,
+      "skill_grade": 1,
+      "vouches": 1
+    },
+    "T3158": {
+      "grade": 0,
+      "skill_grade": 3,
+      "vouches": 1
+    },
+    "T3160": {
+      "grade": 0,
+      "skill_grade": 3,
+      "vouches": 1
+    },
+    "T0211": {
+      "grade": 0,
+      "skill_grade": 3,
+      "vouches": 1
+    },
+    "T2753": {
+      "grade": 0,
+      "skill_grade": 3,
+      "vouches": 1
+    },
+    "T3161": {
+      "grade": 0,
+      "skill_grade": 3,
+      "vouches": 1
+    },
+    "T0870": {
+      "grade": 0,
+      "skill_grade": 3,
+      "vouches": 1
+    },
+    "T3157": {
+      "grade": 0,
+      "skill_grade": 3,
+      "vouches": 1
+    },
+    "T2756": {
+      "grade": 0,
+      "skill_grade": 2,
+      "vouches": 1
+    },
+    "T0276": {
+      "grade": 0,
+      "skill_grade": 2,
+      "vouches": 1
+    },
+    "T0384": {
+      "grade": 0,
+      "skill_grade": 2,
+      "vouches": 1
+    },
+    "T3156": {
+      "grade": 0,
+      "skill_grade": 2,
+      "vouches": 1
+    },
+    "T0508": {
+      "grade": 0,
+      "skill_grade": 1,
+      "vouches": 1
+    },
+    "T0405": {
+      "grade": 0,
+      "skill_grade": 1,
+      "vouches": 1
+    },
+    "T0365": {
+      "grade": 0,
+      "skill_grade": 1,
+      "vouches": 1
+    },
+    "T0073": {
+      "grade": 0,
+      "skill_grade": 1,
+      "vouches": 1
+    },
+    "T0523": {
+      "grade": 0,
+      "skill_grade": 1,
+      "vouches": 1
+    },
+    "S0073": {
+      "grade": 0,
+      "skill_grade": 1,
+      "vouches": 1
+    },
+    "T0170": {
+      "grade": 0,
+      "skill_grade": 1,
+      "vouches": 1
+    },
+    "T0329": {
+      "grade": 0,
+      "skill_grade": 1,
+      "vouches": 1
+    },
+    "T0386": {
+      "grade": 0,
+      "skill_grade": 1,
+      "vouches": 1
+    },
+    "T3230": {
+      "grade": 0,
+      "skill_grade": 1,
+      "vouches": 1
+    },
+    "S0033": {
+      "grade": 0,
+      "skill_grade": 1,
+      "vouches": 1
+    },
+    "S0031": {
+      "grade": 0,
+      "skill_grade": 1,
+      "vouches": 1
+    },
+    "S0155": {
+      "grade": 0,
+      "skill_grade": 1,
+      "vouches": 1
+    },
+    "T3187": {
+      "grade": 0,
+      "skill_grade": 1,
+      "vouches": 1
+    },
+    "T3172": {
+      "grade": 0,
+      "skill_grade": 1,
+      "vouches": 1
+    },
+    "T3163": {
+      "grade": 0,
+      "skill_grade": 1,
+      "vouches": 1
+    },
+    "T2807": {
+      "grade": 0,
+      "skill_grade": 1,
+      "vouches": 1
+    }
+  },
+  "R18": {
+    "T2768": {
+      "grade": 3,
+      "skill_grade": 3,
+      "vouches": 2
+    },
+    "T2766": {
+      "grade": 3,
+      "skill_grade": 3,
+      "vouches": 1
+    },
+    "T2764": {
+      "grade": 3,
+      "skill_grade": 3,
+      "vouches": 1
+    },
+    "T2771": {
+      "grade": 3,
+      "skill_grade": 3,
+      "vouches": 1
+    },
+    "T2772": {
+      "grade": 3,
+      "skill_grade": 3,
+      "vouches": 1
+    },
+    "T2767": {
+      "grade": 3,
+      "skill_grade": 3,
+      "vouches": 1
+    },
+    "T2774": {
+      "grade": 3,
+      "skill_grade": 3,
+      "vouches": 1
+    },
+    "S0569": {
+      "grade": 3,
+      "skill_grade": 3,
+      "vouches": 1
+    },
+    "T2765": {
+      "grade": 3,
+      "skill_grade": 3,
+      "vouches": 1
+    },
+    "T2770": {
+      "grade": 3,
+      "skill_grade": 3,
+      "vouches": 1
+    },
+    "T1736": {
+      "grade": 3,
+      "skill_grade": 3,
+      "vouches": 1
+    },
+    "T1786": {
+      "grade": 3,
+      "skill_grade": 2,
+      "vouches": 3
+    },
+    "T2769": {
+      "grade": 3,
+      "skill_grade": 2,
+      "vouches": 1
+    },
+    "T2773": {
+      "grade": 0,
+      "skill_grade": 3,
+      "vouches": 1
+    },
+    "T2518": {
+      "grade": 0,
+      "skill_grade": 1,
+      "vouches": 1
+    }
+  },
+  "R19": {
+    "T2786": {
+      "grade": 3,
+      "skill_grade": 3,
+      "vouches": 2
+    },
+    "T2787": {
+      "grade": 3,
+      "skill_grade": 3,
+      "vouches": 1
+    },
+    "T2783": {
+      "grade": 3,
+      "skill_grade": 3,
+      "vouches": 1
+    },
+    "S0555": {
+      "grade": 3,
+      "skill_grade": 3,
+      "vouches": 1
+    },
+    "T2784": {
+      "grade": 3,
+      "skill_grade": 3,
+      "vouches": 1
+    },
+    "T2785": {
+      "grade": 3,
+      "skill_grade": 3,
+      "vouches": 1
+    },
+    "T2782": {
+      "grade": 3,
+      "skill_grade": 3,
+      "vouches": 1
+    },
+    "T2789": {
+      "grade": 3,
+      "skill_grade": 3,
+      "vouches": 1
+    },
+    "T1788": {
+      "grade": 3,
+      "skill_grade": 3,
+      "vouches": 1
+    },
+    "T1818": {
+      "grade": 3,
+      "skill_grade": 3,
+      "vouches": 1
+    },
+    "T2792": {
+      "grade": 3,
+      "skill_grade": 3,
+      "vouches": 1
+    },
+    "T1899": {
+      "grade": 3,
+      "skill_grade": 3,
+      "vouches": 1
+    },
+    "T1781": {
+      "grade": 3,
+      "skill_grade": 3,
+      "vouches": 1
+    },
+    "T1878": {
+      "grade": 3,
+      "skill_grade": 2,
+      "vouches": 1
+    },
+    "T2790": {
+      "grade": 2,
+      "skill_grade": 3,
+      "vouches": 1
+    },
+    "T1902": {
+      "grade": 2,
+      "skill_grade": 2,
+      "vouches": 1
+    },
+    "T1931": {
+      "grade": 2,
+      "skill_grade": 1,
+      "vouches": 1
+    },
+    "T2791": {
+      "grade": 1,
+      "skill_grade": 3,
+      "vouches": 1
+    },
+    "T2953": {
+      "grade": 1,
+      "skill_grade": 3,
+      "vouches": 1
+    },
+    "T1879": {
+      "grade": 0,
+      "skill_grade": 3,
+      "vouches": 1
+    },
+    "T1755": {
+      "grade": 0,
+      "skill_grade": 3,
+      "vouches": 1
+    },
+    "T2788": {
+      "grade": 0,
+      "skill_grade": 3,
+      "vouches": 1
+    },
+    "T2248": {
+      "grade": 0,
+      "skill_grade": 1,
+      "vouches": 1
+    }
+  },
+  "R20": {
+    "T2805": {
+      "grade": 3,
+      "skill_grade": 3,
+      "vouches": 2
+    },
+    "T3219": {
+      "grade": 3,
+      "skill_grade": 3,
+      "vouches": 1
+    },
+    "T0112": {
+      "grade": 3,
+      "skill_grade": 3,
+      "vouches": 1
+    },
+    "T3173": {
+      "grade": 3,
+      "skill_grade": 3,
+      "vouches": 1
+    },
+    "T3190": {
+      "grade": 3,
+      "skill_grade": 3,
+      "vouches": 1
+    },
+    "T3185": {
+      "grade": 3,
+      "skill_grade": 3,
+      "vouches": 1
+    },
+    "S0792": {
+      "grade": 3,
+      "skill_grade": 3,
+      "vouches": 1
+    },
+    "T2801": {
+      "grade": 3,
+      "skill_grade": 3,
+      "vouches": 1
+    },
+    "T0278": {
+      "grade": 3,
+      "skill_grade": 3,
+      "vouches": 1
+    },
+    "T3175": {
+      "grade": 3,
+      "skill_grade": 3,
+      "vouches": 1
+    },
+    "T2803": {
+      "grade": 3,
+      "skill_grade": 3,
+      "vouches": 1
+    },
+    "T3192": {
+      "grade": 3,
+      "skill_grade": 3,
+      "vouches": 1
+    },
+    "T0142": {
+      "grade": 3,
+      "skill_grade": 3,
+      "vouches": 1
+    },
+    "S0014": {
+      "grade": 3,
+      "skill_grade": 3,
+      "vouches": 1
+    },
+    "T3231": {
+      "grade": 3,
+      "skill_grade": 3,
+      "vouches": 1
+    },
+    "T0138": {
+      "grade": 3,
+      "skill_grade": 3,
+      "vouches": 1
+    },
+    "S0789": {
+      "grade": 3,
+      "skill_grade": 3,
+      "vouches": 1
+    },
+    "T3166": {
+      "grade": 3,
+      "skill_grade": 3,
+      "vouches": 1
+    },
+    "T2543": {
+      "grade": 3,
+      "skill_grade": 3,
+      "vouches": 1
+    },
+    "S0795": {
+      "grade": 3,
+      "skill_grade": 3,
+      "vouches": 1
+    },
+    "T3216": {
+      "grade": 3,
+      "skill_grade": 3,
+      "vouches": 1
+    },
+    "T2918": {
+      "grade": 3,
+      "skill_grade": 3,
+      "vouches": 1
+    },
+    "T3208": {
+      "grade": 3,
+      "skill_grade": 3,
+      "vouches": 1
+    },
+    "S0733": {
+      "grade": 3,
+      "skill_grade": 3,
+      "vouches": 1
+    },
+    "T3222": {
+      "grade": 3,
+      "skill_grade": 3,
+      "vouches": 1
+    },
+    "T3194": {
+      "grade": 3,
+      "skill_grade": 3,
+      "vouches": 1
+    },
+    "T2809": {
+      "grade": 3,
+      "skill_grade": 3,
+      "vouches": 1
+    },
+    "T2806": {
+      "grade": 3,
+      "skill_grade": 3,
+      "vouches": 1
+    },
+    "T3168": {
+      "grade": 3,
+      "skill_grade": 3,
+      "vouches": 1
+    },
+    "T3193": {
+      "grade": 3,
+      "skill_grade": 3,
+      "vouches": 1
+    },
+    "T2802": {
+      "grade": 3,
+      "skill_grade": 3,
+      "vouches": 1
+    },
+    "S0242": {
+      "grade": 3,
+      "skill_grade": 2,
+      "vouches": 2
+    },
+    "S0128": {
+      "grade": 3,
+      "skill_grade": 2,
+      "vouches": 1
+    },
+    "S0122": {
+      "grade": 3,
+      "skill_grade": 2,
+      "vouches": 1
+    },
+    "T0036": {
+      "grade": 3,
+      "skill_grade": 1,
+      "vouches": 3
+    },
+    "S0097": {
+      "grade": 3,
+      "skill_grade": 1,
+      "vouches": 2
+    },
+    "T0466": {
+      "grade": 3,
+      "skill_grade": 1,
+      "vouches": 1
+    },
+    "T2531": {
+      "grade": 3,
+      "skill_grade": 1,
+      "vouches": 1
+    },
+    "T3124": {
+      "grade": 3,
+      "skill_grade": 1,
+      "vouches": 1
+    },
+    "S0138": {
+      "grade": 3,
+      "skill_grade": 1,
+      "vouches": 1
+    },
+    "T3167": {
+      "grade": 2,
+      "skill_grade": 3,
+      "vouches": 1
+    },
+    "T3203": {
+      "grade": 2,
+      "skill_grade": 3,
+      "vouches": 1
+    },
+    "T3204": {
+      "grade": 2,
+      "skill_grade": 3,
+      "vouches": 1
+    },
+    "T3217": {
+      "grade": 2,
+      "skill_grade": 3,
+      "vouches": 1
+    },
+    "T3223": {
+      "grade": 2,
+      "skill_grade": 3,
+      "vouches": 1
+    },
+    "T3201": {
+      "grade": 2,
+      "skill_grade": 3,
+      "vouches": 1
+    },
+    "T3213": {
+      "grade": 2,
+      "skill_grade": 3,
+      "vouches": 1
+    },
+    "T3180": {
+      "grade": 2,
+      "skill_grade": 3,
+      "vouches": 1
+    },
+    "T3215": {
+      "grade": 2,
+      "skill_grade": 3,
+      "vouches": 1
+    },
+    "T3195": {
+      "grade": 2,
+      "skill_grade": 3,
+      "vouches": 1
+    },
+    "T3207": {
+      "grade": 2,
+      "skill_grade": 3,
+      "vouches": 1
+    },
+    "T3218": {
+      "grade": 2,
+      "skill_grade": 3,
+      "vouches": 1
+    },
+    "T3206": {
+      "grade": 2,
+      "skill_grade": 3,
+      "vouches": 1
+    },
+    "T3212": {
+      "grade": 2,
+      "skill_grade": 3,
+      "vouches": 1
+    },
+    "T3221": {
+      "grade": 2,
+      "skill_grade": 3,
+      "vouches": 1
+    },
+    "T3210": {
+      "grade": 2,
+      "skill_grade": 3,
+      "vouches": 1
+    },
+    "T3179": {
+      "grade": 2,
+      "skill_grade": 3,
+      "vouches": 1
+    },
+    "T3165": {
+      "grade": 2,
+      "skill_grade": 3,
+      "vouches": 1
+    },
+    "S0791": {
+      "grade": 2,
+      "skill_grade": 3,
+      "vouches": 1
+    },
+    "T3162": {
+      "grade": 2,
+      "skill_grade": 3,
+      "vouches": 1
+    },
+    "T3197": {
+      "grade": 2,
+      "skill_grade": 3,
+      "vouches": 1
+    },
+    "T3183": {
+      "grade": 2,
+      "skill_grade": 3,
+      "vouches": 1
+    },
+    "T3214": {
+      "grade": 2,
+      "skill_grade": 3,
+      "vouches": 1
+    },
+    "T3205": {
+      "grade": 2,
+      "skill_grade": 3,
+      "vouches": 1
+    },
+    "T3172": {
+      "grade": 2,
+      "skill_grade": 3,
+      "vouches": 1
+    },
+    "T3226": {
+      "grade": 2,
+      "skill_grade": 3,
+      "vouches": 1
+    },
+    "T3229": {
+      "grade": 2,
+      "skill_grade": 3,
+      "vouches": 1
+    },
+    "T3177": {
+      "grade": 2,
+      "skill_grade": 3,
+      "vouches": 1
+    },
+    "T3181": {
+      "grade": 2,
+      "skill_grade": 3,
+      "vouches": 1
+    },
+    "T3178": {
+      "grade": 2,
+      "skill_grade": 3,
+      "vouches": 1
+    },
+    "S0790": {
+      "grade": 2,
+      "skill_grade": 3,
+      "vouches": 1
+    },
+    "T3200": {
+      "grade": 2,
+      "skill_grade": 3,
+      "vouches": 1
+    },
+    "T3184": {
+      "grade": 2,
+      "skill_grade": 3,
+      "vouches": 1
+    },
+    "T3171": {
+      "grade": 2,
+      "skill_grade": 3,
+      "vouches": 1
+    },
+    "S0793": {
+      "grade": 2,
+      "skill_grade": 3,
+      "vouches": 1
+    },
+    "T0170": {
+      "grade": 2,
+      "skill_grade": 2,
+      "vouches": 1
+    },
+    "T3164": {
+      "grade": 2,
+      "skill_grade": 2,
+      "vouches": 1
+    },
+    "S0098": {
+      "grade": 2,
+      "skill_grade": 2,
+      "vouches": 1
+    },
+    "T0197": {
+      "grade": 2,
+      "skill_grade": 2,
+      "vouches": 1
+    },
+    "T0128": {
+      "grade": 2,
+      "skill_grade": 2,
+      "vouches": 1
+    },
+    "T0048": {
+      "grade": 2,
+      "skill_grade": 2,
+      "vouches": 1
+    },
+    "T0383": {
+      "grade": 2,
+      "skill_grade": 2,
+      "vouches": 1
+    },
+    "S0034": {
+      "grade": 2,
+      "skill_grade": 1,
+      "vouches": 2
+    },
+    "T2653": {
+      "grade": 2,
+      "skill_grade": 1,
+      "vouches": 1
+    },
+    "T0516": {
+      "grade": 2,
+      "skill_grade": 1,
+      "vouches": 1
+    },
+    "S0024": {
+      "grade": 2,
+      "skill_grade": 1,
+      "vouches": 1
+    },
+    "T0124": {
+      "grade": 2,
+      "skill_grade": 1,
+      "vouches": 1
+    },
+    "T0750": {
+      "grade": 2,
+      "skill_grade": 1,
+      "vouches": 1
+    },
+    "T2810": {
+      "grade": 1,
+      "skill_grade": 3,
+      "vouches": 1
+    },
+    "T3186": {
+      "grade": 1,
+      "skill_grade": 3,
+      "vouches": 1
+    },
+    "T3170": {
+      "grade": 1,
+      "skill_grade": 3,
+      "vouches": 1
+    },
+    "S0176": {
+      "grade": 1,
+      "skill_grade": 3,
+      "vouches": 1
+    },
+    "T3199": {
+      "grade": 0,
+      "skill_grade": 3,
+      "vouches": 1
+    },
+    "T3209": {
+      "grade": 0,
+      "skill_grade": 3,
+      "vouches": 1
+    },
+    "T3228": {
+      "grade": 0,
+      "skill_grade": 3,
+      "vouches": 1
+    },
+    "T3189": {
+      "grade": 0,
+      "skill_grade": 3,
+      "vouches": 1
+    },
+    "T2804": {
+      "grade": 0,
+      "skill_grade": 3,
+      "vouches": 1
+    },
+    "T3191": {
+      "grade": 0,
+      "skill_grade": 3,
+      "vouches": 1
+    },
+    "T3225": {
+      "grade": 0,
+      "skill_grade": 3,
+      "vouches": 1
+    },
+    "T3198": {
+      "grade": 0,
+      "skill_grade": 3,
+      "vouches": 1
+    },
+    "T3202": {
+      "grade": 0,
+      "skill_grade": 3,
+      "vouches": 1
+    },
+    "T3176": {
+      "grade": 0,
+      "skill_grade": 3,
+      "vouches": 1
+    },
+    "T3187": {
+      "grade": 0,
+      "skill_grade": 3,
+      "vouches": 1
+    },
+    "T3224": {
+      "grade": 0,
+      "skill_grade": 3,
+      "vouches": 1
+    },
+    "T3230": {
+      "grade": 0,
+      "skill_grade": 3,
+      "vouches": 1
+    },
+    "S0030": {
+      "grade": 0,
+      "skill_grade": 3,
+      "vouches": 1
+    },
+    "T3182": {
+      "grade": 0,
+      "skill_grade": 3,
+      "vouches": 1
+    },
+    "T3163": {
+      "grade": 0,
+      "skill_grade": 3,
+      "vouches": 1
+    },
+    "S0075": {
+      "grade": 0,
+      "skill_grade": 3,
+      "vouches": 1
+    },
+    "T2808": {
+      "grade": 0,
+      "skill_grade": 3,
+      "vouches": 1
+    },
+    "T2807": {
+      "grade": 0,
+      "skill_grade": 3,
+      "vouches": 1
+    },
+    "T3196": {
+      "grade": 0,
+      "skill_grade": 3,
+      "vouches": 1
+    },
+    "T3188": {
+      "grade": 0,
+      "skill_grade": 3,
+      "vouches": 1
+    },
+    "S0166": {
+      "grade": 0,
+      "skill_grade": 3,
+      "vouches": 1
+    },
+    "T3169": {
+      "grade": 0,
+      "skill_grade": 3,
+      "vouches": 1
+    },
+    "T3227": {
+      "grade": 0,
+      "skill_grade": 3,
+      "vouches": 1
+    },
+    "S0794": {
+      "grade": 0,
+      "skill_grade": 3,
+      "vouches": 1
+    },
+    "T0313": {
+      "grade": 0,
+      "skill_grade": 3,
+      "vouches": 1
+    },
+    "T3220": {
+      "grade": 0,
+      "skill_grade": 2,
+      "vouches": 1
+    },
+    "T3174": {
+      "grade": 0,
+      "skill_grade": 2,
+      "vouches": 1
+    },
+    "T3211": {
+      "grade": 0,
+      "skill_grade": 2,
+      "vouches": 1
+    },
+    "T0746": {
+      "grade": 0,
+      "skill_grade": 1,
+      "vouches": 2
+    },
+    "T0051": {
+      "grade": 0,
+      "skill_grade": 1,
+      "vouches": 1
+    },
+    "T2916": {
+      "grade": 0,
+      "skill_grade": 1,
+      "vouches": 1
+    },
+    "T0493": {
+      "grade": 0,
+      "skill_grade": 1,
+      "vouches": 1
+    },
+    "T2866": {
+      "grade": 0,
+      "skill_grade": 1,
+      "vouches": 1
+    },
+    "T3081": {
+      "grade": 0,
+      "skill_grade": 1,
+      "vouches": 1
+    },
+    "S0162": {
+      "grade": 0,
+      "skill_grade": 1,
+      "vouches": 1
+    },
+    "S0148": {
+      "grade": 0,
+      "skill_grade": 1,
+      "vouches": 1
+    },
+    "T3235": {
+      "grade": 0,
+      "skill_grade": 1,
+      "vouches": 1
+    },
+    "T0227": {
+      "grade": 0,
+      "skill_grade": 1,
+      "vouches": 1
+    },
+    "S0118": {
+      "grade": 0,
+      "skill_grade": 1,
+      "vouches": 1
+    },
+    "T0185": {
+      "grade": 0,
+      "skill_grade": 1,
+      "vouches": 1
+    },
+    "S0052": {
+      "grade": 0,
+      "skill_grade": 1,
+      "vouches": 1
+    },
+    "S0110": {
+      "grade": 0,
+      "skill_grade": 1,
+      "vouches": 1
+    },
+    "T0393": {
+      "grade": 0,
+      "skill_grade": 1,
+      "vouches": 1
+    },
+    "T0083": {
+      "grade": 0,
+      "skill_grade": 1,
+      "vouches": 1
+    }
+  },
+  "R21": {
+    "T2823": {
+      "grade": 3,
+      "skill_grade": 3,
+      "vouches": 2
+    },
+    "T2827": {
+      "grade": 3,
+      "skill_grade": 3,
+      "vouches": 1
+    },
+    "S0244": {
+      "grade": 3,
+      "skill_grade": 3,
+      "vouches": 1
+    },
+    "T2824": {
+      "grade": 3,
+      "skill_grade": 3,
+      "vouches": 1
+    },
+    "T2821": {
+      "grade": 3,
+      "skill_grade": 3,
+      "vouches": 1
+    },
+    "T2819": {
+      "grade": 3,
+      "skill_grade": 3,
+      "vouches": 1
+    },
+    "T0613": {
+      "grade": 3,
+      "skill_grade": 3,
+      "vouches": 1
+    },
+    "T2820": {
+      "grade": 3,
+      "skill_grade": 3,
+      "vouches": 1
+    },
+    "T2829": {
+      "grade": 3,
+      "skill_grade": 3,
+      "vouches": 1
+    },
+    "T0728": {
+      "grade": 3,
+      "skill_grade": 3,
+      "vouches": 1
+    },
+    "T2822": {
+      "grade": 2,
+      "skill_grade": 3,
+      "vouches": 1
+    },
+    "T0457": {
+      "grade": 2,
+      "skill_grade": 3,
+      "vouches": 1
+    },
+    "T2826": {
+      "grade": 2,
+      "skill_grade": 3,
+      "vouches": 1
+    },
+    "T0703": {
+      "grade": 2,
+      "skill_grade": 3,
+      "vouches": 1
+    },
+    "T0612": {
+      "grade": 2,
+      "skill_grade": 3,
+      "vouches": 1
+    },
+    "S0217": {
+      "grade": 2,
+      "skill_grade": 3,
+      "vouches": 1
+    },
+    "T0875": {
+      "grade": 2,
+      "skill_grade": 1,
+      "vouches": 1
+    },
+    "T2828": {
+      "grade": 0,
+      "skill_grade": 3,
+      "vouches": 1
+    },
+    "T0171": {
+      "grade": 0,
+      "skill_grade": 3,
+      "vouches": 1
+    },
+    "T0812": {
+      "grade": 0,
+      "skill_grade": 3,
+      "vouches": 1
+    },
+    "T0867": {
+      "grade": 0,
+      "skill_grade": 3,
+      "vouches": 1
+    },
+    "T2825": {
+      "grade": 0,
+      "skill_grade": 3,
+      "vouches": 1
+    },
+    "T0802": {
+      "grade": 0,
+      "skill_grade": 2,
+      "vouches": 1
+    },
+    "T0878": {
+      "grade": 0,
+      "skill_grade": 2,
+      "vouches": 1
+    },
+    "T0535": {
+      "grade": 0,
+      "skill_grade": 1,
+      "vouches": 1
+    },
+    "T0249": {
+      "grade": 0,
+      "skill_grade": 1,
+      "vouches": 1
+    },
+    "T0608": {
+      "grade": 0,
+      "skill_grade": 1,
+      "vouches": 1
+    },
+    "T0753": {
+      "grade": 0,
+      "skill_grade": 1,
+      "vouches": 1
+    },
+    "T0484": {
+      "grade": 0,
+      "skill_grade": 1,
+      "vouches": 1
+    }
+  },
+  "R22": {
+    "S0750": {
+      "grade": 3,
+      "skill_grade": 3,
+      "vouches": 2
+    },
+    "T2840": {
+      "grade": 3,
+      "skill_grade": 3,
+      "vouches": 1
+    },
+    "T2844": {
+      "grade": 3,
+      "skill_grade": 3,
+      "vouches": 1
+    },
+    "T2837": {
+      "grade": 3,
+      "skill_grade": 3,
+      "vouches": 1
+    },
+    "T2845": {
+      "grade": 3,
+      "skill_grade": 3,
+      "vouches": 1
+    },
+    "T2839": {
+      "grade": 3,
+      "skill_grade": 3,
+      "vouches": 1
+    },
+    "T2842": {
+      "grade": 3,
+      "skill_grade": 3,
+      "vouches": 1
+    },
+    "T2838": {
+      "grade": 3,
+      "skill_grade": 3,
+      "vouches": 1
+    },
+    "T1723": {
+      "grade": 3,
+      "skill_grade": 2,
+      "vouches": 1
+    },
+    "T2847": {
+      "grade": 3,
+      "skill_grade": 2,
+      "vouches": 1
+    },
+    "T1560": {
+      "grade": 3,
+      "skill_grade": 2,
+      "vouches": 1
+    },
+    "T1638": {
+      "grade": 2,
+      "skill_grade": 3,
+      "vouches": 1
+    },
+    "T1690": {
+      "grade": 2,
+      "skill_grade": 2,
+      "vouches": 1
+    },
+    "T1704": {
+      "grade": 2,
+      "skill_grade": 2,
+      "vouches": 1
+    },
+    "T1565": {
+      "grade": 2,
+      "skill_grade": 1,
+      "vouches": 1
+    },
+    "S0473": {
+      "grade": 2,
+      "skill_grade": 1,
+      "vouches": 1
+    },
+    "S0512": {
+      "grade": 2,
+      "skill_grade": 1,
+      "vouches": 1
+    },
+    "T2848": {
+      "grade": 2,
+      "skill_grade": 1,
+      "vouches": 1
+    },
+    "T1663": {
+      "grade": 2,
+      "skill_grade": 1,
+      "vouches": 1
+    },
+    "T1712": {
+      "grade": 2,
+      "skill_grade": 1,
+      "vouches": 1
+    },
+    "T2569": {
+      "grade": 2,
+      "skill_grade": 1,
+      "vouches": 1
+    },
+    "S0479": {
+      "grade": 2,
+      "skill_grade": 1,
+      "vouches": 1
+    },
+    "T1563": {
+      "grade": 2,
+      "skill_grade": 1,
+      "vouches": 1
+    },
+    "T1567": {
+      "grade": 2,
+      "skill_grade": 1,
+      "vouches": 1
+    },
+    "T2846": {
+      "grade": 0,
+      "skill_grade": 3,
+      "vouches": 1
+    },
+    "T1640": {
+      "grade": 0,
+      "skill_grade": 2,
+      "vouches": 2
+    },
+    "S0502": {
+      "grade": 0,
+      "skill_grade": 2,
+      "vouches": 1
+    },
+    "T2843": {
+      "grade": 0,
+      "skill_grade": 2,
+      "vouches": 1
+    },
+    "T1572": {
+      "grade": 0,
+      "skill_grade": 2,
+      "vouches": 1
+    },
+    "T1623": {
+      "grade": 0,
+      "skill_grade": 1,
+      "vouches": 1
+    },
+    "T1627": {
+      "grade": 0,
+      "skill_grade": 1,
+      "vouches": 1
+    },
+    "T1725": {
+      "grade": 0,
+      "skill_grade": 1,
+      "vouches": 1
+    },
+    "T1621": {
+      "grade": 0,
+      "skill_grade": 1,
+      "vouches": 1
+    },
+    "T2574": {
+      "grade": 0,
+      "skill_grade": 1,
+      "vouches": 1
+    },
+    "T1660": {
+      "grade": 0,
+      "skill_grade": 1,
+      "vouches": 1
+    },
+    "S0511": {
+      "grade": 0,
+      "skill_grade": 1,
+      "vouches": 1
+    }
+  },
+  "R23": {
+    "S0752": {
+      "grade": 3,
+      "skill_grade": 3,
+      "vouches": 2
+    },
+    "T3258": {
+      "grade": 3,
+      "skill_grade": 3,
+      "vouches": 1
+    },
+    "T3252": {
+      "grade": 3,
+      "skill_grade": 3,
+      "vouches": 1
+    },
+    "T2860": {
+      "grade": 3,
+      "skill_grade": 3,
+      "vouches": 1
+    },
+    "T2863": {
+      "grade": 3,
+      "skill_grade": 3,
+      "vouches": 1
+    },
+    "T3243": {
+      "grade": 3,
+      "skill_grade": 3,
+      "vouches": 1
+    },
+    "T2855": {
+      "grade": 3,
+      "skill_grade": 3,
+      "vouches": 1
+    },
+    "T2857": {
+      "grade": 3,
+      "skill_grade": 3,
+      "vouches": 1
+    },
+    "T2862": {
+      "grade": 3,
+      "skill_grade": 3,
+      "vouches": 1
+    },
+    "S0798": {
+      "grade": 3,
+      "skill_grade": 3,
+      "vouches": 1
+    },
+    "T3257": {
+      "grade": 3,
+      "skill_grade": 3,
+      "vouches": 1
+    },
+    "T3262": {
+      "grade": 3,
+      "skill_grade": 3,
+      "vouches": 1
+    },
+    "T3256": {
+      "grade": 3,
+      "skill_grade": 3,
+      "vouches": 1
+    },
+    "S0356": {
+      "grade": 3,
+      "skill_grade": 3,
+      "vouches": 1
+    },
+    "T3249": {
+      "grade": 3,
+      "skill_grade": 3,
+      "vouches": 1
+    },
+    "S0283": {
+      "grade": 3,
+      "skill_grade": 3,
+      "vouches": 1
+    },
+    "T3234": {
+      "grade": 3,
+      "skill_grade": 3,
+      "vouches": 1
+    },
+    "T3248": {
+      "grade": 3,
+      "skill_grade": 3,
+      "vouches": 1
+    },
+    "T3254": {
+      "grade": 3,
+      "skill_grade": 3,
+      "vouches": 1
+    },
+    "T3263": {
+      "grade": 3,
+      "skill_grade": 3,
+      "vouches": 1
+    },
+    "T3260": {
+      "grade": 3,
+      "skill_grade": 2,
+      "vouches": 1
+    },
+    "T2866": {
+      "grade": 3,
+      "skill_grade": 2,
+      "vouches": 1
+    },
+    "T2858": {
+      "grade": 3,
+      "skill_grade": 2,
+      "vouches": 1
+    },
+    "T1091": {
+      "grade": 3,
+      "skill_grade": 1,
+      "vouches": 1
+    },
+    "S0727": {
+      "grade": 3,
+      "skill_grade": 1,
+      "vouches": 1
+    },
+    "S0746": {
+      "grade": 3,
+      "skill_grade": 1,
+      "vouches": 1
+    },
+    "T3240": {
+      "grade": 2,
+      "skill_grade": 3,
+      "vouches": 1
+    },
+    "T3081": {
+      "grade": 2,
+      "skill_grade": 3,
+      "vouches": 1
+    },
+    "T3236": {
+      "grade": 2,
+      "skill_grade": 3,
+      "vouches": 1
+    },
+    "T3250": {
+      "grade": 2,
+      "skill_grade": 3,
+      "vouches": 1
+    },
+    "T3268": {
+      "grade": 2,
+      "skill_grade": 2,
+      "vouches": 1
+    },
+    "T3242": {
+      "grade": 2,
+      "skill_grade": 2,
+      "vouches": 1
+    },
+    "S0796": {
+      "grade": 2,
+      "skill_grade": 2,
+      "vouches": 1
+    },
+    "S0369": {
+      "grade": 2,
+      "skill_grade": 2,
+      "vouches": 1
+    },
+    "T1145": {
+      "grade": 2,
+      "skill_grade": 2,
+      "vouches": 1
+    },
+    "T1270": {
+      "grade": 2,
+      "skill_grade": 2,
+      "vouches": 1
+    },
+    "S0324": {
+      "grade": 2,
+      "skill_grade": 1,
+      "vouches": 2
+    },
+    "T1141": {
+      "grade": 2,
+      "skill_grade": 1,
+      "vouches": 1
+    },
+    "T1047": {
+      "grade": 2,
+      "skill_grade": 1,
+      "vouches": 1
+    },
+    "S0336": {
+      "grade": 2,
+      "skill_grade": 1,
+      "vouches": 1
+    },
+    "T1119": {
+      "grade": 2,
+      "skill_grade": 1,
+      "vouches": 1
+    },
+    "T1073": {
+      "grade": 2,
+      "skill_grade": 1,
+      "vouches": 1
+    },
+    "T1242": {
+      "grade": 2,
+      "skill_grade": 1,
+      "vouches": 1
+    },
+    "T2867": {
+      "grade": 2,
+      "skill_grade": 1,
+      "vouches": 1
+    },
+    "T1029": {
+      "grade": 2,
+      "skill_grade": 1,
+      "vouches": 1
+    },
+    "T2653": {
+      "grade": 2,
+      "skill_grade": 1,
+      "vouches": 1
+    },
+    "S0312": {
+      "grade": 2,
+      "skill_grade": 1,
+      "vouches": 1
+    },
+    "S0348": {
+      "grade": 2,
+      "skill_grade": 1,
+      "vouches": 1
+    },
+    "T3239": {
+      "grade": 1,
+      "skill_grade": 3,
+      "vouches": 1
+    },
+    "T3259": {
+      "grade": 1,
+      "skill_grade": 3,
+      "vouches": 1
+    },
+    "T3241": {
+      "grade": 1,
+      "skill_grade": 2,
+      "vouches": 1
+    },
+    "T2864": {
+      "grade": 1,
+      "skill_grade": 2,
+      "vouches": 1
+    },
+    "T1083": {
+      "grade": 1,
+      "skill_grade": 2,
+      "vouches": 1
+    },
+    "T0933": {
+      "grade": 1,
+      "skill_grade": 1,
+      "vouches": 1
+    },
+    "T0936": {
+      "grade": 1,
+      "skill_grade": 1,
+      "vouches": 1
+    },
+    "T0999": {
+      "grade": 0,
+      "skill_grade": 3,
+      "vouches": 1
+    },
+    "T3246": {
+      "grade": 0,
+      "skill_grade": 3,
+      "vouches": 1
+    },
+    "T3270": {
+      "grade": 0,
+      "skill_grade": 3,
+      "vouches": 1
+    },
+    "T2865": {
+      "grade": 0,
+      "skill_grade": 3,
+      "vouches": 1
+    },
+    "T3261": {
+      "grade": 0,
+      "skill_grade": 3,
+      "vouches": 1
+    },
+    "T2861": {
+      "grade": 0,
+      "skill_grade": 3,
+      "vouches": 1
+    },
+    "T3253": {
+      "grade": 0,
+      "skill_grade": 3,
+      "vouches": 1
+    },
+    "T3244": {
+      "grade": 0,
+      "skill_grade": 3,
+      "vouches": 1
+    },
+    "T3255": {
+      "grade": 0,
+      "skill_grade": 3,
+      "vouches": 1
+    },
+    "T3238": {
+      "grade": 0,
+      "skill_grade": 2,
+      "vouches": 1
+    },
+    "T3235": {
+      "grade": 0,
+      "skill_grade": 2,
+      "vouches": 1
+    },
+    "T3265": {
+      "grade": 0,
+      "skill_grade": 2,
+      "vouches": 1
+    },
+    "T3247": {
+      "grade": 0,
+      "skill_grade": 2,
+      "vouches": 1
+    },
+    "T2856": {
+      "grade": 0,
+      "skill_grade": 2,
+      "vouches": 1
+    },
+    "T3237": {
+      "grade": 0,
+      "skill_grade": 2,
+      "vouches": 1
+    },
+    "T3269": {
+      "grade": 0,
+      "skill_grade": 2,
+      "vouches": 1
+    },
+    "S0330": {
+      "grade": 0,
+      "skill_grade": 2,
+      "vouches": 1
+    },
+    "T3251": {
+      "grade": 0,
+      "skill_grade": 2,
+      "vouches": 1
+    },
+    "T3232": {
+      "grade": 0,
+      "skill_grade": 2,
+      "vouches": 1
+    },
+    "T3233": {
+      "grade": 0,
+      "skill_grade": 2,
+      "vouches": 1
+    },
+    "S0797": {
+      "grade": 0,
+      "skill_grade": 2,
+      "vouches": 1
+    },
+    "T3264": {
+      "grade": 0,
+      "skill_grade": 2,
+      "vouches": 1
+    },
+    "T2802": {
+      "grade": 0,
+      "skill_grade": 2,
+      "vouches": 1
+    },
+    "S0332": {
+      "grade": 0,
+      "skill_grade": 1,
+      "vouches": 1
+    },
+    "T3266": {
+      "grade": 0,
+      "skill_grade": 1,
+      "vouches": 1
+    },
+    "T3245": {
+      "grade": 0,
+      "skill_grade": 1,
+      "vouches": 1
+    },
+    "T3267": {
+      "grade": 0,
+      "skill_grade": 1,
+      "vouches": 1
+    },
+    "T1202": {
+      "grade": 0,
+      "skill_grade": 1,
+      "vouches": 1
+    },
+    "T1090": {
+      "grade": 0,
+      "skill_grade": 1,
+      "vouches": 1
+    },
+    "T3223": {
+      "grade": 0,
+      "skill_grade": 1,
+      "vouches": 1
+    },
+    "T0968": {
+      "grade": 0,
+      "skill_grade": 1,
+      "vouches": 1
+    },
+    "T1107": {
+      "grade": 0,
+      "skill_grade": 1,
+      "vouches": 1
+    },
+    "S0291": {
+      "grade": 0,
+      "skill_grade": 1,
+      "vouches": 1
+    },
+    "T1093": {
+      "grade": 0,
+      "skill_grade": 1,
+      "vouches": 1
+    },
+    "T0048": {
+      "grade": 0,
+      "skill_grade": 1,
+      "vouches": 1
+    },
+    "T1062": {
+      "grade": 0,
+      "skill_grade": 1,
+      "vouches": 1
+    }
+  },
+  "R24": {
+    "T2879": {
+      "grade": 3,
+      "skill_grade": 3,
+      "vouches": 3
+    },
+    "S0799": {
+      "grade": 3,
+      "skill_grade": 3,
+      "vouches": 2
+    },
+    "T3280": {
+      "grade": 3,
+      "skill_grade": 3,
+      "vouches": 1
+    },
+    "T2883": {
+      "grade": 3,
+      "skill_grade": 3,
+      "vouches": 1
+    },
+    "T2882": {
+      "grade": 3,
+      "skill_grade": 3,
+      "vouches": 1
+    },
+    "T3288": {
+      "grade": 3,
+      "skill_grade": 3,
+      "vouches": 1
+    },
+    "T2875": {
+      "grade": 3,
+      "skill_grade": 3,
+      "vouches": 1
+    },
+    "T3284": {
+      "grade": 3,
+      "skill_grade": 3,
+      "vouches": 1
+    },
+    "T2877": {
+      "grade": 3,
+      "skill_grade": 3,
+      "vouches": 1
+    },
+    "T2878": {
+      "grade": 3,
+      "skill_grade": 3,
+      "vouches": 1
+    },
+    "T3282": {
+      "grade": 3,
+      "skill_grade": 3,
+      "vouches": 1
+    },
+    "S0249": {
+      "grade": 3,
+      "skill_grade": 3,
+      "vouches": 1
+    },
+    "T3273": {
+      "grade": 3,
+      "skill_grade": 3,
+      "vouches": 1
+    },
+    "T3278": {
+      "grade": 3,
+      "skill_grade": 3,
+      "vouches": 1
+    },
+    "T2876": {
+      "grade": 3,
+      "skill_grade": 3,
+      "vouches": 1
+    },
+    "S0196": {
+      "grade": 3,
+      "skill_grade": 2,
+      "vouches": 1
+    },
+    "T3277": {
+      "grade": 3,
+      "skill_grade": 2,
+      "vouches": 1
+    },
+    "T3292": {
+      "grade": 3,
+      "skill_grade": 2,
+      "vouches": 1
+    },
+    "T2885": {
+      "grade": 3,
+      "skill_grade": 2,
+      "vouches": 1
+    },
+    "T0962": {
+      "grade": 3,
+      "skill_grade": 2,
+      "vouches": 1
+    },
+    "T3290": {
+      "grade": 3,
+      "skill_grade": 1,
+      "vouches": 1
+    },
+    "T1129": {
+      "grade": 3,
+      "skill_grade": 1,
+      "vouches": 1
+    },
+    "T3274": {
+      "grade": 3,
+      "skill_grade": 1,
+      "vouches": 1
+    },
+    "T3291": {
+      "grade": 3,
+      "skill_grade": 1,
+      "vouches": 1
+    },
+    "T1146": {
+      "grade": 3,
+      "skill_grade": 1,
+      "vouches": 1
+    },
+    "T1205": {
+      "grade": 3,
+      "skill_grade": 1,
+      "vouches": 1
+    },
+    "T1167": {
+      "grade": 3,
+      "skill_grade": 1,
+      "vouches": 1
+    },
+    "T0956": {
+      "grade": 3,
+      "skill_grade": 1,
+      "vouches": 1
+    },
+    "T0959": {
+      "grade": 3,
+      "skill_grade": 1,
+      "vouches": 1
+    },
+    "T0043": {
+      "grade": 3,
+      "skill_grade": 1,
+      "vouches": 1
+    },
+    "T2880": {
+      "grade": 2,
+      "skill_grade": 3,
+      "vouches": 1
+    },
+    "T3271": {
+      "grade": 2,
+      "skill_grade": 3,
+      "vouches": 1
+    },
+    "T1883": {
+      "grade": 2,
+      "skill_grade": 2,
+      "vouches": 1
+    },
+    "T0039": {
+      "grade": 2,
+      "skill_grade": 2,
+      "vouches": 1
+    },
+    "T3281": {
+      "grade": 2,
+      "skill_grade": 2,
+      "vouches": 1
+    },
+    "T3279": {
+      "grade": 2,
+      "skill_grade": 1,
+      "vouches": 1
+    },
+    "T3289": {
+      "grade": 2,
+      "skill_grade": 1,
+      "vouches": 1
+    },
+    "S0318": {
+      "grade": 2,
+      "skill_grade": 1,
+      "vouches": 1
+    },
+    "S0131": {
+      "grade": 2,
+      "skill_grade": 1,
+      "vouches": 1
+    },
+    "T2884": {
+      "grade": 1,
+      "skill_grade": 3,
+      "vouches": 1
+    },
+    "T3283": {
+      "grade": 1,
+      "skill_grade": 2,
+      "vouches": 1
+    },
+    "T3275": {
+      "grade": 1,
+      "skill_grade": 2,
+      "vouches": 1
+    },
+    "T3286": {
+      "grade": 1,
+      "skill_grade": 1,
+      "vouches": 1
+    },
+    "T3276": {
+      "grade": 0,
+      "skill_grade": 3,
+      "vouches": 1
+    },
+    "T2881": {
+      "grade": 0,
+      "skill_grade": 3,
+      "vouches": 1
+    },
+    "T0967": {
+      "grade": 0,
+      "skill_grade": 2,
+      "vouches": 1
+    },
+    "T3285": {
+      "grade": 0,
+      "skill_grade": 2,
+      "vouches": 1
+    },
+    "T3272": {
+      "grade": 0,
+      "skill_grade": 1,
+      "vouches": 1
+    },
+    "T1185": {
+      "grade": 0,
+      "skill_grade": 1,
+      "vouches": 1
+    },
+    "T1196": {
+      "grade": 0,
+      "skill_grade": 1,
+      "vouches": 1
+    },
+    "T3293": {
+      "grade": 0,
+      "skill_grade": 1,
+      "vouches": 1
+    },
+    "T3101": {
+      "grade": 0,
+      "skill_grade": 1,
+      "vouches": 1
+    },
+    "T1249": {
+      "grade": 0,
+      "skill_grade": 1,
+      "vouches": 1
+    },
+    "T1075": {
+      "grade": 0,
+      "skill_grade": 1,
+      "vouches": 1
+    },
+    "T3076": {
+      "grade": 0,
+      "skill_grade": 1,
+      "vouches": 1
+    }
+  },
+  "R25": {
+    "T2894": {
+      "grade": 3,
+      "skill_grade": 3,
+      "vouches": 1
+    },
+    "T2893": {
+      "grade": 3,
+      "skill_grade": 3,
+      "vouches": 1
+    },
+    "S0756": {
+      "grade": 3,
+      "skill_grade": 3,
+      "vouches": 1
+    },
+    "T2125": {
+      "grade": 3,
+      "skill_grade": 3,
+      "vouches": 1
+    },
+    "T2896": {
+      "grade": 2,
+      "skill_grade": 2,
+      "vouches": 1
+    },
+    "T2895": {
+      "grade": 0,
+      "skill_grade": 3,
+      "vouches": 1
+    },
+    "T2746": {
+      "grade": 0,
+      "skill_grade": 1,
+      "vouches": 1
+    }
+  },
+  "R26": {
+    "T1475": {
+      "grade": 3,
+      "skill_grade": 3,
+      "vouches": 1
+    },
+    "T2904": {
+      "grade": 3,
+      "skill_grade": 3,
+      "vouches": 1
+    },
+    "T2906": {
+      "grade": 3,
+      "skill_grade": 3,
+      "vouches": 1
+    },
+    "T2910": {
+      "grade": 3,
+      "skill_grade": 3,
+      "vouches": 1
+    },
+    "T2905": {
+      "grade": 3,
+      "skill_grade": 3,
+      "vouches": 1
+    },
+    "T2908": {
+      "grade": 3,
+      "skill_grade": 2,
+      "vouches": 1
+    },
+    "T1533": {
+      "grade": 3,
+      "skill_grade": 2,
+      "vouches": 1
+    },
+    "T1540": {
+      "grade": 3,
+      "skill_grade": 2,
+      "vouches": 1
+    },
+    "T1366": {
+      "grade": 3,
+      "skill_grade": 2,
+      "vouches": 1
+    },
+    "T1349": {
+      "grade": 3,
+      "skill_grade": 2,
+      "vouches": 1
+    },
+    "T1862": {
+      "grade": 3,
+      "skill_grade": 1,
+      "vouches": 1
+    },
+    "T2913": {
+      "grade": 3,
+      "skill_grade": 1,
+      "vouches": 1
+    },
+    "T1463": {
+      "grade": 3,
+      "skill_grade": 1,
+      "vouches": 1
+    },
+    "T1515": {
+      "grade": 3,
+      "skill_grade": 1,
+      "vouches": 1
+    },
+    "T1341": {
+      "grade": 3,
+      "skill_grade": 1,
+      "vouches": 1
+    },
+    "T1293": {
+      "grade": 3,
+      "skill_grade": 1,
+      "vouches": 1
+    },
+    "T2907": {
+      "grade": 2,
+      "skill_grade": 3,
+      "vouches": 2
+    },
+    "T2911": {
+      "grade": 2,
+      "skill_grade": 3,
+      "vouches": 1
+    },
+    "T2903": {
+      "grade": 2,
+      "skill_grade": 3,
+      "vouches": 1
+    },
+    "S0401": {
+      "grade": 2,
+      "skill_grade": 2,
+      "vouches": 1
+    },
+    "T2909": {
+      "grade": 2,
+      "skill_grade": 2,
+      "vouches": 1
+    },
+    "T2693": {
+      "grade": 2,
+      "skill_grade": 1,
+      "vouches": 1
+    },
+    "T1447": {
+      "grade": 2,
+      "skill_grade": 1,
+      "vouches": 1
+    },
+    "T3187": {
+      "grade": 2,
+      "skill_grade": 1,
+      "vouches": 1
+    },
+    "S0733": {
+      "grade": 2,
+      "skill_grade": 1,
+      "vouches": 1
+    },
+    "T1442": {
+      "grade": 2,
+      "skill_grade": 1,
+      "vouches": 1
+    },
+    "T1426": {
+      "grade": 2,
+      "skill_grade": 1,
+      "vouches": 1
+    },
+    "T2694": {
+      "grade": 2,
+      "skill_grade": 1,
+      "vouches": 1
+    },
+    "S0437": {
+      "grade": 2,
+      "skill_grade": 1,
+      "vouches": 1
+    },
+    "S0387": {
+      "grade": 2,
+      "skill_grade": 1,
+      "vouches": 1
+    },
+    "T1282": {
+      "grade": 2,
+      "skill_grade": 1,
+      "vouches": 1
+    },
+    "T1368": {
+      "grade": 2,
+      "skill_grade": 1,
+      "vouches": 1
+    },
+    "T1527": {
+      "grade": 1,
+      "skill_grade": 1,
+      "vouches": 1
+    },
+    "S0429": {
+      "grade": 0,
+      "skill_grade": 3,
+      "vouches": 1
+    },
+    "T2912": {
+      "grade": 0,
+      "skill_grade": 3,
+      "vouches": 1
+    },
+    "T1297": {
+      "grade": 0,
+      "skill_grade": 2,
+      "vouches": 1
+    },
+    "T3218": {
+      "grade": 0,
+      "skill_grade": 1,
+      "vouches": 1
+    },
+    "T1402": {
+      "grade": 0,
+      "skill_grade": 1,
+      "vouches": 1
+    },
+    "T1467": {
+      "grade": 0,
+      "skill_grade": 1,
+      "vouches": 1
+    },
+    "T2248": {
+      "grade": 0,
+      "skill_grade": 1,
+      "vouches": 1
+    }
+  },
+  "R27": {
+    "S0760": {
+      "grade": 3,
+      "skill_grade": 3,
+      "vouches": 2
+    },
+    "T2924": {
+      "grade": 3,
+      "skill_grade": 3,
+      "vouches": 1
+    },
+    "T2927": {
+      "grade": 3,
+      "skill_grade": 3,
+      "vouches": 1
+    },
+    "T2929": {
+      "grade": 3,
+      "skill_grade": 3,
+      "vouches": 1
+    },
+    "T2922": {
+      "grade": 3,
+      "skill_grade": 3,
+      "vouches": 1
+    },
+    "T2930": {
+      "grade": 3,
+      "skill_grade": 3,
+      "vouches": 1
+    },
+    "T2925": {
+      "grade": 3,
+      "skill_grade": 3,
+      "vouches": 1
+    },
+    "S0551": {
+      "grade": 3,
+      "skill_grade": 3,
+      "vouches": 1
+    },
+    "T1482": {
+      "grade": 3,
+      "skill_grade": 3,
+      "vouches": 1
+    },
+    "T2923": {
+      "grade": 3,
+      "skill_grade": 2,
+      "vouches": 1
+    },
+    "T1350": {
+      "grade": 3,
+      "skill_grade": 2,
+      "vouches": 1
+    },
+    "T2932": {
+      "grade": 3,
+      "skill_grade": 2,
+      "vouches": 1
+    },
+    "S0421": {
+      "grade": 3,
+      "skill_grade": 2,
+      "vouches": 1
+    },
+    "T1860": {
+      "grade": 3,
+      "skill_grade": 1,
+      "vouches": 1
+    },
+    "T1530": {
+      "grade": 2,
+      "skill_grade": 3,
+      "vouches": 1
+    },
+    "T2931": {
+      "grade": 1,
+      "skill_grade": 3,
+      "vouches": 1
+    },
+    "T1438": {
+      "grade": 0,
+      "skill_grade": 3,
+      "vouches": 1
+    },
+    "T2928": {
+      "grade": 0,
+      "skill_grade": 3,
+      "vouches": 1
+    },
+    "S0245": {
+      "grade": 0,
+      "skill_grade": 2,
+      "vouches": 1
+    },
+    "T2248": {
+      "grade": 0,
+      "skill_grade": 1,
+      "vouches": 1
+    }
+  },
+  "R28": {
+    "S0762": {
+      "grade": 3,
+      "skill_grade": 3,
+      "vouches": 2
+    },
+    "T2941": {
+      "grade": 3,
+      "skill_grade": 3,
+      "vouches": 1
+    },
+    "T2939": {
+      "grade": 3,
+      "skill_grade": 3,
+      "vouches": 1
+    },
+    "T3312": {
+      "grade": 3,
+      "skill_grade": 3,
+      "vouches": 1
+    },
+    "T2940": {
+      "grade": 3,
+      "skill_grade": 3,
+      "vouches": 1
+    },
+    "T2942": {
+      "grade": 3,
+      "skill_grade": 3,
+      "vouches": 1
+    },
+    "T2946": {
+      "grade": 3,
+      "skill_grade": 3,
+      "vouches": 1
+    },
+    "T3296": {
+      "grade": 3,
+      "skill_grade": 3,
+      "vouches": 1
+    },
+    "T3310": {
+      "grade": 3,
+      "skill_grade": 3,
+      "vouches": 1
+    },
+    "T3300": {
+      "grade": 3,
+      "skill_grade": 3,
+      "vouches": 1
+    },
+    "S0800": {
+      "grade": 3,
+      "skill_grade": 3,
+      "vouches": 1
+    },
+    "T0491": {
+      "grade": 3,
+      "skill_grade": 2,
+      "vouches": 1
+    },
+    "T3297": {
+      "grade": 3,
+      "skill_grade": 2,
+      "vouches": 1
+    },
+    "S0225": {
+      "grade": 3,
+      "skill_grade": 2,
+      "vouches": 1
+    },
+    "T0855": {
+      "grade": 3,
+      "skill_grade": 2,
+      "vouches": 1
+    },
+    "T0704": {
+      "grade": 3,
+      "skill_grade": 2,
+      "vouches": 1
+    },
+    "S0248": {
+      "grade": 3,
+      "skill_grade": 1,
+      "vouches": 2
+    },
+    "T2949": {
+      "grade": 3,
+      "skill_grade": 1,
+      "vouches": 1
+    },
+    "T3313": {
+      "grade": 3,
+      "skill_grade": 1,
+      "vouches": 1
+    },
+    "T2947": {
+      "grade": 2,
+      "skill_grade": 3,
+      "vouches": 1
+    },
+    "S0801": {
+      "grade": 2,
+      "skill_grade": 3,
+      "vouches": 1
+    },
+    "T2944": {
+      "grade": 2,
+      "skill_grade": 3,
+      "vouches": 1
+    },
+    "T3305": {
+      "grade": 2,
+      "skill_grade": 3,
+      "vouches": 1
+    },
+    "T0576": {
+      "grade": 2,
+      "skill_grade": 3,
+      "vouches": 1
+    },
+    "T3314": {
+      "grade": 2,
+      "skill_grade": 3,
+      "vouches": 1
+    },
+    "T2058": {
+      "grade": 2,
+      "skill_grade": 3,
+      "vouches": 1
+    },
+    "T3320": {
+      "grade": 2,
+      "skill_grade": 2,
+      "vouches": 1
+    },
+    "T0645": {
+      "grade": 2,
+      "skill_grade": 2,
+      "vouches": 1
+    },
+    "T3316": {
+      "grade": 2,
+      "skill_grade": 2,
+      "vouches": 1
+    },
+    "S0239": {
+      "grade": 2,
+      "skill_grade": 1,
+      "vouches": 1
+    },
+    "T0593": {
+      "grade": 1,
+      "skill_grade": 3,
+      "vouches": 1
+    },
+    "T3309": {
+      "grade": 1,
+      "skill_grade": 3,
+      "vouches": 1
+    },
+    "T3303": {
+      "grade": 1,
+      "skill_grade": 3,
+      "vouches": 1
+    },
+    "T3306": {
+      "grade": 1,
+      "skill_grade": 2,
+      "vouches": 1
+    },
+    "T3318": {
+      "grade": 1,
+      "skill_grade": 2,
+      "vouches": 1
+    },
+    "T3317": {
+      "grade": 1,
+      "skill_grade": 1,
+      "vouches": 1
+    },
+    "T3298": {
+      "grade": 0,
+      "skill_grade": 3,
+      "vouches": 1
+    },
+    "T3294": {
+      "grade": 0,
+      "skill_grade": 3,
+      "vouches": 1
+    },
+    "T2948": {
+      "grade": 0,
+      "skill_grade": 3,
+      "vouches": 1
+    },
+    "T3311": {
+      "grade": 0,
+      "skill_grade": 2,
+      "vouches": 1
+    },
+    "T3304": {
+      "grade": 0,
+      "skill_grade": 2,
+      "vouches": 1
+    },
+    "T3299": {
+      "grade": 0,
+      "skill_grade": 2,
+      "vouches": 1
+    },
+    "T3295": {
+      "grade": 0,
+      "skill_grade": 2,
+      "vouches": 1
+    },
+    "T3307": {
+      "grade": 0,
+      "skill_grade": 2,
+      "vouches": 1
+    },
+    "T2790": {
+      "grade": 0,
+      "skill_grade": 2,
+      "vouches": 1
+    },
+    "T3308": {
+      "grade": 0,
+      "skill_grade": 2,
+      "vouches": 1
+    },
+    "T3321": {
+      "grade": 0,
+      "skill_grade": 2,
+      "vouches": 1
+    },
+    "T3315": {
+      "grade": 0,
+      "skill_grade": 2,
+      "vouches": 1
+    },
+    "T3302": {
+      "grade": 0,
+      "skill_grade": 1,
+      "vouches": 1
+    },
+    "T3301": {
+      "grade": 0,
+      "skill_grade": 1,
+      "vouches": 1
+    },
+    "S0189": {
+      "grade": 0,
+      "skill_grade": 1,
+      "vouches": 1
+    },
+    "T0860": {
+      "grade": 0,
+      "skill_grade": 1,
+      "vouches": 1
+    },
+    "T0661": {
+      "grade": 0,
+      "skill_grade": 1,
+      "vouches": 1
+    },
+    "T3319": {
+      "grade": 0,
+      "skill_grade": 1,
+      "vouches": 1
+    },
+    "T2945": {
+      "grade": 0,
+      "skill_grade": 1,
+      "vouches": 1
+    },
+    "T0336": {
+      "grade": 0,
+      "skill_grade": 1,
+      "vouches": 1
+    }
+  },
+  "R29": {
+    "T2962": {
+      "grade": 3,
+      "skill_grade": 3,
+      "vouches": 2
+    },
+    "T3324": {
+      "grade": 3,
+      "skill_grade": 3,
+      "vouches": 1
+    },
+    "T2961": {
+      "grade": 3,
+      "skill_grade": 3,
+      "vouches": 1
+    },
+    "T2958": {
+      "grade": 3,
+      "skill_grade": 3,
+      "vouches": 1
+    },
+    "T2963": {
+      "grade": 3,
+      "skill_grade": 3,
+      "vouches": 1
+    },
+    "T0720": {
+      "grade": 3,
+      "skill_grade": 3,
+      "vouches": 1
+    },
+    "T2965": {
+      "grade": 3,
+      "skill_grade": 3,
+      "vouches": 1
+    },
+    "T2966": {
+      "grade": 3,
+      "skill_grade": 3,
+      "vouches": 1
+    },
+    "T3327": {
+      "grade": 3,
+      "skill_grade": 3,
+      "vouches": 1
+    },
+    "T0663": {
+      "grade": 3,
+      "skill_grade": 3,
+      "vouches": 1
+    },
+    "S0257": {
+      "grade": 3,
+      "skill_grade": 3,
+      "vouches": 1
+    },
+    "T2959": {
+      "grade": 3,
+      "skill_grade": 3,
+      "vouches": 1
+    },
+    "T0751": {
+      "grade": 3,
+      "skill_grade": 3,
+      "vouches": 1
+    },
+    "T2960": {
+      "grade": 3,
+      "skill_grade": 3,
+      "vouches": 1
+    },
+    "T0592": {
+      "grade": 3,
+      "skill_grade": 3,
+      "vouches": 1
+    },
+    "T3329": {
+      "grade": 3,
+      "skill_grade": 3,
+      "vouches": 1
+    },
+    "T3326": {
+      "grade": 3,
+      "skill_grade": 2,
+      "vouches": 1
+    },
+    "T3325": {
+      "grade": 3,
+      "skill_grade": 2,
+      "vouches": 1
+    },
+    "T0801": {
+      "grade": 2,
+      "skill_grade": 3,
+      "vouches": 1
+    },
+    "T2968": {
+      "grade": 2,
+      "skill_grade": 3,
+      "vouches": 1
+    },
+    "T0617": {
+      "grade": 2,
+      "skill_grade": 3,
+      "vouches": 1
+    },
+    "T0141": {
+      "grade": 2,
+      "skill_grade": 3,
+      "vouches": 1
+    },
+    "T0599": {
+      "grade": 2,
+      "skill_grade": 3,
+      "vouches": 1
+    },
+    "T0832": {
+      "grade": 2,
+      "skill_grade": 2,
+      "vouches": 1
+    },
+    "T0569": {
+      "grade": 2,
+      "skill_grade": 2,
+      "vouches": 1
+    },
+    "T0006": {
+      "grade": 2,
+      "skill_grade": 2,
+      "vouches": 1
+    },
+    "T0797": {
+      "grade": 2,
+      "skill_grade": 2,
+      "vouches": 1
+    },
+    "T0911": {
+      "grade": 2,
+      "skill_grade": 2,
+      "vouches": 1
+    },
+    "T3323": {
+      "grade": 2,
+      "skill_grade": 1,
+      "vouches": 1
+    },
+    "T2967": {
+      "grade": 1,
+      "skill_grade": 3,
+      "vouches": 1
+    },
+    "T0806": {
+      "grade": 1,
+      "skill_grade": 3,
+      "vouches": 1
+    },
+    "T0773": {
+      "grade": 1,
+      "skill_grade": 1,
+      "vouches": 1
+    },
+    "T0618": {
+      "grade": 0,
+      "skill_grade": 3,
+      "vouches": 1
+    },
+    "T0817": {
+      "grade": 0,
+      "skill_grade": 3,
+      "vouches": 1
+    },
+    "T3322": {
+      "grade": 0,
+      "skill_grade": 3,
+      "vouches": 1
+    },
+    "T0739": {
+      "grade": 0,
+      "skill_grade": 2,
+      "vouches": 1
+    },
+    "T0828": {
+      "grade": 0,
+      "skill_grade": 2,
+      "vouches": 1
+    },
+    "T2964": {
+      "grade": 0,
+      "skill_grade": 2,
+      "vouches": 1
+    },
+    "T0884": {
+      "grade": 0,
+      "skill_grade": 1,
+      "vouches": 1
+    },
+    "T0882": {
+      "grade": 0,
+      "skill_grade": 1,
+      "vouches": 1
+    },
+    "S0277": {
+      "grade": 0,
+      "skill_grade": 1,
+      "vouches": 1
+    },
+    "T3328": {
+      "grade": 0,
+      "skill_grade": 1,
+      "vouches": 1
+    }
+  },
+  "R30": {
+    "S0766": {
+      "grade": 3,
+      "skill_grade": 3,
+      "vouches": 2
+    },
+    "T0022": {
+      "grade": 3,
+      "skill_grade": 3,
+      "vouches": 1
+    },
+    "T2983": {
+      "grade": 3,
+      "skill_grade": 3,
+      "vouches": 1
+    },
+    "T2981": {
+      "grade": 3,
+      "skill_grade": 3,
+      "vouches": 1
+    },
+    "T2979": {
+      "grade": 3,
+      "skill_grade": 3,
+      "vouches": 1
+    },
+    "T2977": {
+      "grade": 3,
+      "skill_grade": 3,
+      "vouches": 1
+    },
+    "T2976": {
+      "grade": 3,
+      "skill_grade": 3,
+      "vouches": 1
+    },
+    "T2984": {
+      "grade": 3,
+      "skill_grade": 3,
+      "vouches": 1
+    },
+    "T0811": {
+      "grade": 3,
+      "skill_grade": 3,
+      "vouches": 1
+    },
+    "T0574": {
+      "grade": 3,
+      "skill_grade": 3,
+      "vouches": 1
+    },
+    "T0550": {
+      "grade": 3,
+      "skill_grade": 3,
+      "vouches": 1
+    },
+    "T0798": {
+      "grade": 3,
+      "skill_grade": 3,
+      "vouches": 1
+    },
+    "S0209": {
+      "grade": 3,
+      "skill_grade": 3,
+      "vouches": 1
+    },
+    "T2978": {
+      "grade": 3,
+      "skill_grade": 2,
+      "vouches": 1
+    },
+    "T0871": {
+      "grade": 3,
+      "skill_grade": 1,
+      "vouches": 1
+    },
+    "T0643": {
+      "grade": 3,
+      "skill_grade": 1,
+      "vouches": 1
+    },
+    "T0700": {
+      "grade": 2,
+      "skill_grade": 3,
+      "vouches": 1
+    },
+    "T0896": {
+      "grade": 2,
+      "skill_grade": 3,
+      "vouches": 1
+    },
+    "T0699": {
+      "grade": 2,
+      "skill_grade": 3,
+      "vouches": 1
+    },
+    "T0650": {
+      "grade": 2,
+      "skill_grade": 3,
+      "vouches": 1
+    },
+    "T0742": {
+      "grade": 2,
+      "skill_grade": 3,
+      "vouches": 1
+    },
+    "T0761": {
+      "grade": 2,
+      "skill_grade": 3,
+      "vouches": 1
+    },
+    "T0721": {
+      "grade": 2,
+      "skill_grade": 3,
+      "vouches": 1
+    },
+    "S0231": {
+      "grade": 2,
+      "skill_grade": 1,
+      "vouches": 1
+    },
+    "T2985": {
+      "grade": 1,
+      "skill_grade": 3,
+      "vouches": 1
+    },
+    "T0733": {
+      "grade": 1,
+      "skill_grade": 3,
+      "vouches": 1
+    },
+    "T0770": {
+      "grade": 0,
+      "skill_grade": 3,
+      "vouches": 1
+    },
+    "T0709": {
+      "grade": 0,
+      "skill_grade": 3,
+      "vouches": 1
+    },
+    "T0836": {
+      "grade": 0,
+      "skill_grade": 3,
+      "vouches": 1
+    },
+    "T2986": {
+      "grade": 0,
+      "skill_grade": 3,
+      "vouches": 1
+    },
+    "T0848": {
+      "grade": 0,
+      "skill_grade": 3,
+      "vouches": 1
+    },
+    "T2982": {
+      "grade": 0,
+      "skill_grade": 3,
+      "vouches": 1
+    },
+    "T0805": {
+      "grade": 0,
+      "skill_grade": 3,
+      "vouches": 1
+    },
+    "T0683": {
+      "grade": 0,
+      "skill_grade": 2,
+      "vouches": 1
+    },
+    "T0819": {
+      "grade": 0,
+      "skill_grade": 2,
+      "vouches": 1
+    },
+    "S0243": {
+      "grade": 0,
+      "skill_grade": 1,
+      "vouches": 1
+    },
+    "T0706": {
+      "grade": 0,
+      "skill_grade": 1,
+      "vouches": 1
+    },
+    "T0782": {
+      "grade": 0,
+      "skill_grade": 1,
+      "vouches": 1
+    },
+    "T0897": {
+      "grade": 0,
+      "skill_grade": 1,
+      "vouches": 1
+    },
+    "T2068": {
+      "grade": 0,
+      "skill_grade": 1,
+      "vouches": 1
+    },
+    "T0580": {
+      "grade": 0,
+      "skill_grade": 1,
+      "vouches": 1
+    },
+    "T0887": {
+      "grade": 0,
+      "skill_grade": 1,
+      "vouches": 1
+    },
+    "T0841": {
+      "grade": 0,
+      "skill_grade": 1,
+      "vouches": 1
+    },
+    "T0774": {
+      "grade": 0,
+      "skill_grade": 1,
+      "vouches": 1
+    },
+    "T3136": {
+      "grade": 0,
+      "skill_grade": 1,
+      "vouches": 1
+    }
+  },
+  "R31": {
+    "S0212": {
+      "grade": 3,
+      "skill_grade": 1,
+      "vouches": 1
+    },
+    "S0768": {
+      "grade": 2,
+      "skill_grade": 3,
+      "vouches": 2
+    },
+    "T3000": {
+      "grade": 2,
+      "skill_grade": 3,
+      "vouches": 1
+    },
+    "T2997": {
+      "grade": 2,
+      "skill_grade": 3,
+      "vouches": 1
+    },
+    "T2995": {
+      "grade": 2,
+      "skill_grade": 3,
+      "vouches": 1
+    },
+    "T3003": {
+      "grade": 2,
+      "skill_grade": 3,
+      "vouches": 1
+    },
+    "T3002": {
+      "grade": 2,
+      "skill_grade": 3,
+      "vouches": 1
+    },
+    "T2998": {
+      "grade": 2,
+      "skill_grade": 3,
+      "vouches": 1
+    },
+    "T2996": {
+      "grade": 2,
+      "skill_grade": 3,
+      "vouches": 1
+    },
+    "S0233": {
+      "grade": 2,
+      "skill_grade": 3,
+      "vouches": 1
+    },
+    "S0188": {
+      "grade": 2,
+      "skill_grade": 1,
+      "vouches": 1
+    },
+    "S0192": {
+      "grade": 2,
+      "skill_grade": 1,
+      "vouches": 1
+    },
+    "T0827": {
+      "grade": 2,
+      "skill_grade": 1,
+      "vouches": 1
+    },
+    "T0886": {
+      "grade": 2,
+      "skill_grade": 1,
+      "vouches": 1
+    },
+    "T0348": {
+      "grade": 1,
+      "skill_grade": 2,
+      "vouches": 2
+    },
+    "T3004": {
+      "grade": 0,
+      "skill_grade": 3,
+      "vouches": 1
+    },
+    "T0920": {
+      "grade": 0,
+      "skill_grade": 3,
+      "vouches": 1
+    },
+    "T0859": {
+      "grade": 0,
+      "skill_grade": 3,
+      "vouches": 1
+    },
+    "T0636": {
+      "grade": 0,
+      "skill_grade": 3,
+      "vouches": 1
+    },
+    "T3001": {
+      "grade": 0,
+      "skill_grade": 3,
+      "vouches": 1
+    },
+    "T3005": {
+      "grade": 0,
+      "skill_grade": 2,
+      "vouches": 1
+    },
+    "T0614": {
+      "grade": 0,
+      "skill_grade": 2,
+      "vouches": 1
+    },
+    "S0274": {
+      "grade": 0,
+      "skill_grade": 1,
+      "vouches": 1
+    },
+    "T3006": {
+      "grade": 0,
+      "skill_grade": 1,
+      "vouches": 1
+    },
+    "S0198": {
+      "grade": 0,
+      "skill_grade": 1,
+      "vouches": 1
+    },
+    "T0914": {
+      "grade": 0,
+      "skill_grade": 1,
+      "vouches": 1
+    },
+    "T0836": {
+      "grade": 0,
+      "skill_grade": 1,
+      "vouches": 1
+    }
+  },
+  "R32": {
+    "T3013": {
+      "grade": 3,
+      "skill_grade": 3,
+      "vouches": 1
+    },
+    "T2427": {
+      "grade": 3,
+      "skill_grade": 2,
+      "vouches": 2
+    },
+    "T3014": {
+      "grade": 3,
+      "skill_grade": 2,
+      "vouches": 1
+    },
+    "T3016": {
+      "grade": 3,
+      "skill_grade": 1,
+      "vouches": 1
+    },
+    "S0770": {
+      "grade": 2,
+      "skill_grade": 3,
+      "vouches": 1
+    },
+    "T3015": {
+      "grade": 0,
+      "skill_grade": 3,
+      "vouches": 1
+    }
+  },
+  "R33": {
+    "T3027": {
+      "grade": 3,
+      "skill_grade": 3,
+      "vouches": 2
+    },
+    "T3026": {
+      "grade": 3,
+      "skill_grade": 3,
+      "vouches": 1
+    },
+    "T3031": {
+      "grade": 3,
+      "skill_grade": 3,
+      "vouches": 1
+    },
+    "T3023": {
+      "grade": 3,
+      "skill_grade": 3,
+      "vouches": 1
+    },
+    "T2394": {
+      "grade": 3,
+      "skill_grade": 3,
+      "vouches": 1
+    },
+    "T3024": {
+      "grade": 3,
+      "skill_grade": 3,
+      "vouches": 1
+    },
+    "T3030": {
+      "grade": 3,
+      "skill_grade": 3,
+      "vouches": 1
+    },
+    "T3028": {
+      "grade": 3,
+      "skill_grade": 3,
+      "vouches": 1
+    },
+    "T3025": {
+      "grade": 3,
+      "skill_grade": 3,
+      "vouches": 1
+    },
+    "T3033": {
+      "grade": 3,
+      "skill_grade": 2,
+      "vouches": 1
+    },
+    "T2314": {
+      "grade": 3,
+      "skill_grade": 2,
+      "vouches": 1
+    },
+    "T2317": {
+      "grade": 3,
+      "skill_grade": 2,
+      "vouches": 1
+    },
+    "T2288": {
+      "grade": 3,
+      "skill_grade": 1,
+      "vouches": 1
+    },
+    "T3032": {
+      "grade": 0,
+      "skill_grade": 3,
+      "vouches": 1
+    },
+    "T2313": {
+      "grade": 0,
+      "skill_grade": 3,
+      "vouches": 1
+    },
+    "T3029": {
+      "grade": 0,
+      "skill_grade": 2,
+      "vouches": 1
+    },
+    "T0025": {
+      "grade": 0,
+      "skill_grade": 1,
+      "vouches": 1
+    }
+  },
+  "R34": {
+    "T3045": {
+      "grade": 3,
+      "skill_grade": 3,
+      "vouches": 2
+    },
+    "T2354": {
+      "grade": 3,
+      "skill_grade": 3,
+      "vouches": 2
+    },
+    "T2397": {
+      "grade": 3,
+      "skill_grade": 3,
+      "vouches": 2
+    },
+    "T3041": {
+      "grade": 3,
+      "skill_grade": 3,
+      "vouches": 1
+    },
+    "T3046": {
+      "grade": 3,
+      "skill_grade": 3,
+      "vouches": 1
+    },
+    "T3049": {
+      "grade": 3,
+      "skill_grade": 3,
+      "vouches": 1
+    },
+    "T3043": {
+      "grade": 3,
+      "skill_grade": 3,
+      "vouches": 1
+    },
+    "T3044": {
+      "grade": 3,
+      "skill_grade": 3,
+      "vouches": 1
+    },
+    "T3052": {
+      "grade": 3,
+      "skill_grade": 3,
+      "vouches": 1
+    },
+    "T3042": {
+      "grade": 3,
+      "skill_grade": 3,
+      "vouches": 1
+    },
+    "T3048": {
+      "grade": 3,
+      "skill_grade": 3,
+      "vouches": 1
+    },
+    "T2274": {
+      "grade": 3,
+      "skill_grade": 3,
+      "vouches": 1
+    },
+    "T3050": {
+      "grade": 2,
+      "skill_grade": 3,
+      "vouches": 1
+    },
+    "T2260": {
+      "grade": 0,
+      "skill_grade": 3,
+      "vouches": 1
+    },
+    "T3051": {
+      "grade": 0,
+      "skill_grade": 3,
+      "vouches": 1
+    },
+    "T2345": {
+      "grade": 0,
+      "skill_grade": 3,
+      "vouches": 1
+    },
+    "T0894": {
+      "grade": 0,
+      "skill_grade": 3,
+      "vouches": 1
+    },
+    "T3047": {
+      "grade": 0,
+      "skill_grade": 2,
+      "vouches": 1
+    }
+  },
+  "R35": {
+    "S0776": {
+      "grade": 3,
+      "skill_grade": 3,
+      "vouches": 1
+    },
+    "T3061": {
+      "grade": 3,
+      "skill_grade": 3,
+      "vouches": 1
+    },
+    "T3060": {
+      "grade": 3,
+      "skill_grade": 3,
+      "vouches": 1
+    },
+    "T3062": {
+      "grade": 0,
+      "skill_grade": 2,
+      "vouches": 1
+    },
+    "T2444": {
+      "grade": 0,
+      "skill_grade": 1,
+      "vouches": 1
+    },
+    "T2470": {
+      "grade": 0,
+      "skill_grade": 1,
+      "vouches": 1
+    },
+    "T2473": {
+      "grade": 0,
+      "skill_grade": 1,
+      "vouches": 1
+    }
+  },
+  "R36": {
+    "T3070": {
+      "grade": 3,
+      "skill_grade": 3,
+      "vouches": 1
+    },
+    "T3078": {
+      "grade": 3,
+      "skill_grade": 3,
+      "vouches": 1
+    },
+    "T3073": {
+      "grade": 3,
+      "skill_grade": 3,
+      "vouches": 1
+    },
+    "T1118": {
+      "grade": 3,
+      "skill_grade": 3,
+      "vouches": 1
+    },
+    "T3075": {
+      "grade": 3,
+      "skill_grade": 3,
+      "vouches": 1
+    },
+    "T3074": {
+      "grade": 3,
+      "skill_grade": 2,
+      "vouches": 2
+    },
+    "T3080": {
+      "grade": 3,
+      "skill_grade": 2,
+      "vouches": 1
+    },
+    "T3072": {
+      "grade": 3,
+      "skill_grade": 2,
+      "vouches": 1
+    },
+    "T3071": {
+      "grade": 3,
+      "skill_grade": 2,
+      "vouches": 1
+    },
+    "S0344": {
+      "grade": 3,
+      "skill_grade": 2,
+      "vouches": 1
+    },
+    "T1056": {
+      "grade": 3,
+      "skill_grade": 1,
+      "vouches": 1
+    },
+    "T0992": {
+      "grade": 3,
+      "skill_grade": 1,
+      "vouches": 1
+    },
+    "T3077": {
+      "grade": 2,
+      "skill_grade": 2,
+      "vouches": 1
+    },
+    "T1048": {
+      "grade": 2,
+      "skill_grade": 1,
+      "vouches": 1
+    },
+    "T3079": {
+      "grade": 1,
+      "skill_grade": 3,
+      "vouches": 1
+    },
+    "T1237": {
+      "grade": 0,
+      "skill_grade": 3,
+      "vouches": 1
+    },
+    "T3076": {
+      "grade": 0,
+      "skill_grade": 3,
+      "vouches": 1
+    },
+    "T1063": {
+      "grade": 0,
+      "skill_grade": 1,
+      "vouches": 1
+    },
+    "S0286": {
+      "grade": 0,
+      "skill_grade": 1,
+      "vouches": 1
+    },
+    "T3280": {
+      "grade": 0,
+      "skill_grade": 1,
+      "vouches": 1
+    },
+    "T3283": {
+      "grade": 0,
+      "skill_grade": 1,
+      "vouches": 1
+    },
+    "S0249": {
+      "grade": 0,
+      "skill_grade": 1,
+      "vouches": 1
+    },
+    "T3275": {
+      "grade": 0,
+      "skill_grade": 1,
+      "vouches": 1
+    },
+    "S0324": {
+      "grade": 0,
+      "skill_grade": 1,
+      "vouches": 1
+    },
+    "T3285": {
+      "grade": 0,
+      "skill_grade": 1,
+      "vouches": 1
+    },
+    "S0754": {
+      "grade": 0,
+      "skill_grade": 1,
+      "vouches": 1
+    },
+    "T3273": {
+      "grade": 0,
+      "skill_grade": 1,
+      "vouches": 1
+    },
+    "T2876": {
+      "grade": 0,
+      "skill_grade": 1,
+      "vouches": 1
+    },
+    "T2881": {
+      "grade": 0,
+      "skill_grade": 1,
+      "vouches": 1
+    },
+    "T3281": {
+      "grade": 0,
+      "skill_grade": 1,
+      "vouches": 1
+    },
+    "T0039": {
+      "grade": 0,
+      "skill_grade": 1,
+      "vouches": 1
+    },
+    "T3278": {
+      "grade": 0,
+      "skill_grade": 1,
+      "vouches": 1
+    }
+  },
+  "R37": {
+    "T3089": {
+      "grade": 3,
+      "skill_grade": 3,
+      "vouches": 1
+    },
+    "T3092": {
+      "grade": 3,
+      "skill_grade": 3,
+      "vouches": 1
+    },
+    "S0780": {
+      "grade": 3,
+      "skill_grade": 2,
+      "vouches": 1
+    },
+    "T3090": {
+      "grade": 3,
+      "skill_grade": 2,
+      "vouches": 1
+    },
+    "T3093": {
+      "grade": 3,
+      "skill_grade": 1,
+      "vouches": 1
+    },
+    "T1361": {
+      "grade": 3,
+      "skill_grade": 1,
+      "vouches": 1
+    },
+    "T1477": {
+      "grade": 3,
+      "skill_grade": 1,
+      "vouches": 1
+    },
+    "S0446": {
+      "grade": 3,
+      "skill_grade": 1,
+      "vouches": 1
+    },
+    "T1273": {
+      "grade": 2,
+      "skill_grade": 2,
+      "vouches": 1
+    },
+    "T1531": {
+      "grade": 2,
+      "skill_grade": 1,
+      "vouches": 1
+    },
+    "T3091": {
+      "grade": 0,
+      "skill_grade": 2,
+      "vouches": 1
+    },
+    "T2017": {
+      "grade": 0,
+      "skill_grade": 1,
+      "vouches": 1
+    },
+    "T3027": {
+      "grade": 0,
+      "skill_grade": 1,
+      "vouches": 1
+    }
+  }
+}

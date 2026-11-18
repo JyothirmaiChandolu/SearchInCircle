@@ -1,0 +1,19 @@
+{
+  "name": "fcm-otp-spike-app",
+  "version": "1.0.0",
+  "private": true,
+  "main": "index.js",
+  "scripts": {
+    "start": "expo start --dev-client",
+    "android": "expo run:android",
+    "ios": "expo run:ios"
+  },
+  "dependencies": {
+    "@react-native-firebase/app": "^20.1.0",
+    "@react-native-firebase/messaging": "^20.1.0",
+    "expo": "~51.0.0",
+    "expo-dev-client": "~4.0.0",
+    "react": "18.2.0",
+    "react-native": "0.74.5"
+  }
+}

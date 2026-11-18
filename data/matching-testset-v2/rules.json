@@ -1,0 +1,12 @@
+{
+  "reference_date": "2026-11-11",
+  "reconfirm_window_days": null,
+  "include_own_tags": true,
+  "seed": 42,
+  "relevance_scale": {
+    "3": "strong",
+    "2": "good, one soft miss",
+    "1": "weak / adjacent",
+    "0": "not relevant"
+  }
+}

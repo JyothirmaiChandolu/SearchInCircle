@@ -7,8 +7,111 @@ datasource db {
   provider = "postgresql"
 }
 
-// Domain models (users, trust_connections, skill_tags, requirements, matches,
-// notifications, consent_records, device_push_tokens, match_outbox, conversations,
-// messages) are added module-by-module in their own tickets, not here. This schema
-// starts empty on purpose — ticket #2 only proves the database connection and the
-// pgvector extension work end to end.
+// Remaining domain models (trust_connections, matches, notifications, consent_records,
+// device_push_tokens, match_outbox, conversations, messages) are added module-by-module
+// in their own tickets, not here.
+
+// Ticket #4: onboarding identity + purpose. One row per Cognito user, created the
+// first time they complete onboarding.
+model User {
+  id         String   @id @default(uuid())
+  cognitoSub String   @unique
+  username   String   @unique
+  nickname   String   @unique
+  email      String?  @unique
+  purpose    Purpose
+  createdAt  DateTime @default(now())
+  updatedAt  DateTime @updatedAt
+
+  skills        Skill[]
+  tagsCreated   Tag[]
+  requirements  Requirement[]
+
+  @@map("users")
+}
+
+enum Purpose {
+  HIRE_OR_STAFF
+  FIND_WORK
+  FIND_A_SERVICE
+  PERSONAL_HOBBY
+  OTHER
+}
+
+// Ticket #5: self-entry skills. A flat list of skill names the user added about
+// themselves, optionally seeded from resume-upload suggestions but never saved
+// without the user confirming each one.
+model Skill {
+  id        String   @id @default(uuid())
+  userId    String
+  user      User     @relation(fields: [userId], references: [id], onDelete: Cascade)
+  name      String
+  createdAt DateTime @default(now())
+
+  @@unique([userId, name])
+  @@map("skills")
+}
+
+// Ticket #6: contact tagging. TaggedPerson is the deduplicated real-world person —
+// looked up by phone/email before creating a new one, so two taggers describing the
+// same person land on one record. Tag is one tagger's own description of that person;
+// only its creator may edit or delete it.
+model TaggedPerson {
+  id        String   @id @default(uuid())
+  name      String
+  phone     String?  @unique
+  email     String?  @unique
+  country   String?
+  createdAt DateTime @default(now())
+
+  tags Tag[]
+
+  @@map("tagged_people")
+}
+
+model Tag {
+  id              String       @id @default(uuid())
+  creatorId       String
+  creator         User         @relation(fields: [creatorId], references: [id], onDelete: Cascade)
+  personId        String
+  person          TaggedPerson @relation(fields: [personId], references: [id], onDelete: Cascade)
+  nickname        String?
+  description     String?
+  skills          String[]
+  tools           String[]
+  yearsExperience Int?
+  certifications  String[]
+  isOpen          Boolean      @default(true)
+  createdAt       DateTime     @default(now())
+  updatedAt       DateTime     @updatedAt
+
+  @@map("tags")
+}
+
+// Ticket #8: requirement posting & lifecycle. visibleSubscriberIds is empty by default,
+// meaning "all subscribers" — there's no subscriber/circle model yet (ticket #9), so
+// picking a narrower audience isn't offered in the UI until that exists; the field is
+// here so that UI can land later without another migration.
+model Requirement {
+  id                   String    @id @default(uuid())
+  publisherId          String
+  publisher            User      @relation(fields: [publisherId], references: [id], onDelete: Cascade)
+  title                String
+  description          String
+  skillsNeeded         String[]
+  workType             WorkType
+  experienceRequired   String?
+  salary               String?
+  location             String?
+  visibleSubscriberIds String[]
+  isOpen               Boolean   @default(true)
+  createdAt            DateTime  @default(now())
+  updatedAt            DateTime  @updatedAt
+
+  @@map("requirements")
+}
+
+enum WorkType {
+  REMOTE
+  ON_SITE
+}
