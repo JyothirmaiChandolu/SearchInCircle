@@ -18,6 +18,13 @@ from fastapi import Depends, FastAPI, HTTPException, Request
 from fastapi.responses import HTMLResponse, StreamingResponse
 from pydantic import BaseModel
 
+# Pasted .env values on Vercel can carry a trailing newline, which breaks HTTP
+# headers ("Invalid header value b'Bearer ...\n'"). Trim them before anything reads them.
+for _k in ('OPENAI_API_KEY', 'JEV_API_KEY', 'ANTHROPIC_API_KEY', 'GOOGLE_API_KEY',
+           'TEAM_PASSCODE', 'SUPABASE_URL', 'SUPABASE_SERVICE_KEY', 'OPENROUTER_API_KEY'):
+    if _k in os.environ:
+        os.environ[_k] = os.environ[_k].strip().strip('"\'')
+
 from matcher.akshaya_bridge import DESIGNS, FINAL_PICK, VARIANT_LABELS, run_akshaya_design
 from matcher.config import DATASET_DIR, load_config
 from matcher.data_loader import Dataset
