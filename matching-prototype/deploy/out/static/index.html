@@ -497,7 +497,7 @@ function renderRun() {
   const s = run.stats || {};
   const line = [
     ['Shown / found', `${run.matches.length} / ${fmt(s.total_found)}`], ['Time', secs(s.total_seconds)],
-    ['Pool', fmt(s.pool)], ['Judged', s.judge_cap ? 'top ' + s.judge_cap : 'whole pool'],
+    ['Pool', fmt(s.pool)], ['Judged', (s.judge_cap && s.judge_cap < s.pool) ? 'top ' + s.judge_cap + ' of ' + s.pool : 'whole pool (limit ' + (s.judge_cap || 'none') + ' >= pool)'],
     ['Model calls', fmt(s.llm_calls)], ['Fallbacks', fmt(s.fallbacks)], ['Est. cost', money(s.cost)],
   ].map(([k, v]) => `<span>${k} <b>${v}</b></span>`).join('');
   const list = run.matches.length ? run.matches.map(renderMatch).join('')
