@@ -5,4 +5,3 @@ __pycache__/
 matcher/.embedding_cache.json
 predictions_openai.json
 ratings.jsonl
-deploy/out/

@@ -1,0 +1,690 @@
+<!doctype html>
+<html lang="en">
+<head>
+<meta charset="utf-8" />
+<meta name="viewport" content="width=device-width, initial-scale=1" />
+<title>Matching prototype</title>
+<link rel="preconnect" href="https://fonts.googleapis.com">
+<link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+<link href="https://fonts.googleapis.com/css2?family=Plus+Jakarta+Sans:wght@400;500;600;700;800&family=JetBrains+Mono:wght@500&display=swap" rel="stylesheet">
+<style>
+  :root {
+    --bg: #f3f5f9;
+    --surface: #ffffff;
+    --border: #e3e7ef;
+    --text: #1a2233;
+    --muted: #697086;
+    --accent: #0d9488;
+    --accent-dark: #0b7c72;
+    --accent-soft: #e6f6f4;
+    --chip-bg: #eef1ff;
+    --chip-text: #3f4b8a;
+    --good: #0d9488;
+    --good-bg: #e6f6f4;
+    --mid: #b7791f;
+    --mid-bg: #fdf3dc;
+    --low: #6b7280;
+    --low-bg: #eef0f3;
+    --shadow: 0 1px 2px rgba(20, 24, 38, 0.04), 0 8px 24px -8px rgba(20, 24, 38, 0.10);
+  }
+
+  * { box-sizing: border-box; }
+
+  body {
+    margin: 0;
+    background: var(--bg);
+    color: var(--text);
+    font-family: 'Plus Jakarta Sans', system-ui, sans-serif;
+    -webkit-font-smoothing: antialiased;
+  }
+
+  .page {
+    max-width: 840px;
+    margin: 0 auto;
+    padding: 48px 20px 80px;
+  }
+
+  header { margin-bottom: 28px; }
+
+  .eyebrow {
+    display: inline-flex;
+    align-items: center;
+    gap: 6px;
+    font-family: 'JetBrains Mono', monospace;
+    font-size: 11px;
+    letter-spacing: 0.08em;
+    text-transform: uppercase;
+    color: var(--accent-dark);
+    background: var(--accent-soft);
+    border-radius: 999px;
+    padding: 4px 10px 4px 8px;
+    margin-bottom: 14px;
+  }
+  .eyebrow .dot {
+    width: 6px; height: 6px; border-radius: 50%;
+    background: var(--accent);
+    box-shadow: 0 0 0 3px rgba(13, 148, 136, 0.18);
+  }
+
+  h1 { font-size: 30px; font-weight: 800; margin: 0 0 8px; letter-spacing: -0.02em; }
+  .subtitle { color: var(--muted); font-size: 15px; line-height: 1.5; max-width: 60ch; margin: 0; }
+
+  .card {
+    background: var(--surface);
+    border: 1px solid var(--border);
+    border-radius: 16px;
+    box-shadow: var(--shadow);
+    padding: 24px;
+  }
+
+  .form-card { margin-top: 24px; }
+
+  .field { margin-bottom: 18px; }
+  .field:last-of-type { margin-bottom: 0; }
+
+  label.field-label {
+    display: block;
+    font-size: 13px;
+    font-weight: 600;
+    margin-bottom: 7px;
+    color: var(--text);
+  }
+  .hint { font-weight: 400; color: var(--muted); }
+
+  select, textarea {
+    width: 100%;
+    font: inherit;
+    font-size: 14px;
+    color: var(--text);
+    background: #fbfcfe;
+    border: 1.5px solid var(--border);
+    border-radius: 10px;
+    padding: 10px 12px;
+    transition: border-color 0.15s, box-shadow 0.15s;
+  }
+  select:focus, textarea:focus {
+    outline: none;
+    border-color: var(--accent);
+    box-shadow: 0 0 0 3px var(--accent-soft);
+  }
+  textarea { min-height: 96px; resize: vertical; line-height: 1.5; }
+
+  .actions {
+    display: flex;
+    align-items: center;
+    gap: 14px;
+    margin-top: 20px;
+    padding-top: 18px;
+    border-top: 1px solid var(--border);
+  }
+
+  button#go {
+    font: inherit;
+    font-weight: 700;
+    font-size: 14px;
+    color: #fff;
+    background: var(--accent);
+    border: none;
+    border-radius: 10px;
+    padding: 11px 20px;
+    cursor: pointer;
+    transition: background 0.15s, transform 0.08s;
+    box-shadow: 0 1px 2px rgba(13, 148, 136, 0.25);
+  }
+  button#go:hover { background: var(--accent-dark); }
+  button#go:active { transform: translateY(1px); }
+  button#go:disabled { background: var(--low); cursor: progress; opacity: 0.7; }
+
+  #status {
+    font-size: 13px;
+    color: var(--muted);
+    display: inline-flex;
+    align-items: center;
+    gap: 8px;
+  }
+  #status.is-error { color: #b42318; }
+  #status.is-ok { color: var(--accent-dark); font-weight: 600; }
+
+  .spinner {
+    width: 13px; height: 13px;
+    border: 2px solid var(--accent-soft);
+    border-top-color: var(--accent);
+    border-radius: 50%;
+    animation: spin 0.7s linear infinite;
+    display: none;
+  }
+  .spinner.show { display: inline-block; }
+  @keyframes spin { to { transform: rotate(360deg); } }
+
+  #results { margin-top: 20px; display: flex; flex-direction: column; gap: 12px; }
+
+  .match-card {
+    display: flex;
+    gap: 14px;
+    padding: 18px;
+    animation: rise 0.25s ease both;
+  }
+  @keyframes rise { from { opacity: 0; transform: translateY(6px); } to { opacity: 1; transform: translateY(0); } }
+
+  .avatar {
+    flex: none;
+    width: 42px; height: 42px;
+    border-radius: 12px;
+    display: flex; align-items: center; justify-content: center;
+    font-weight: 700; font-size: 15px; color: #fff;
+    background: linear-gradient(160deg, var(--accent), #14b8a6);
+  }
+
+  .match-body { flex: 1; min-width: 0; }
+
+  .match-top {
+    display: flex;
+    align-items: flex-start;
+    justify-content: space-between;
+    gap: 12px;
+  }
+
+  .match-name { font-weight: 700; font-size: 15.5px; }
+  .match-skills { color: var(--muted); font-size: 13px; margin-top: 2px; }
+  .match-desc { color: var(--muted); font-size: 13px; margin-top: 4px; line-height: 1.4; }
+
+  .score-badge {
+    flex: none;
+    font-family: 'JetBrains Mono', monospace;
+    font-weight: 600;
+    font-size: 12.5px;
+    padding: 4px 10px;
+    border-radius: 999px;
+    white-space: nowrap;
+  }
+  .score-badge.good { color: var(--good); background: var(--good-bg); }
+  .score-badge.mid { color: var(--mid); background: var(--mid-bg); }
+  .score-badge.low { color: var(--low); background: var(--low-bg); }
+
+  .reasons { margin-top: 10px; display: flex; flex-wrap: wrap; gap: 6px; }
+  .reasons span {
+    font-size: 11.5px;
+    font-weight: 600;
+    color: var(--chip-text);
+    background: var(--chip-bg);
+    border-radius: 999px;
+    padding: 3px 10px;
+  }
+
+  .llm-reason {
+    margin-top: 10px;
+    font-size: 13px;
+    color: var(--text);
+    background: var(--accent-soft);
+    border-left: 3px solid var(--accent);
+    border-radius: 0 8px 8px 0;
+    padding: 8px 12px;
+  }
+  .llm-reason::before { content: '✦ '; color: var(--accent-dark); }
+
+  .empty-state, .error-state {
+    text-align: center;
+    padding: 40px 20px;
+    color: var(--muted);
+    font-size: 14px;
+  }
+  .error-state { color: #b42318; }
+
+  .log-card { margin-top: 20px; padding: 14px 18px; }
+  .log-title { font-weight: 600; font-size: 14px; }
+  .log-card pre {
+    margin: 10px 0 0;
+    padding: 12px 14px;
+    background: #0f172a;
+    color: #e2e8f0;
+    border-radius: 10px;
+    font-family: 'JetBrains Mono', monospace;
+    font-size: 12px;
+    line-height: 1.55;
+    white-space: pre-wrap;
+    overflow-wrap: anywhere;
+    max-height: 360px;
+    overflow-y: auto;
+  }
+
+
+  .topnav { display: flex; gap: 6px; margin-top: 16px; }
+  .topnav button {
+    font: inherit; font-weight: 600; font-size: 13px; color: var(--muted); background: transparent;
+    border: 1.5px solid var(--border); border-radius: 999px; padding: 6px 14px; cursor: pointer;
+  }
+  .topnav button[aria-pressed="true"] { color: var(--accent-dark); background: var(--accent-soft); border-color: var(--accent); }
+  .field-row { display: grid; grid-template-columns: 1fr 1fr; gap: 14px; margin-bottom: 18px; }
+  input[type="text"], input[type="number"] {
+    width: 100%; font: inherit; font-size: 14px; color: var(--text); background: #fbfcfe;
+    border: 1.5px solid var(--border); border-radius: 10px; padding: 10px 12px;
+  }
+  input:focus { outline: none; border-color: var(--accent); box-shadow: 0 0 0 3px var(--accent-soft); }
+
+  .stats-line { margin-top: 20px; font-size: 13px; color: var(--muted); display: flex; flex-wrap: wrap; gap: 6px 18px; }
+  .stats-line b { color: var(--text); font-weight: 700; }
+
+  .match-card.is-good { border-left: 4px solid var(--good); }
+  .match-card.is-bad { border-left: 4px solid #c2410c; }
+  .vote { flex: none; display: flex; flex-direction: column; gap: 6px; }
+  .vote button {
+    font: inherit; font-size: 12.5px; font-weight: 700; color: var(--muted); background: var(--surface);
+    border: 1.5px solid var(--border); border-radius: 9px; padding: 6px 12px; cursor: pointer; white-space: nowrap;
+  }
+  .vote button.up[aria-pressed="true"] { background: var(--good-bg); border-color: var(--good); color: var(--good); }
+  .vote button.down[aria-pressed="true"] { background: #fdeee6; border-color: #c2410c; color: #c2410c; }
+
+  .rate-card { margin-top: 12px; }
+  .rate-title { font-weight: 700; font-size: 15px; margin-bottom: 12px; }
+  .scores { display: grid; grid-template-columns: repeat(5, 1fr); gap: 8px; margin-bottom: 12px; }
+  .scores button {
+    font: inherit; font-weight: 700; font-size: 15px; color: var(--text); background: #fbfcfe;
+    border: 1.5px solid var(--border); border-radius: 10px; padding: 9px 4px; cursor: pointer;
+  }
+  .scores button small { display: block; font-size: 11px; font-weight: 500; color: var(--muted); }
+  .scores button[aria-pressed="true"] { border-color: var(--accent); background: var(--accent-soft); color: var(--accent-dark); }
+  .rate-row { display: flex; align-items: center; gap: 14px; margin-top: 12px; }
+  button.primary {
+    font: inherit; font-weight: 700; font-size: 14px; color: #fff; background: var(--accent);
+    border: none; border-radius: 10px; padding: 11px 20px; cursor: pointer;
+  }
+  button.primary:hover { background: var(--accent-dark); }
+  button.primary:disabled { background: var(--low); opacity: .7; }
+  .save-msg { font-size: 13px; color: var(--muted); }
+  .save-msg.ok { color: var(--accent-dark); font-weight: 600; }
+  .save-msg.err { color: #b42318; }
+
+  table { width: 100%; border-collapse: collapse; font-size: 13px; }
+  th, td { text-align: left; padding: 9px 10px; border-bottom: 1px solid var(--border); vertical-align: top; overflow-wrap: anywhere; }
+  th { font-size: 12px; color: var(--muted); font-weight: 600; }
+  .num { text-align: right; white-space: nowrap; width: 1%; }
+  tr.final td { background: var(--accent-soft); }
+  .section-label { font-weight: 700; font-size: 15px; margin: 24px 0 10px; }
+  .team-kpis { display: flex; flex-wrap: wrap; gap: 6px 26px; margin-top: 20px; }
+  .team-kpis div { font-size: 12.5px; color: var(--muted); }
+  .team-kpis b { display: block; font-size: 22px; color: var(--text); }
+  @media (max-width: 520px) { .field-row { grid-template-columns: 1fr; } }
+
+  footer {
+    margin-top: 40px;
+    text-align: center;
+    font-size: 12px;
+    color: var(--muted);
+  }
+
+  @media (max-width: 520px) {
+    .page { padding: 32px 14px 60px; }
+    h1 { font-size: 24px; }
+    .card { padding: 18px; }
+    .actions { flex-wrap: wrap; }
+  }
+</style>
+</head>
+<body>
+  <div class="page">
+    <header>
+      <div class="eyebrow"><span class="dot"></span> Matching prototype &middot; live test</div>
+      <h1>Find circle matches</h1>
+      <p class="subtitle">Pick a publisher and a matching design, type a requirement, see who in their circle matches.</p>
+      <div class="topnav" id="topnav">
+        <button id="nav-run" aria-pressed="true">Run</button>
+        <button id="nav-team" aria-pressed="false">Team results</button>
+      </div>
+    </header>
+
+    <div class="card" id="gate" hidden>
+      <label class="field-label" for="gate-code">Team passcode <span class="hint">&mdash; ask whoever shared this link</span></label>
+      <div class="rate-row" style="margin-top:0">
+        <input type="password" id="gate-code" autocomplete="off" style="flex:1;font:inherit;padding:10px 12px;border:1.5px solid var(--border);border-radius:10px;" />
+        <button class="primary" id="gate-go">Continue</button>
+      </div>
+      <div class="save-msg err" id="gate-msg" style="margin-top:10px"></div>
+    </div>
+
+    <div id="app" hidden>
+    <div id="view-run">
+
+    <div class="card form-card">
+      <div class="field">
+        <label class="field-label" for="design">Matching design <span class="hint">&mdash; which workflow scores the candidates</span></label>
+        <select id="design"></select>
+      </div>
+
+      <div class="field">
+        <label class="field-label" for="publisher">Publisher <span class="hint">&mdash; as if this requirement was posted by</span></label>
+        <select id="publisher"></select>
+      </div>
+
+      <div class="field">
+        <label class="field-label" for="text">Requirement text</label>
+        <textarea id="text" placeholder="e.g. Looking for a senior React Native developer, 4+ years, TypeScript and Redux, fully remote."></textarea>
+      </div>
+
+      <div class="field-row">
+        <div>
+          <label class="field-label" for="cap">Judge limit <span class="hint">&mdash; candidates judged</span></label>
+          <select id="cap">
+            <option value="">Whole pool (no limit)</option>
+            <option value="200">Top 200</option>
+            <option value="500">Top 500</option>
+            <option value="1000">Top 1000</option>
+          </select>
+        </div>
+        <div>
+          <label class="field-label" for="tester">Your name <span class="hint">&mdash; for saving ratings</span></label>
+          <input type="text" id="tester" maxlength="60" placeholder="e.g. Priya" />
+        </div>
+      </div>
+
+      <div class="actions">
+        <button id="go">Find matches</button>
+        <span id="status"><span class="spinner" id="spinner"></span><span id="status-text"></span></span>
+      </div>
+    </div>
+
+    <div class="card log-card" id="log-card" hidden>
+      <div class="log-title">Terminal</div>
+      <pre id="log"></pre>
+    </div>
+
+    <div id="results"></div>
+    </div>
+
+    <div id="view-team" hidden>
+      <div class="team-kpis" id="team-kpis"></div>
+      <div class="section-label">By design</div>
+      <div class="card" id="team-designs"></div>
+      <div class="section-label">Latest ratings</div>
+      <div class="card" id="team-recent"></div>
+    </div>
+
+    </div>
+
+    <footer>SearchInCircle &middot; matching-prototype</footer>
+  </div>
+
+<script>
+let passcode = '';
+function api(path, opts = {}) {
+  return fetch(path, { ...opts, headers: { ...(opts.headers || {}), 'X-Passcode': passcode } });
+}
+
+function showGate(message) {
+  document.getElementById('gate').hidden = false;
+  document.getElementById('app').hidden = true;
+  document.getElementById('gate-msg').textContent = message || '';
+}
+
+async function start() {
+  passcode = recall('matching.passcode');
+  const res = await api('/api/auth').catch(() => null);
+  if (!res || res.status === 401) { showGate(passcode ? 'That passcode did not work.' : ''); return; }
+  document.getElementById('gate').hidden = true;
+  document.getElementById('app').hidden = false;
+  loadPublishers();
+  loadDesigns();
+}
+
+async function loadPublishers() {
+  const res = await api('/api/publishers');
+  const users = await res.json();
+  const select = document.getElementById('publisher');
+  select.innerHTML = users.map(u => `<option value="${u.id}">${u.name} (${u.id})</option>`).join('');
+}
+
+let designs = [];
+async function loadDesigns() {
+  const res = await api('/api/designs');
+  designs = await res.json();
+  const select = document.getElementById('design');
+  const groups = [...new Set(designs.map(d => d.group))];
+  select.innerHTML = groups.map(g => `<optgroup label="${escapeHtml(g)}">${
+    designs.filter(d => d.group === g).map(d => `<option value="${d.id}"${d.final ? ' selected' : ''}>${escapeHtml(d.label)}</option>`).join('')
+  }</optgroup>`).join('');
+}
+
+function escapeHtml(s) {
+  return (s ?? '').replace(/[&<>"']/g, c => ({ '&': '&amp;', '<': '&lt;', '>': '&gt;', '"': '&quot;', "'": '&#39;' }[c]));
+}
+
+function initials(name) {
+  const parts = (name || '').trim().split(/\s+/).filter(Boolean);
+  if (!parts.length) return '?';
+  return (parts[0][0] + (parts[1]?.[0] || '')).toUpperCase();
+}
+
+function scoreTier(score) {
+  if (score >= 0.7) return 'good';
+  if (score >= 0.4) return 'mid';
+  return 'low';
+}
+
+function renderMatch(m) {
+  const skills = (m.skills || []).filter(Boolean).join(', ');
+  const reasons = (m.reasons || []).map(r => `<span>${escapeHtml(r)}</span>`).join('');
+  const llm = m.llm_reason ? `<div class="llm-reason">${escapeHtml(m.llm_reason)}</div>` : '';
+  const pct = Math.round((m.final_score || 0) * 100);
+  return `<div class="card match-card" data-id="${escapeHtml(m.entry_id)}">
+    <div class="avatar">${initials(m.display_name)}</div>
+    <div class="match-body">
+      <div class="match-top">
+        <div>
+          <div class="match-name">${escapeHtml(m.display_name)}</div>
+          ${skills ? `<div class="match-skills">${escapeHtml(skills)}</div>` : ''}
+        </div>
+        <span class="score-badge ${scoreTier(m.final_score || 0)}">${pct}%</span>
+      </div>
+      ${m.description ? `<div class="match-desc">${escapeHtml(m.description)}</div>` : ''}
+      <div class="reasons">${reasons}</div>
+      ${llm}
+    </div>
+    <div class="vote">
+      <button class="up" data-v="good" aria-pressed="false">Good</button>
+      <button class="down" data-v="bad" aria-pressed="false">Bad</button>
+    </div>
+  </div>`;
+}
+
+const money = v => v == null ? '—' : '$' + (v < 0.01 ? v.toFixed(4) : v.toFixed(3));
+const secs = v => v == null ? '—' : (v < 10 ? v.toFixed(1) : Math.round(v)) + 's';
+const fmt = v => v == null ? '—' : Number(v).toLocaleString();
+const remember = (k, v) => { try { localStorage.setItem(k, v); } catch {} };
+const recall = k => { try { return localStorage.getItem(k) || ''; } catch { return ''; } };
+
+let run = null;   // last run: { run_id, design, publisher_id, text, matches, stats, verdicts, score }
+
+function renderRun() {
+  const s = run.stats || {};
+  const line = [
+    ['Shown / found', `${run.matches.length} / ${fmt(s.total_found)}`], ['Time', secs(s.total_seconds)],
+    ['Pool', fmt(s.pool)], ['Judged', s.judge_cap ? 'top ' + s.judge_cap : 'whole pool'],
+    ['Model calls', fmt(s.llm_calls)], ['Fallbacks', fmt(s.fallbacks)], ['Est. cost', money(s.cost)],
+  ].map(([k, v]) => `<span>${k} <b>${v}</b></span>`).join('');
+  const list = run.matches.length ? run.matches.map(renderMatch).join('')
+    : '<div class="card empty-state">No matches cleared the relevance bar for this requirement.</div>';
+  document.getElementById('results').innerHTML = `
+    <div class="stats-line">${line}</div>
+    <div id="matches" style="display:flex;flex-direction:column;gap:12px;margin-top:14px">${list}</div>
+    <div class="card rate-card">
+      <div class="rate-title">How good is this list overall?</div>
+      <div class="scores" id="scores">${[['1','Poor'],['2','Weak'],['3','OK'],['4','Good'],['5','Great']].map(([n, l]) =>
+        `<button data-v="${n}" aria-pressed="false">${n}<small>${l}</small></button>`).join('')}</div>
+      <input type="text" id="comment" placeholder="Optional comment: who is missing, who should not be here" />
+      <div class="rate-row"><button class="primary" id="save">Save rating</button><span class="save-msg" id="save-msg"></span></div>
+    </div>`;
+
+  document.getElementById('matches').addEventListener('click', e => {
+    const b = e.target.closest('.vote button'); if (!b) return;
+    const card = b.closest('.match-card'), id = card.dataset.id, v = b.dataset.v;
+    if (run.verdicts[id] === v) delete run.verdicts[id]; else run.verdicts[id] = v;
+    card.classList.toggle('is-good', run.verdicts[id] === 'good');
+    card.classList.toggle('is-bad', run.verdicts[id] === 'bad');
+    card.querySelectorAll('.vote button').forEach(x => x.setAttribute('aria-pressed', run.verdicts[id] === x.dataset.v));
+    unsaved();
+  });
+  document.getElementById('scores').addEventListener('click', e => {
+    const b = e.target.closest('button'); if (!b) return;
+    run.score = Number(b.dataset.v);
+    document.querySelectorAll('#scores button').forEach(x => x.setAttribute('aria-pressed', x === b));
+    unsaved();
+  });
+  document.getElementById('comment').addEventListener('input', unsaved);
+  document.getElementById('save').addEventListener('click', saveRating);
+}
+
+function unsaved() {
+  const m = document.getElementById('save-msg');
+  if (m.classList.contains('ok')) { m.textContent = 'Changed since last save'; m.className = 'save-msg'; }
+}
+
+async function saveRating() {
+  const msg = document.getElementById('save-msg');
+  const fail = t => { msg.textContent = t; msg.className = 'save-msg err'; };
+  const tester = document.getElementById('tester').value.trim();
+  if (!tester) { document.getElementById('tester').focus(); return fail('Enter your name above first.'); }
+  if (!Object.keys(run.verdicts).length && !run.score) return fail('Mark at least one match or pick a score.');
+  const btn = document.getElementById('save'); btn.disabled = true;
+  try {
+    const res = await api('/api/ratings', {
+      method: 'POST', headers: { 'Content-Type': 'application/json' },
+      body: JSON.stringify({
+        run_id: run.run_id, tester, design: run.design, publisher_id: run.publisher_id, text: run.text,
+        match_ids: run.matches.map(m => m.entry_id), verdicts: run.verdicts, list_score: run.score,
+        comment: document.getElementById('comment').value.trim(), stats: run.stats || {},
+      }),
+    });
+    const data = await res.json();
+    if (!res.ok) throw new Error(typeof data.detail === 'string' ? data.detail : res.statusText);
+    msg.textContent = 'Saved. Thank you!'; msg.className = 'save-msg ok';
+  } catch (err) { fail('Save failed: ' + err.message); }
+  finally { btn.disabled = false; }
+}
+
+function setStatus(text, kind) {
+  const status = document.getElementById('status');
+  const statusText = document.getElementById('status-text');
+  status.className = kind ? `is-${kind}` : '';
+  statusText.textContent = text;
+}
+
+function setLoading(isLoading) {
+  document.getElementById('spinner').classList.toggle('show', isLoading);
+  document.getElementById('go').disabled = isLoading;
+}
+
+document.getElementById('go').addEventListener('click', async () => {
+  const publisher_id = document.getElementById('publisher').value;
+  const design = document.getElementById('design').value;
+  const text = document.getElementById('text').value;
+  const judge_cap = document.getElementById('cap').value ? Number(document.getElementById('cap').value) : null;
+  const results = document.getElementById('results');
+  const logCard = document.getElementById('log-card');
+  const logBox = document.getElementById('log');
+
+  if (!text.trim()) {
+    setStatus('Type a requirement first.', 'error');
+    return;
+  }
+
+  setLoading(true);
+  const statusMsg = 'Matching… (judges the candidates, then reranks the best, can take up to a couple of minutes on a big circle)';
+  setStatus(statusMsg);
+  results.innerHTML = '';
+  logBox.textContent = '';
+  logCard.hidden = false;
+
+  try {
+    const res = await api('/api/match', {
+      method: 'POST',
+      headers: { 'Content-Type': 'application/json' },
+      body: JSON.stringify({ publisher_id, text, design, judge_cap }),
+    });
+    if (res.status === 401) { showGate('Passcode needed.'); throw new Error('Passcode needed.'); }
+    if (!res.ok) {
+      const detail = await res.json().then(d => d.detail).catch(() => null);
+      throw new Error(detail || res.statusText);
+    }
+
+    // The server streams one JSON object per line: log lines while the run is
+    // going (the same text its terminal prints), then the result or an error.
+    const reader = res.body.getReader();
+    const decoder = new TextDecoder();
+    let buffer = '', data = null;
+    for (;;) {
+      const { value, done } = await reader.read();
+      if (done) break;
+      buffer += decoder.decode(value, { stream: true });
+      let nl;
+      while ((nl = buffer.indexOf('\n')) >= 0) {
+        const line = buffer.slice(0, nl).trim();
+        buffer = buffer.slice(nl + 1);
+        if (!line) continue;
+        const ev = JSON.parse(line);
+        if (ev.t === 'log') {
+          logBox.textContent += logBox.textContent ? ev.text : ev.text.replace(/^\n+/, '');
+          logBox.scrollTop = logBox.scrollHeight;
+        } else if (ev.t === 'result') {
+          data = ev;
+        } else if (ev.t === 'error') {
+          throw new Error(ev.message);
+        }
+      }
+    }
+    if (!data) throw new Error('The run ended without a result (it may have timed out). Try the judge limit.');
+
+    const designLabel = document.getElementById('design').selectedOptions[0]?.textContent || design;
+    setStatus(`${data.matches.length} match${data.matches.length === 1 ? '' : 'es'} found — ${designLabel}`, 'ok');
+    run = { ...data, design, publisher_id, text, verdicts: {}, score: null };
+    renderRun();
+  } catch (err) {
+    setStatus('Error: ' + err.message, 'error');
+    run = null;
+    results.innerHTML = `<div class="card error-state">Something went wrong: ${escapeHtml(err.message)}</div>`;
+  } finally {
+    setLoading(false);
+  }
+});
+
+async function loadTeam() {
+  const d = await api('/api/ratings').then(r => r.json());
+  const good = d.designs.reduce((a, x) => a + x.good, 0), bad = d.designs.reduce((a, x) => a + x.bad, 0);
+  document.getElementById('team-kpis').innerHTML = [
+    ['Rated runs', fmt(d.total_runs)], ['Testers', fmt(d.testers)], ['Matches rated', fmt(good + bad)],
+    ['Marked good', good + bad ? Math.round(good / (good + bad) * 100) + '%' : '—'],
+  ].map(([k, v]) => `<div>${k}<b>${v}</b></div>`).join('');
+  const none = '<div class="empty-state">No ratings yet. Ratings saved on the Run view show up here.</div>';
+  document.getElementById('team-designs').innerHTML = !d.designs.length ? none : `<table><thead><tr>
+    <th>Design</th><th class="num">Runs</th><th class="num">Testers</th><th class="num">Marked good</th>
+    <th class="num">Good / bad</th><th class="num">List score</th><th class="num">Avg time</th><th class="num">Avg cost</th></tr></thead><tbody>
+    ${d.designs.map(x => `<tr class="${x.final ? 'final' : ''}"><td>${escapeHtml(x.label)}</td><td class="num">${x.runs}</td><td class="num">${x.testers}</td>
+      <td class="num">${x.good_rate == null ? '—' : Math.round(x.good_rate * 100) + '%'}</td><td class="num">${x.good} / ${x.bad}</td>
+      <td class="num">${x.avg_list_score == null ? '—' : x.avg_list_score.toFixed(1)}</td><td class="num">${secs(x.avg_seconds)}</td><td class="num">${money(x.avg_cost)}</td></tr>`).join('')}</tbody></table>`;
+  document.getElementById('team-recent').innerHTML = !d.recent.length ? none : `<table><thead><tr>
+    <th>When</th><th>Tester</th><th>Design</th><th>Requirement</th><th class="num">Good</th><th class="num">Score</th><th>Comment</th></tr></thead><tbody>
+    ${d.recent.map(r => `<tr><td>${escapeHtml(r.saved_at.replace('T', ' ').slice(5, 16))}</td><td>${escapeHtml(r.tester)}</td><td>${escapeHtml(r.design_label)}</td>
+      <td>${escapeHtml(r.text)}</td><td class="num">${r.good} / ${r.shown}</td><td class="num">${r.list_score ?? '—'}</td><td>${escapeHtml(r.comment) || '—'}</td></tr>`).join('')}</tbody></table>`;
+}
+
+function showView(name) {
+  document.getElementById('view-run').hidden = name !== 'run';
+  document.getElementById('view-team').hidden = name !== 'team';
+  document.getElementById('nav-run').setAttribute('aria-pressed', name === 'run');
+  document.getElementById('nav-team').setAttribute('aria-pressed', name === 'team');
+  if (name === 'team') loadTeam();
+}
+document.getElementById('nav-run').addEventListener('click', () => showView('run'));
+document.getElementById('nav-team').addEventListener('click', () => showView('team'));
+
+document.getElementById('tester').value = recall('matching.tester');
+document.getElementById('tester').addEventListener('input', e => remember('matching.tester', e.target.value.trim()));
+
+document.getElementById('gate-go').addEventListener('click', () => {
+  remember('matching.passcode', document.getElementById('gate-code').value.trim());
+  start();
+});
+document.getElementById('gate-code').addEventListener('keydown', e => { if (e.key === 'Enter') document.getElementById('gate-go').click(); });
+
+start();
+</script>
+</body>
+</html>
