@@ -115,7 +115,9 @@ def _supabase(method: str, path: str, body=None, extra_headers: dict | None = No
     request = urllib.request.Request(
         f'{SUPABASE_URL}/rest/v1/{path}', method=method,
         data=json.dumps(body).encode() if body is not None else None,
-        headers={'apikey': SUPABASE_KEY, 'Authorization': f'Bearer {SUPABASE_KEY}',
+        headers={'apikey': SUPABASE_KEY,
+                 # new-style sb_secret_ keys are not JWTs: send them only as apikey
+                 **({'Authorization': f'Bearer {SUPABASE_KEY}'} if SUPABASE_KEY.startswith('eyJ') else {}),
                  'Content-Type': 'application/json', **(extra_headers or {})})
     try:
         with urllib.request.urlopen(request, timeout=15) as response:
