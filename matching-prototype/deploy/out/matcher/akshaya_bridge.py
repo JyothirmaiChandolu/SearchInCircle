@@ -1,5 +1,6 @@
 from __future__ import annotations
 
+import re
 import sys
 import time
 from pathlib import Path
@@ -90,6 +91,8 @@ def _jev_plus(rerank_model: str, rerank_client):
     return lambda entries: DesignCOpenRouter(
         entries, judge_model='jev-latest', rerank_model=rerank_model,
         judge_client=_jev_as_client, rerank_client=rerank_client,
+        # if Jev is down for a batch, the rerank model grades it instead of dropping those people
+        fallback_judge_model=rerank_model, fallback_judge_client=rerank_client,
     )
 
 # 'A1' (vector search, then LLM rerank of the top 15) is deliberately not
@@ -165,6 +168,41 @@ _BUILDERS = {
 # compare.py -- it only trims what this prototype's own page renders.
 DISPLAY_TOP_N = 10
 
+# ---- cost limits ----------------------------------------------------------
+# Judging touches every eligible candidate, so cost grows with the circle's size.
+# The decided design has no cap; this is a safety ceiling, well above the test
+# set's pools (about 300). A pool above it is judged by fused rank, top N only.
+MAX_JUDGE_CANDIDATES = int(os.environ.get('MAX_JUDGE_CANDIDATES', '1500'))
+# A request asking for several kinds of people is searched once per kind; each
+# search costs a full run, so the number is limited.
+MAX_ROLES = int(os.environ.get('MAX_ROLES', '3'))
+
+_MULTI_HINT = re.compile(r'\band\b|&|,|;|/|\+|\bplus\b|\balso\b|\bas well as\b', re.IGNORECASE)
+SPLIT_SYSTEM = (
+    "A person posts one request asking for help from people they know. Decide whether it asks for two or more "
+    "DIFFERENT kinds of people (different jobs or roles, e.g. 'a UI designer and a backend developer'). "
+    "If so, return one self-contained request per kind of person, copying any shared limits (place, years of "
+    "experience) into each. If it asks for ONE kind of person, even when it lists several skills or tools "
+    "('a Python and Django developer', 'a nurse who speaks Telugu'), return exactly one request: the original text, "
+    "unchanged. At most " + str(MAX_ROLES) + " requests. Return JSON only."
+)
+SPLIT_SCHEMA = {"type": "object", "properties": {"requests": {"type": "array", "items": {"type": "string"}}},
+                "required": ["requests"]}
+
+
+def split_roles(text: str, meter) -> list[str]:
+    """One request per kind of person asked for. Any doubt or failure means one request: the original."""
+    if not _MULTI_HINT.search(text):
+        return [text]           # nothing that could join two roles -- skip the model call
+    try:
+        out, secs = akshaya_common.chat_json(SPLIT_SYSTEM, text, SPLIT_SCHEMA, meter, tag='split')
+        meter.stage([secs])
+        parts = [p.strip() for p in out.get('requests', []) if isinstance(p, str) and p.strip()]
+    except Exception as err:
+        print(f'[match] could not split the request ({type(err).__name__}); searching it as one', file=sys.stderr)
+        return [text]
+    return parts[:MAX_ROLES] if len(parts) > 1 else [text]
+
 _entries_cache: list | None = None
 _eligibility_cache: akshaya_common.Eligibility | None = None
 _matcher_cache: dict[str, object] = {}
@@ -218,14 +256,60 @@ def run_akshaya_design(
         'min_experience_years': requirement_min_experience_years,
     }
     pool = rules.pool(req, _entries())
+    auto_capped = False
+    if (judge_cap is None or judge_cap > MAX_JUDGE_CANDIDATES) and len(pool) > MAX_JUDGE_CANDIDATES:
+        judge_cap, auto_capped = MAX_JUDGE_CANDIDATES, True
+        print(f'[match] pool of {len(pool)} is above the cost limit; judging the top {judge_cap} by fused rank', file=sys.stderr)
     req_meta = {'location': requirement_location, 'min_experience_years': requirement_min_experience_years,
                 'judge_cap': judge_cap}
 
     print(f'[match] pool={len(pool)} eligible entries', file=sys.stderr)
     t0 = time.time()
     meter = akshaya_common.Meter()
-    ids, detail = matcher.match(text, pool, meter, req_meta=req_meta)
+    roles = split_roles(text, meter)
+    if len(roles) > 1:
+        print(f'[match] request asks for {len(roles)} kinds of people; searching each: '
+              + ' | '.join(r[:60] for r in roles), file=sys.stderr)
+    per_role = [matcher.match(r, pool, meter, req_meta=req_meta) for r in roles]
+    if len(roles) == 1:
+        ids, detail = per_role[0]
+        role_of: dict[str, str] = {}
+    else:
+        # Take turns across roles (best of role 1, best of role 2, ...) so every kind of person
+        # shows up in the shown list; one person is listed once, under the first role that found them.
+        person_of = {e.id: e.person_key for e in pool}
+        ids, detail, role_of, seen_people = [], {}, {}, set()
+        for rank in range(max((len(r[0]) for r in per_role), default=0)):
+            for role, (role_ids, role_detail) in zip(roles, per_role):
+                if rank < len(role_ids):
+                    eid = role_ids[rank]
+                    if person_of.get(eid) in seen_people:
+                        continue
+                    seen_people.add(person_of.get(eid))
+                    ids.append(eid)
+                    detail[eid] = role_detail.get(eid, {})
+                    role_of[eid] = role
     elapsed = time.time() - t0
+    unjudged = getattr(meter, 'unjudged_candidates', 0)
+    judged_total = min(len(pool), judge_cap or len(pool)) * len(roles)
+    if unjudged and unjudged >= judged_total - getattr(meter, 'injection_flags', 0):
+        # every judge call failed -- an empty list here would read as "nobody matches"
+        raise RuntimeError('every judge call failed (main and fallback judge), so no candidate could be graded. '
+                           'Check the provider keys and status, then try again.')
+    warnings = []
+    if getattr(meter, 'injection_flags', 0):
+        warnings.append(f"{meter.injection_flags} candidate(s) excluded: their text tries to give the model instructions")
+    if getattr(meter, 'judge_fallback_candidates', 0):
+        warnings.append(f"{meter.judge_fallback_candidates} candidates were graded by the fallback judge because the main judge failed")
+    if unjudged:
+        warnings.append(f"{unjudged} candidates could not be judged (main and fallback judge failed) and are missing from the results")
+    if getattr(meter, 'rerank_failed_candidates', 0):
+        warnings.append(f"{meter.rerank_failed_candidates} candidates could not be reranked; their years and location were not checked, "
+                        f"so they are listed below the checked ones")
+    if auto_capped:
+        warnings.append(f'the pool of {len(pool)} is above the cost limit, so only the top {judge_cap} by relevance were judged')
+    for w in warnings:
+        print(f'[match] WARNING {w}', file=sys.stderr)
     total_found = len(ids)
     ids = ids[:DISPLAY_TOP_N]
     print(
@@ -244,7 +328,10 @@ def run_akshaya_design(
     if stats is not None:
         stats.update(pool=len(pool), judge_cap=judge_cap, total_found=total_found, match_seconds=round(elapsed, 2),
                      llm_calls=meter.llm_calls, tokens_in=meter.tokens_in, tokens_out=meter.tokens_out,
-                     fallbacks=meter.fallbacks, cost=round(cost, 4))
+                     fallbacks=meter.fallbacks, cost=round(cost, 4), roles=roles if len(roles) > 1 else [],
+                     warnings=warnings, auto_capped=auto_capped,
+                     injection_flags=getattr(meter, 'injection_flags', 0),
+                     judge_fallback_candidates=getattr(meter, 'judge_fallback_candidates', 0))
 
     kind_by_id: dict[str, str] = {}
     record_by_id: dict[str, dict] = {}
@@ -270,6 +357,10 @@ def run_akshaya_design(
             reasons.append(f'Model grade {grade}/3')
         elif 'cosine' in d:
             reasons.append(f"Cosine similarity {d['cosine']:.2f}")
+        if d.get('rerank_failed'):
+            reasons.append('Years and location not checked (rerank failed), listed below the checked matches')
+        if eid_role := role_of.get(entry_id):
+            reasons.insert(0, f'For: {eid_role[:70]}')
         vouches = d.get('vouches')
         if vouches and vouches > 1:
             reasons.append(f'Vouched by {vouches} people in your circle')

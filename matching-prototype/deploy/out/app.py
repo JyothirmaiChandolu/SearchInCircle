@@ -92,6 +92,7 @@ class MatchRequest(BaseModel):
     location: str | None = None
     min_experience_years: int | None = None
     judge_cap: int | None = None             # judge only the top N by fused rank; None = whole pool
+    tester: str = ''                         # who is running it (the page's name box); for the run limits
 
 
 class RatingRequest(BaseModel):
@@ -145,6 +146,71 @@ def _store_rating(row: dict) -> None:
             f.write(json.dumps(row) + '\n')
 
 
+# ---- spend caps ------------------------------------------------------------
+# Every run spends real money at the model providers, and the link is shared. Three limits,
+# all env-tunable: runs per hour per tester (and per IP), a daily spend cap for the whole
+# deploy, and a small number of runs at once per tester. Each finished run is logged to
+# Supabase (table `run_log`, deploy/ratings.sql) or runs.jsonl locally. The check reads the
+# log before a run starts, so several runs started at the same instant can overshoot a
+# limit slightly; the provider-side spending limits stay the hard ceiling.
+RUNS_PER_HOUR = int(os.environ.get('RUNS_PER_HOUR', '30'))
+DAILY_SPEND_CAP_USD = float(os.environ.get('DAILY_SPEND_CAP_USD', '5'))
+MAX_CONCURRENT_PER_TESTER = int(os.environ.get('MAX_CONCURRENT_PER_TESTER', '2'))
+RUNLOG_PATH = Path(__file__).resolve().parent / 'runs.jsonl'
+_inflight: dict[str, int] = {}
+_inflight_lock = threading.Lock()
+
+
+def _utc(offset_seconds: float = 0) -> str:
+    return datetime.fromtimestamp(time.time() + offset_seconds, timezone.utc).strftime('%Y-%m-%dT%H:%M:%SZ')
+
+
+def _runlog_since(iso: str) -> list[dict]:
+    if USE_SUPABASE:
+        return _supabase('GET', f'run_log?select=at,tester,ip,cost&at=gte.{iso}&limit=5000') or []
+    if os.environ.get('VERCEL'):
+        raise RuntimeError('run log storage is not configured (set SUPABASE_URL and SUPABASE_SERVICE_KEY)')
+    if not RUNLOG_PATH.exists():
+        return []
+    rows = [json.loads(line) for line in RUNLOG_PATH.read_text().splitlines() if line.strip()]
+    return [r for r in rows if r['at'] >= iso]
+
+
+def _runlog_add(tester: str, ip: str, cost: float, design: str) -> None:
+    row = {'at': _utc(), 'tester': tester, 'ip': ip, 'cost': round(cost, 5), 'design': design}
+    if USE_SUPABASE:
+        _supabase('POST', 'run_log', row, {'Prefer': 'return=minimal'})
+    elif not os.environ.get('VERCEL'):
+        with _ratings_lock, RUNLOG_PATH.open('a') as f:
+            f.write(json.dumps(row) + '\n')
+
+
+def _identity(req: 'MatchRequest', request: Request) -> tuple[str, str]:
+    forwarded = request.headers.get('x-forwarded-for', '')
+    ip = (forwarded.split(',')[0].strip() or (request.client.host if request.client else '')) or 'unknown'
+    return (req.tester.strip().lower()[:60] or ip), ip
+
+
+def _check_limits(tester: str, ip: str) -> float:
+    """Raises 429 when a limit is hit; returns today's spend so far."""
+    try:
+        day = _runlog_since(_utc(-24 * 3600))
+    except Exception as err:
+        # fail closed: with no way to see the spend, a shared link must not run unmetered
+        print(f'[limits] run log unavailable: {err}', file=sys.stderr)
+        raise HTTPException(503, 'spend limits cannot be checked right now (run log unavailable), try again shortly') from err
+    spent = sum(float(r.get('cost') or 0) for r in day)
+    if spent >= DAILY_SPEND_CAP_USD:
+        raise HTTPException(429, f'daily spend cap reached (${spent:.2f} of ${DAILY_SPEND_CAP_USD:.2f} in the last 24 hours); '
+                                 f'ask the owner to raise DAILY_SPEND_CAP_USD or wait')
+    hour = _utc(-3600)
+    recent = [r for r in day if r['at'] >= hour]
+    mine = sum(1 for r in recent if r.get('tester') == tester or r.get('ip') == ip)
+    if mine >= RUNS_PER_HOUR:
+        raise HTTPException(429, f'run limit reached: {RUNS_PER_HOUR} runs per hour per tester, try again later')
+    return spent
+
+
 def _load_ratings() -> list[dict]:
     if USE_SUPABASE:
         rows = _supabase('GET', 'ratings?select=data&order=saved_at.desc&limit=5000') or []
@@ -175,7 +241,7 @@ def list_designs() -> list[dict]:
 
 
 @app.post('/api/match', dependencies=[Depends(require_passcode)])
-def match(req: MatchRequest) -> StreamingResponse:
+def match(req: MatchRequest, request: Request) -> StreamingResponse:
     """Streams newline-delimited JSON: {"t":"log","text":...} lines while the run
     is going (the same lines the server prints), then one {"t":"result",...} or
     {"t":"error","message":...}. Streaming keeps the log live without a second
@@ -185,6 +251,13 @@ def match(req: MatchRequest) -> StreamingResponse:
     if req.design not in VARIANT_LABELS:
         raise HTTPException(400, f'unknown design {req.design!r}, pick one of {list(VARIANT_LABELS)}')
 
+    tester, ip = _identity(req, request)
+    spent_before = _check_limits(tester, ip)
+    with _inflight_lock:
+        if _inflight.get(tester, 0) >= MAX_CONCURRENT_PER_TESTER:
+            raise HTTPException(429, f'{MAX_CONCURRENT_PER_TESTER} runs are already in progress for you; wait for one to finish')
+        _inflight[tester] = _inflight.get(tester, 0) + 1
+
     outcome: dict = {}
 
     def work() -> None:
@@ -193,12 +266,21 @@ def match(req: MatchRequest) -> StreamingResponse:
         try:
             matches = _run_match(req, stats)
             stats['total_seconds'] = round(time.time() - t0, 2)
+            stats['spent_today'] = round(spent_before + float(stats.get('cost') or 0), 4)
+            stats['daily_cap'] = DAILY_SPEND_CAP_USD
             outcome['result'] = {'t': 'result', 'run_id': uuid.uuid4().hex, 'matches': matches, 'stats': stats}
         except HTTPException as err:
             outcome['result'] = {'t': 'error', 'message': str(err.detail)}
         except Exception as err:
             print(f'[request] failed: {type(err).__name__}: {err}', file=sys.stderr)
             outcome['result'] = {'t': 'error', 'message': f'{type(err).__name__}: {err}'}
+        finally:
+            with _inflight_lock:
+                _inflight[tester] = max(0, _inflight.get(tester, 1) - 1)
+            try:   # a failed run is logged too (cost 0 if unknown): it still counts toward the hourly limit
+                _runlog_add(tester, ip, float(stats.get('cost') or 0), req.design)
+            except Exception as err:
+                print(f'[limits] could not log this run: {err}', file=sys.stderr)
 
     def events():
         pos = live_log.end()
@@ -216,6 +298,14 @@ def match(req: MatchRequest) -> StreamingResponse:
 
     return StreamingResponse(events(), media_type='application/x-ndjson',
                              headers={'Cache-Control': 'no-cache, no-transform', 'X-Accel-Buffering': 'no'})
+
+
+@app.get('/api/usage', dependencies=[Depends(require_passcode)])
+def usage() -> dict:
+    day = _runlog_since(_utc(-24 * 3600))
+    return {'spent_24h': round(sum(float(r.get('cost') or 0) for r in day), 4), 'runs_24h': len(day),
+            'daily_cap': DAILY_SPEND_CAP_USD, 'runs_per_hour': RUNS_PER_HOUR,
+            'max_concurrent_per_tester': MAX_CONCURRENT_PER_TESTER}
 
 
 @app.post('/api/ratings', dependencies=[Depends(require_passcode)])

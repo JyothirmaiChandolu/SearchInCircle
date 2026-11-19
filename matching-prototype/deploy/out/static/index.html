@@ -263,6 +263,8 @@
 
   .stats-line { margin-top: 20px; font-size: 13px; color: var(--muted); display: flex; flex-wrap: wrap; gap: 6px 18px; }
   .stats-line b { color: var(--text); font-weight: 700; }
+  .notice { margin-top: 12px; padding: 10px 14px; border-radius: 10px; font-size: 13px; background: var(--card, #fff); border: 1px solid var(--line, #e3e6ea); }
+  .notice.warn { background: #fff7e6; border-color: #f0d49a; color: #6b4a00; }
 
   .match-card.is-good { border-left: 4px solid var(--good); }
   .match-card.is-bad { border-left: 4px solid #c2410c; }
@@ -499,11 +501,14 @@ function renderRun() {
     ['Shown / found', `${run.matches.length} / ${fmt(s.total_found)}`], ['Time', secs(s.total_seconds)],
     ['Pool', fmt(s.pool)], ['Judged', (s.judge_cap && s.judge_cap < s.pool) ? 'top ' + s.judge_cap + ' of ' + s.pool : 'whole pool (limit ' + (s.judge_cap || 'none') + ' >= pool)'],
     ['Model calls', fmt(s.llm_calls)], ['Fallbacks', fmt(s.fallbacks)], ['Est. cost', money(s.cost)],
+    ...(s.spent_today != null ? [['Spent in 24h', money(s.spent_today) + ' of ' + money(s.daily_cap)]] : []),
   ].map(([k, v]) => `<span>${k} <b>${v}</b></span>`).join('');
   const list = run.matches.length ? run.matches.map(renderMatch).join('')
     : '<div class="card empty-state">No matches cleared the relevance bar for this requirement.</div>';
   document.getElementById('results').innerHTML = `
     <div class="stats-line">${line}</div>
+    ${(s.roles && s.roles.length) ? `<div class="notice">This request asks for ${s.roles.length} kinds of people, searched separately: ${s.roles.map(r => '<b>' + escapeHtml(r) + '</b>').join(' &middot; ')}</div>` : ''}
+    ${(s.warnings && s.warnings.length) ? `<div class="notice warn"><b>Heads up:</b> ${s.warnings.map(escapeHtml).join(' &middot; ')}</div>` : ''}
     <div id="matches" style="display:flex;flex-direction:column;gap:12px;margin-top:14px">${list}</div>
     <div class="card rate-card">
       <div class="rate-title">How good is this list overall?</div>
@@ -597,7 +602,7 @@ document.getElementById('go').addEventListener('click', async () => {
     const res = await api('/api/match', {
       method: 'POST',
       headers: { 'Content-Type': 'application/json' },
-      body: JSON.stringify({ publisher_id, text, design, judge_cap }),
+      body: JSON.stringify({ publisher_id, text, design, judge_cap, tester: document.getElementById('tester').value.trim() }),
     });
     if (res.status === 401) { showGate('Passcode needed.'); throw new Error('Passcode needed.'); }
     if (!res.ok) {
